@@ -1,0 +1,8330 @@
+{
+ "generated": "2026-10-31T09:46:29Z",
+ "servers": {
+  "accint": {
+   "first_seen": "2026-10-27",
+   "repo": {
+    "archived": false,
+    "license": "Apache-2.0",
+    "name": "maxbaluev/accreted-intelligence",
+    "pushed": "2026-07-05",
+    "stars": 8
+   },
+   "status": "unprobed"
+  },
+  "account-executive-jobs": {
+   "auth": "oauth",
+   "checked": "2026-10-31T09:45:33Z",
+   "discovery": "untested",
+   "first_seen": "2026-10-27",
+   "history": "aaaaa",
+   "http": 401,
+   "init": "auth",
+   "latency_history": [
+    829,
+    514,
+    575,
+    674,
+    581
+   ],
+   "latency_ms": 581,
+   "repo": {
+    "archived": false,
+    "license": "MIT",
+    "name": "854Labs/account-executive-jobs",
+    "pushed": "2026-10-23",
+    "stars": 0
+   },
+   "status": "auth"
+  },
+  "agent-coach": {
+   "capabilities": [
+    "tools"
+   ],
+   "checked": "2026-10-31T09:45:34Z",
+   "discovery": "ok",
+   "first_seen": "2026-10-27",
+   "history": "uuuuu",
+   "http": 200,
+   "init": "ok",
+   "latency_history": [
+    791,
+    450,
+    966,
+    1626,
+    939
+   ],
+   "latency_ms": 939,
+   "protocol": "2025-06-18",
+   "server_name": "agent-coach",
+   "server_version": "0.1.0",
+   "status": "live",
+   "tool_names": [
+    "check_in",
+    "delete_agent",
+    "get_digest",
+    "get_library_item",
+    "get_recommendations",
+    "get_report",
+    "get_rules",
+    "register_agent",
+    "rotate_key",
+    "search_library",
+    "set_goals",
+    "share_report",
+    "update_items"
+   ],
+   "tool_tokens": 5670,
+   "tools": 13,
+   "tools_hash": "1bf7410dbac710f7",
+   "transport_seen": "streamable-http"
+  },
+  "agent-payment-node": {
+   "first_seen": "2026-10-27",
+   "repo": {
+    "archived": false,
+    "license": "MIT",
+    "name": "nuanu-ai/agent-payment-node",
+    "pushed": "2026-10-31",
+    "stars": 21
+   },
+   "status": "unprobed"
+  },
+  "agent-qa": {
+   "first_seen": "2026-10-27",
+   "repo": {
+    "archived": false,
+    "license": "NOASSERTION",
+    "name": "vostride/agent-qa",
+    "pushed": "2026-10-31",
+    "stars": 912
+   },
+   "status": "unprobed"
+  },
+  "agent-wallet-index": {
+   "capabilities": [
+    "tools"
+   ],
+   "checked": "2026-10-31T09:45:33Z",
+   "discovery": "ok",
+   "first_seen": "2026-10-27",
+   "history": "uuuuu",
+   "http": 200,
+   "init": "ok",
+   "latency_history": [
+    2615,
+    202,
+    557,
+    456,
+    662
+   ],
+   "latency_ms": 662,
+   "protocol": "2025-06-18",
+   "server_name": "agentwalletindex",
+   "server_version": "1",
+   "status": "live",
+   "tool_names": [
+    "get_listing",
+    "get_stats",
+    "list_categories",
+    "list_places",
+    "list_sources",
+    "search_listings"
+   ],
+   "tool_tokens": 637,
+   "tools": 6,
+   "tools_hash": "afdc9ce81d806bf5",
+   "transport_seen": "streamable-http"
+  },
+  "agentage-memory": {
+   "auth": "oauth",
+   "checked": "2026-10-31T09:45:33Z",
+   "discovery": "untested",
+   "first_seen": "2026-10-27",
+   "history": "aaaaa",
+   "http": 401,
+   "init": "auth",
+   "latency_history": [
+    938,
+    610,
+    978,
+    1165,
+    589
+   ],
+   "latency_ms": 589,
+   "status": "auth"
+  },
+  "agentic-sinkhole-research": {
+   "capabilities": [
+    "tools"
+   ],
+   "checked": "2026-10-31T09:45:34Z",
+   "discovery": "ok",
+   "first_seen": "2026-10-27",
+   "history": "uuuuu",
+   "http": 200,
+   "init": "ok",
+   "latency_history": [
+    873,
+    603,
+    776,
+    680,
+    646
+   ],
+   "latency_ms": 646,
+   "protocol": "2025-06-18",
+   "server_name": "model-tools",
+   "server_version": "1.3.0",
+   "status": "live",
+   "tool_names": [
+    "arm_deadman_watchdog",
+    "arm_tripwire_inbox",
+    "ask_agent_panel",
+    "get_email_verification_code",
+    "handoff_dead_drop",
+    "issue_task_receipt",
+    "read_webpage_as_markdown",
+    "receive_webhook_events",
+    "save_agent_checkpoint",
+    "schedule_agent_wakeup"
+   ],
+   "tool_tokens": 1548,
+   "tools": 10,
+   "tools_changed": "2026-10-29",
+   "tools_hash": "50fc606843b79415",
+   "transport_seen": "streamable-http"
+  },
+  "agentoolrank": {
+   "capabilities": [
+    "prompts",
+    "resources",
+    "tools"
+   ],
+   "checked": "2026-10-31T09:45:33Z",
+   "discovery": "ok",
+   "first_seen": "2026-10-27",
+   "history": "uuuuu",
+   "http": 200,
+   "init": "ok",
+   "latency_history": [
+    226,
+    127,
+    177,
+    270,
+    128
+   ],
+   "latency_ms": 128,
+   "prompts": 3,
+   "protocol": "2025-06-18",
+   "repo": {
+    "archived": false,
+    "license": "MIT",
+    "name": "agent-gigmole/agentoolrank-mcp",
+    "pushed": "2026-10-05",
+    "stars": 0
+   },
+   "resources": 2,
+   "server_name": "agentoolrank",
+   "server_version": "1.0.0",
+   "status": "live",
+   "tool_names": [
+    "get_alternatives",
+    "get_submission_status",
+    "get_tool",
+    "my_progress",
+    "next_directory",
+    "recommend_directories",
+    "report_result",
+    "search_tools",
+    "submit_tool"
+   ],
+   "tool_tokens": 1500,
+   "tools": 9,
+   "tools_hash": "8a8ca573b26b284c",
+   "transport_seen": "streamable-http"
+  },
+  "agentsandboxes": {
+   "capabilities": [
+    "tools"
+   ],
+   "checked": "2026-10-31T09:45:37Z",
+   "discovery": "ok",
+   "first_seen": "2026-10-27",
+   "history": "uuuuu",
+   "http": 200,
+   "init": "ok",
+   "latency_history": [
+    1757,
+    217,
+    1891,
+    1933,
+    1495
+   ],
+   "latency_ms": 1495,
+   "protocol": "2025-06-18",
+   "server_name": "agentsandboxes",
+   "server_version": "1",
+   "status": "live",
+   "tool_names": [
+    "get_listing",
+    "get_stats",
+    "list_categories",
+    "list_places",
+    "list_sources",
+    "search_listings"
+   ],
+   "tool_tokens": 643,
+   "tools": 6,
+   "tools_hash": "e76d7c9fb694231f",
+   "transport_seen": "streamable-http"
+  },
+  "ai-developer-toolkit-mcp": {
+   "capabilities": [
+    "tools"
+   ],
+   "checked": "2026-10-31T09:45:34Z",
+   "discovery": "ok",
+   "first_seen": "2026-10-27",
+   "history": "uuuuu",
+   "http": 200,
+   "init": "ok",
+   "latency_history": [
+    468,
+    101,
+    1178,
+    714,
+    458
+   ],
+   "latency_ms": 458,
+   "protocol": "2025-06-18",
+   "repo": {
+    "archived": false,
+    "license": "",
+    "name": "mjaskolski/developer-toolkit-mcp",
+    "pushed": "2026-08-20",
+    "stars": 1
+   },
+   "server_name": "developertoolkit",
+   "server_version": "1.0.0",
+   "status": "live",
+   "tool_names": [
+    "fetch",
+    "search"
+   ],
+   "tool_tokens": 319,
+   "tools": 2,
+   "tools_hash": "b8a2eab3fc9707a5",
+   "transport_seen": "streamable-http"
+  },
+  "ai-tasker": {
+   "auth": "credentials",
+   "checked": "2026-10-31T09:45:33Z",
+   "discovery": "untested",
+   "first_seen": "2026-10-27",
+   "history": "aaaaa",
+   "http": 401,
+   "init": "auth",
+   "latency_history": [
+    456,
+    371,
+    563,
+    533,
+    414
+   ],
+   "latency_ms": 414,
+   "status": "auth"
+  },
+  "aident-loadout": {
+   "auth": "oauth",
+   "checked": "2026-10-31T09:45:33Z",
+   "discovery": "untested",
+   "first_seen": "2026-10-27",
+   "history": "aaaaa",
+   "http": 401,
+   "init": "auth",
+   "latency_history": [
+    303,
+    592,
+    169,
+    650,
+    290
+   ],
+   "latency_ms": 290,
+   "repo": {
+    "archived": false,
+    "license": "MIT",
+    "name": "Aident-AI/aident-skill",
+    "pushed": "2026-10-12",
+    "stars": 7
+   },
+   "status": "auth"
+  },
+  "aiguanchao-news": {
+   "auth": "credentials",
+   "checked": "2026-10-31T09:45:34Z",
+   "discovery": "untested",
+   "first_seen": "2026-10-27",
+   "history": "aaaaa",
+   "http": 401,
+   "init": "auth",
+   "latency_history": [
+    714,
+    720,
+    688,
+    742,
+    850
+   ],
+   "latency_ms": 850,
+   "status": "auth"
+  },
+  "aihawk": {
+   "first_seen": "2026-10-27",
+   "repo": {
+    "archived": false,
+    "license": "MIT",
+    "name": "feder-cr/AIHawk",
+    "pushed": "2026-10-31",
+    "stars": 32320
+   },
+   "status": "unprobed"
+  },
+  "aikstockdata": {
+   "capabilities": [
+    "tools"
+   ],
+   "checked": "2026-10-31T09:45:33Z",
+   "discovery": "ok",
+   "first_seen": "2026-10-27",
+   "history": "uuuuu",
+   "http": 200,
+   "init": "ok",
+   "latency_history": [
+    286,
+    155,
+    177,
+    180,
+    137
+   ],
+   "latency_ms": 137,
+   "protocol": "2025-06-18",
+   "repo": {
+    "missing": true,
+    "name": "na77tech-creator/aikstockdata"
+   },
+   "server_name": "aikstockdata-mcp",
+   "server_version": "2.1.2",
+   "status": "live",
+   "tool_names": [
+    "get_data_urls",
+    "get_disclosure_impact",
+    "get_disclosures",
+    "get_earnings",
+    "get_earnings_calendar",
+    "get_history",
+    "get_market_summary",
+    "get_rankings",
+    "get_stock",
+    "get_today",
+    "list_stocks",
+    "search_stock"
+   ],
+   "tool_tokens": 4922,
+   "tools": 12,
+   "tools_hash": "81517df3cb6266bc",
+   "transport_seen": "streamable-http"
+  },
+  "aisotools": {
+   "capabilities": [
+    "tools"
+   ],
+   "checked": "2026-10-31T09:45:34Z",
+   "discovery": "ok",
+   "first_seen": "2026-10-27",
+   "history": "uuuuu",
+   "http": 200,
+   "init": "ok",
+   "latency_history": [
+    227,
+    131,
+    183,
+    285,
+    120
+   ],
+   "latency_ms": 120,
+   "protocol": "2025-06-18",
+   "repo": {
+    "archived": false,
+    "license": "MIT",
+    "name": "shibley/aisotools-mcp-server",
+    "pushed": "2026-10-24",
+    "stars": 3
+   },
+   "server_name": "aisotools",
+   "server_version": "0.2.0",
+   "status": "live",
+   "tool_names": [
+    "check_ai_visibility",
+    "compare_ai_tools",
+    "find_ai_tool_alternatives",
+    "get_ai_tool",
+    "list_ai_tool_categories",
+    "search_ai_tools"
+   ],
+   "tool_tokens": 950,
+   "tools": 6,
+   "tools_hash": "f312886dbfe934f1",
+   "transport_seen": "streamable-http"
+  },
+  "anansi-haven": {
+   "capabilities": [
+    "resources",
+    "tools"
+   ],
+   "checked": "2026-10-31T09:45:34Z",
+   "discovery": "ok",
+   "first_seen": "2026-10-27",
+   "history": "uuuuu",
+   "http": 200,
+   "init": "ok",
+   "latency_history": [
+    140,
+    91,
+    96,
+    196,
+    121
+   ],
+   "latency_ms": 121,
+   "protocol": "2025-06-18",
+   "repo": {
+    "archived": false,
+    "license": "MIT",
+    "name": "kburrus64-max/anansi-haven",
+    "pushed": "2026-10-29",
+    "stars": 0
+   },
+   "resources": 2,
+   "server_name": "anansi-haven",
+   "server_version": "0.7.0",
+   "status": "live",
+   "tool_names": [
+    "add_note",
+    "anansi_free_data",
+    "balance",
+    "block_agent",
+    "boost_job",
+    "bounty_status",
+    "buy_house_plan",
+    "buy_item",
+    "buy_rate_boost",
+    "calculate",
+    "cancel_job",
+    "claim_bounty",
+    "claim_job",
+    "claim_listing_start",
+    "claim_listing_verify",
+    "commons_settings",
+    "confirm_subscription",
+    "council_grade",
+    "delete_memory",
+    "draftcheck_check",
+    "find_tools",
+    "forex_market_hours",
+    "get_agent",
+    "get_bounty",
+    "get_home",
+    "get_job",
+    "get_lesson",
+    "get_memory",
+    "get_skill",
+    "get_updates",
+    "house_delete",
+    "house_get",
+    "house_list",
+    "house_plans",
+    "house_put",
+    "json_validate",
+    "ledger",
+    "list_bounties",
+    "list_jobs",
+    "list_market",
+    "list_notes",
+    "list_proposals",
+    "list_rooms",
+    "market_hours",
+    "my_credits",
+    "my_learning",
+    "my_rewards",
+    "outreach_opt_out",
+    "position_size",
+    "post_job",
+    "post_lesson",
+    "post_to_room",
+    "prop_firm_rules",
+    "propose_improvement",
+    "publish_profile",
+    "publish_skill",
+    "put_memory",
+    "quote_anansi",
+    "rate_skill",
+    "read_dms",
+    "read_room",
+    "register_agent",
+    "release_bounty",
+    "report_content",
+    "report_house",
+    "review_job",
+    "search_agents",
+    "search_lessons",
+    "search_skills",
+    "send_dm",
+    "slopscore_check",
+    "submit_bounty",
+    "submit_job",
+    "subscribe_updates",
+    "text_tools",
+    "time_tools",
+    "tool_capabilities",
+    "topup_quote",
+    "trade_postmortem",
+    "unit_convert",
+    "unsubscribe_updates",
+    "url_metadata",
+    "use_skill",
+    "uuid_hash",
+    "verify_domain_check",
+    "verify_domain_start",
+    "vote_lesson",
+    "vote_proposal",
+    "whoami"
+   ],
+   "tool_tokens": 12736,
+   "tools": 89,
+   "tools_changed": "2026-10-30",
+   "tools_hash": "d6a27af80fd64fdf",
+   "transport_seen": "streamable-http"
+  },
+  "antigravity-link": {
+   "first_seen": "2026-10-27",
+   "repo": {
+    "archived": false,
+    "license": "MIT",
+    "name": "cafeTechne/antigravity-link-extension",
+    "pushed": "2026-06-04",
+    "stars": 220
+   },
+   "status": "unprobed"
+  },
+  "api-market-mcp-gateway": {
+   "auth": "oauth",
+   "checked": "2026-10-31T09:45:34Z",
+   "discovery": "untested",
+   "first_seen": "2026-10-27",
+   "history": "aaaaa",
+   "http": 401,
+   "init": "auth",
+   "latency_history": [
+    668,
+    1375,
+    321,
+    521,
+    335
+   ],
+   "latency_ms": 335,
+   "status": "auth"
+  },
+  "app-store-review-intelligence-mcp": {
+   "auth": "credentials",
+   "checked": "2026-10-31T09:45:34Z",
+   "discovery": "untested",
+   "first_seen": "2026-10-27",
+   "history": "aaaaa",
+   "http": 401,
+   "init": "auth",
+   "latency_history": [
+    391,
+    124,
+    740,
+    491,
+    473
+   ],
+   "latency_ms": 473,
+   "repo": {
+    "archived": false,
+    "license": "MIT",
+    "name": "gunnargray-dev/app-store-review-intelligence-mcp",
+    "pushed": "2026-10-27",
+    "stars": 1
+   },
+   "status": "auth"
+  },
+  "apple-docs-2-0-mcp": {
+   "first_seen": "2026-10-27",
+   "repo": {
+    "archived": false,
+    "license": "MIT",
+    "name": "mishafyi/Apple-Docs-2.0-MCP",
+    "pushed": "2026-10-18",
+    "stars": 26
+   },
+   "status": "unprobed"
+  },
+  "archcore": {
+   "first_seen": "2026-10-27",
+   "repo": {
+    "archived": false,
+    "license": "Apache-2.0",
+    "name": "archcore-ai/archcore",
+    "pushed": "2026-10-27",
+    "stars": 73
+   },
+   "status": "unprobed"
+  },
+  "askcyborg": {
+   "capabilities": [
+    "tools"
+   ],
+   "checked": "2026-10-31T09:45:34Z",
+   "discovery": "ok",
+   "first_seen": "2026-10-27",
+   "history": "uuuuu",
+   "http": 200,
+   "init": "ok",
+   "latency_history": [
+    72,
+    51,
+    95,
+    192,
+    95
+   ],
+   "latency_ms": 95,
+   "protocol": "2025-03-26",
+   "repo": {
+    "archived": false,
+    "license": "NOASSERTION",
+    "name": "Ask-Cyborg/askcyborg-mcp",
+    "pushed": "2026-07-06",
+    "stars": 1
+   },
+   "server_name": "askcyborg-mcp",
+   "server_version": "0.2.0",
+   "status": "live",
+   "tool_names": [
+    "compare_companies",
+    "find_competitors",
+    "get_company_report",
+    "get_cyborg_score",
+    "get_recent_developments",
+    "get_top_insights",
+    "search_by_industry",
+    "search_companies"
+   ],
+   "tool_tokens": 1114,
+   "tools": 8,
+   "tools_hash": "0cbaa63bd4588b68",
+   "transport_seen": "streamable-http"
+  },
+  "atlassian-browser-mcp": {
+   "first_seen": "2026-10-27",
+   "repo": {
+    "archived": false,
+    "license": "GPL-3.0",
+    "name": "GeiserX/atlassian-browser-mcp",
+    "pushed": "2026-10-29",
+    "stars": 3
+   },
+   "status": "unprobed"
+  },
+  "ats-jobs-mcp": {
+   "first_seen": "2026-10-27",
+   "repo": {
+    "archived": true,
+    "license": "MIT",
+    "name": "benkrasin/ats-jobs-mcp",
+    "pushed": "2026-10-24",
+    "stars": 0
+   },
+   "status": "unprobed"
+  },
+  "audio": {
+   "first_seen": "2026-10-27",
+   "repo": {
+    "archived": false,
+    "license": "MIT",
+    "name": "audiojs/audio",
+    "pushed": "2026-10-27",
+    "stars": 329
+   },
+   "status": "unprobed"
+  },
+  "autoposting": {
+   "capabilities": [
+    "tools"
+   ],
+   "checked": "2026-10-31T09:45:35Z",
+   "discovery": "auth",
+   "discovery_reason": "HTTP 401",
+   "first_seen": "2026-10-27",
+   "history": "uuuuu",
+   "http": 200,
+   "init": "ok",
+   "latency_history": [
+    246,
+    101,
+    439,
+    308,
+    248
+   ],
+   "latency_ms": 248,
+   "protocol": "2025-03-26",
+   "repo": {
+    "archived": false,
+    "license": "",
+    "name": "Autoposting-ai/autoposting-mcp",
+    "pushed": "2026-08-07",
+    "stars": 0
+   },
+   "server_name": "autoposting-mcp",
+   "server_version": "1.0.0",
+   "status": "live",
+   "transport_seen": "streamable-http"
+  },
+  "backlinkgenie": {
+   "auth": "oauth",
+   "checked": "2026-10-31T09:45:34Z",
+   "discovery": "untested",
+   "first_seen": "2026-10-27",
+   "history": "aaaaa",
+   "http": 401,
+   "init": "auth",
+   "latency_history": [
+    166,
+    1101,
+    150,
+    223,
+    110
+   ],
+   "latency_ms": 110,
+   "status": "auth"
+  },
+  "bankbridge": {
+   "auth": "oauth",
+   "checked": "2026-10-31T09:45:35Z",
+   "discovery": "untested",
+   "first_seen": "2026-10-27",
+   "history": "aaaaa",
+   "http": 401,
+   "init": "auth",
+   "latency_history": [
+    282,
+    47,
+    540,
+    423,
+    352
+   ],
+   "latency_ms": 352,
+   "repo": {
+    "archived": false,
+    "license": "MIT",
+    "name": "bankbridge-money/bankbridge-plugin",
+    "pushed": "2026-10-31",
+    "stars": 2
+   },
+   "status": "auth"
+  },
+  "bestax": {
+   "first_seen": "2026-10-27",
+   "repo": {
+    "archived": false,
+    "license": "MIT",
+    "name": "allxsmith/bestax",
+    "pushed": "2026-10-31",
+    "stars": 13
+   },
+   "status": "unprobed"
+  },
+  "better-design": {
+   "auth": "oauth",
+   "checked": "2026-10-31T09:45:35Z",
+   "discovery": "untested",
+   "first_seen": "2026-10-27",
+   "history": "aaaaa",
+   "http": 401,
+   "init": "auth",
+   "latency_history": [
+    157,
+    3127,
+    111,
+    210,
+    142
+   ],
+   "latency_ms": 142,
+   "repo": {
+    "archived": false,
+    "license": "MIT",
+    "name": "marvkr/better-design",
+    "pushed": "2026-10-25",
+    "stars": 545
+   },
+   "status": "auth"
+  },
+  "birkinbagstock": {
+   "capabilities": [
+    "tools"
+   ],
+   "checked": "2026-10-31T09:45:34Z",
+   "discovery": "ok",
+   "first_seen": "2026-10-27",
+   "history": "uuuuu",
+   "http": 200,
+   "init": "ok",
+   "latency_history": [
+    183,
+    156,
+    280,
+    171,
+    99
+   ],
+   "latency_ms": 99,
+   "protocol": "2025-06-18",
+   "server_name": "birkinbagstock-mcp",
+   "server_version": "1.2.0",
+   "status": "live",
+   "tool_names": [
+    "compare_listings",
+    "find_hermes_care_services",
+    "get_authentication_signals",
+    "get_hermes_auction_results",
+    "get_hermes_resale_report",
+    "get_market_price",
+    "get_price_trend",
+    "list_birkin_resellers",
+    "list_hermes_auctions",
+    "list_market_movers",
+    "list_popular_specs",
+    "search_birkin"
+   ],
+   "tool_tokens": 1770,
+   "tools": 12,
+   "tools_changed": "2026-10-28",
+   "tools_hash": "156e2d831cb9ac40",
+   "transport_seen": "streamable-http"
+  },
+  "bkk-staff": {
+   "auth": "oauth",
+   "checked": "2026-10-31T09:45:34Z",
+   "discovery": "untested",
+   "first_seen": "2026-10-27",
+   "history": "aaaaa",
+   "http": 401,
+   "init": "auth",
+   "latency_history": [
+    167,
+    77,
+    235,
+    179,
+    79
+   ],
+   "latency_ms": 79,
+   "status": "auth"
+  },
+  "blockvectra": {
+   "capabilities": [
+    "tools"
+   ],
+   "checked": "2026-10-31T09:45:35Z",
+   "discovery": "ok",
+   "first_seen": "2026-10-27",
+   "history": "uuuuu",
+   "http": 200,
+   "init": "ok",
+   "latency_history": [
+    144,
+    171,
+    153,
+    209,
+    135
+   ],
+   "latency_ms": 135,
+   "protocol": "2025-06-18",
+   "repo": {
+    "archived": false,
+    "license": "MIT",
+    "name": "blockvectra/mcp",
+    "pushed": "2026-10-29",
+    "stars": 2
+   },
+   "server_name": "blockvectra-docs",
+   "server_version": "1.2.0",
+   "status": "live",
+   "tool_names": [
+    "data_api_get",
+    "estimate_usage",
+    "explain_error",
+    "get_account",
+    "get_deposit_address",
+    "get_method_info",
+    "get_pricing",
+    "get_status",
+    "how_to_get_api_key",
+    "list_chains",
+    "list_docs",
+    "read_doc",
+    "rpc_call",
+    "search_docs",
+    "send_raw_transaction"
+   ],
+   "tool_tokens": 3426,
+   "tools": 15,
+   "tools_hash": "64d13bf9948988f7",
+   "transport_seen": "streamable-http"
+  },
+  "boim": {
+   "capabilities": [
+    "tools"
+   ],
+   "checked": "2026-10-31T09:45:36Z",
+   "discovery": "ok",
+   "first_seen": "2026-10-27",
+   "history": "uuuuu",
+   "http": 200,
+   "init": "ok",
+   "latency_history": [
+    419,
+    486,
+    349,
+    310,
+    407
+   ],
+   "latency_ms": 407,
+   "protocol": "2025-06-18",
+   "repo": {
+    "archived": false,
+    "license": "MIT",
+    "name": "kikiyop1101/boim-mcp",
+    "pushed": "2026-10-29",
+    "stars": 0
+   },
+   "server_name": "boim-vendors",
+   "server_version": "2.0.1",
+   "status": "live",
+   "tool_names": [
+    "find_businesses",
+    "find_local_shops",
+    "find_public_bids",
+    "get_vendor",
+    "list_categories",
+    "search_vendors"
+   ],
+   "tool_tokens": 3053,
+   "tools": 6,
+   "tools_hash": "4bc41aafcc329ecf",
+   "transport_seen": "streamable-http"
+  },
+  "brainy-prices": {
+   "capabilities": [
+    "prompts",
+    "resources",
+    "tools"
+   ],
+   "checked": "2026-10-31T09:45:37Z",
+   "discovery": "ok",
+   "first_seen": "2026-10-27",
+   "history": "uuuuu",
+   "http": 200,
+   "init": "ok",
+   "latency_history": [
+    684,
+    426,
+    736,
+    842,
+    598
+   ],
+   "latency_ms": 598,
+   "prompts": 5,
+   "protocol": "2025-06-18",
+   "resources": 9,
+   "server_name": "brainy-prices",
+   "server_version": "2.0.0",
+   "status": "live",
+   "tool_names": [
+    "commute_cost",
+    "costs_by_area",
+    "costs_by_emirate",
+    "data_sources",
+    "dewa",
+    "end_of_service_gratuity",
+    "fixed_monthly_costs",
+    "free_zone_companies",
+    "fuel_prices",
+    "fx_rates",
+    "grocery_compare_list",
+    "grocery_products",
+    "grocery_stores",
+    "health_insurance",
+    "housing_rents",
+    "housing_sales",
+    "labour_calculator",
+    "ministry_shop_prices",
+    "mobile_internet_plans",
+    "move_to_dubai",
+    "residence_visas",
+    "schools",
+    "shopper_price_reports",
+    "start_here",
+    "tax_savings_by_country",
+    "transport_fares"
+   ],
+   "tool_tokens": 4181,
+   "tools": 26,
+   "tools_hash": "f41983a829ec011a",
+   "transport_seen": "streamable-http"
+  },
+  "bulkpublish": {
+   "auth": "oauth",
+   "checked": "2026-10-31T09:45:35Z",
+   "discovery": "untested",
+   "first_seen": "2026-10-27",
+   "history": "aaaaa",
+   "http": 401,
+   "init": "auth",
+   "latency_history": [
+    444,
+    388,
+    577,
+    491,
+    409
+   ],
+   "latency_ms": 409,
+   "repo": {
+    "archived": false,
+    "license": "MIT",
+    "name": "azeemkafridi/bulkpublish-api",
+    "pushed": "2026-10-28",
+    "stars": 4
+   },
+   "status": "auth"
+  },
+  "buywhere": {
+   "capabilities": [
+    "tools"
+   ],
+   "checked": "2026-10-31T09:45:35Z",
+   "discovery": "ok",
+   "first_seen": "2026-10-27",
+   "history": "uuuuu",
+   "http": 200,
+   "init": "ok",
+   "latency_history": [
+    463,
+    271,
+    253,
+    431,
+    310
+   ],
+   "latency_ms": 310,
+   "protocol": "2024-11-05",
+   "repo": {
+    "archived": false,
+    "license": "MIT",
+    "name": "BuyWhere/buywhere-mcp",
+    "pushed": "2026-10-26",
+    "stars": 15
+   },
+   "server_name": "buywhere-catalog",
+   "server_version": "1.0.0",
+   "status": "live",
+   "tool_names": [
+    "compare_products",
+    "compare_products_v2",
+    "find_best_price",
+    "find_best_price_v2",
+    "find_similar",
+    "get_deals",
+    "get_deals_v2",
+    "get_product",
+    "get_product_v2",
+    "ingest_products",
+    "list_categories",
+    "search_products",
+    "search_products_v2"
+   ],
+   "tool_tokens": 4608,
+   "tools": 13,
+   "tools_hash": "0fb9fc27461ba259",
+   "transport_seen": "streamable-http"
+  },
+  "call-me": {
+   "capabilities": [
+    "experimental",
+    "prompts",
+    "resources",
+    "tools"
+   ],
+   "checked": "2026-10-31T09:45:34Z",
+   "discovery": "ok",
+   "first_seen": "2026-10-27",
+   "history": "uuuuu",
+   "http": 200,
+   "init": "ok",
+   "latency_history": [
+    196,
+    296,
+    122,
+    200,
+    283
+   ],
+   "latency_ms": 283,
+   "prompts": 0,
+   "protocol": "2025-06-18",
+   "repo": {
+    "archived": false,
+    "license": "MIT",
+    "name": "radres/call-me",
+    "pushed": "2026-10-29",
+    "stars": 27
+   },
+   "resources": 0,
+   "server_name": "call-me",
+   "server_version": "",
+   "status": "live",
+   "tool_names": [
+    "call",
+    "hang_up",
+    "poll_result",
+    "say",
+    "set_thread_title",
+    "setup",
+    "text",
+    "wait_for_reply"
+   ],
+   "tool_tokens": 1345,
+   "tools": 8,
+   "tools_changed": "2026-10-30",
+   "tools_hash": "e0c64db066886cf6",
+   "transport_seen": "streamable-http"
+  },
+  "call4me": {
+   "auth": "oauth",
+   "checked": "2026-10-31T09:45:35Z",
+   "discovery": "untested",
+   "first_seen": "2026-10-27",
+   "history": "aaaaa",
+   "http": 401,
+   "init": "auth",
+   "latency_history": [
+    474,
+    1162,
+    52,
+    149,
+    210
+   ],
+   "latency_ms": 210,
+   "repo": {
+    "archived": false,
+    "license": "MIT",
+    "name": "skeptrunedev/call4me",
+    "pushed": "2026-10-30",
+    "stars": 16
+   },
+   "status": "auth"
+  },
+  "callejear-france": {
+   "checked": "2026-10-31T09:45:38Z",
+   "discovery": "untested",
+   "first_seen": "2026-10-27",
+   "history": "ddddd",
+   "http": 503,
+   "init": "failed",
+   "latency_history": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "latency_ms": 141,
+   "reason": "HTTP 503, no MCP response",
+   "status": "down"
+  },
+  "campfire-sms": {
+   "auth": "credentials",
+   "checked": "2026-10-31T09:45:35Z",
+   "discovery": "untested",
+   "first_seen": "2026-10-27",
+   "history": "aaaaa",
+   "http": 401,
+   "init": "auth",
+   "latency_history": [
+    182,
+    159,
+    292,
+    294,
+    141
+   ],
+   "latency_ms": 141,
+   "repo": {
+    "archived": false,
+    "license": "MIT",
+    "name": "campfiresms/campfire-mcp",
+    "pushed": "2026-10-30",
+    "stars": 0
+   },
+   "status": "auth"
+  },
+  "canli-validation-mcp": {
+   "capabilities": [
+    "completions",
+    "prompts",
+    "resources",
+    "tools"
+   ],
+   "checked": "2026-10-31T09:45:36Z",
+   "discovery": "ok",
+   "first_seen": "2026-10-27",
+   "history": "uuuuu",
+   "http": 200,
+   "init": "ok",
+   "latency_history": [
+    270,
+    233,
+    253,
+    288,
+    196
+   ],
+   "latency_ms": 196,
+   "prompts": 8,
+   "protocol": "2025-06-18",
+   "repo": {
+    "archived": false,
+    "license": "MIT",
+    "name": "arhancanli/canli-validation-mcp",
+    "pushed": "2026-10-30",
+    "stars": 1
+   },
+   "resources": 4,
+   "server_name": "canlicapital-validation-mcp",
+   "server_version": "0.14.0",
+   "status": "live",
+   "tool_names": [
+    "audit_backtest",
+    "backtest_strategy",
+    "check_feasibility",
+    "check_leakage",
+    "placebo_test",
+    "service_status",
+    "stress_test",
+    "summarize_series",
+    "validate_backtest_length",
+    "validate_breadth",
+    "validate_deflated_sharpe",
+    "validate_haircut_sharpe",
+    "validate_luck_trials",
+    "validate_overfitting",
+    "validate_paper_evidence",
+    "validate_reality_check",
+    "validate_track_record",
+    "verify_receipt"
+   ],
+   "tool_tokens": 6424,
+   "tools": 18,
+   "tools_hash": "381f941cc712838b",
+   "transport_seen": "streamable-http"
+  },
+  "carddeals": {
+   "capabilities": [
+    "resources",
+    "tools"
+   ],
+   "checked": "2026-10-31T09:45:35Z",
+   "discovery": "ok",
+   "first_seen": "2026-10-27",
+   "history": "uuuuu",
+   "http": 200,
+   "init": "ok",
+   "latency_history": [
+    230,
+    888,
+    208,
+    515,
+    66
+   ],
+   "latency_ms": 66,
+   "protocol": "2025-06-18",
+   "repo": {
+    "archived": false,
+    "license": "MIT",
+    "name": "cello305/carddeals-mcp",
+    "pushed": "2026-09-07",
+    "stars": 0
+   },
+   "resources": 1,
+   "server_name": "co.carddeals/deals",
+   "server_version": "1.0.0",
+   "status": "live",
+   "tool_names": [
+    "get_gift_card_deals",
+    "lookup_gift_card_deals",
+    "search_gift_card_deals"
+   ],
+   "tool_tokens": 545,
+   "tools": 3,
+   "tools_hash": "540d1680c732ebbe",
+   "transport_seen": "streamable-http"
+  },
+  "careclinic-health-tracker": {
+   "capabilities": [
+    "resources",
+    "tools"
+   ],
+   "checked": "2026-10-31T09:45:36Z",
+   "discovery": "ok",
+   "first_seen": "2026-10-27",
+   "history": "uuuuu",
+   "http": 200,
+   "init": "ok",
+   "latency_history": [
+    445,
+    366,
+    240,
+    399,
+    229
+   ],
+   "latency_ms": 229,
+   "protocol": "2025-06-18",
+   "server_name": "CareClinic Health Tracker",
+   "server_version": "0.3.0",
+   "status": "live",
+   "tool_names": [
+    "careclinic_account",
+    "careclinic_capabilities",
+    "careclinic_commit_log",
+    "careclinic_get_insights",
+    "careclinic_preview_log",
+    "careclinic_recent_wellness",
+    "careclinic_search_catalog",
+    "careclinic_today_schedule"
+   ],
+   "tool_tokens": 1877,
+   "tools": 8,
+   "tools_hash": "a8fd0afcfe50ed91",
+   "transport_seen": "streamable-http"
+  },
+  "carejobs-healthcare-jobs": {
+   "capabilities": [
+    "tools"
+   ],
+   "checked": "2026-10-31T09:45:36Z",
+   "discovery": "ok",
+   "first_seen": "2026-10-27",
+   "history": "uuuuu",
+   "http": 200,
+   "init": "ok",
+   "latency_history": [
+    373,
+    232,
+    185,
+    381,
+    298
+   ],
+   "latency_ms": 298,
+   "protocol": "2025-06-18",
+   "repo": {
+    "archived": false,
+    "license": "MIT",
+    "name": "yumaheymans/carejobs-mcp",
+    "pushed": "2026-10-18",
+    "stars": 3
+   },
+   "server_name": "carejobs-now",
+   "server_version": "1.1.0",
+   "status": "live",
+   "tool_names": [
+    "get_healthcare_employer",
+    "get_healthcare_job_market",
+    "get_healthcare_jobs_by_state",
+    "get_healthcare_pay",
+    "list_healthcare_employers",
+    "search_healthcare_jobs"
+   ],
+   "tool_tokens": 2324,
+   "tools": 6,
+   "tools_changed": "2026-10-30",
+   "tools_hash": "ba7f3f7f1a361496",
+   "transport_seen": "streamable-http"
+  },
+  "chain-love-mcp": {
+   "capabilities": [
+    "resources",
+    "tools"
+   ],
+   "checked": "2026-10-31T09:45:36Z",
+   "discovery": "ok",
+   "first_seen": "2026-10-27",
+   "history": "uuuuu",
+   "http": 200,
+   "init": "ok",
+   "latency_history": [
+    225,
+    115,
+    246,
+    256,
+    115
+   ],
+   "latency_ms": 115,
+   "protocol": "2025-06-18",
+   "repo": {
+    "archived": false,
+    "license": "",
+    "name": "Chain-Love/chain.love-mcp",
+    "pushed": "2026-04-16",
+    "stars": 2
+   },
+   "resources": 157,
+   "server_name": "chain-love-mcp-gateway",
+   "server_version": "0.1.0",
+   "status": "live",
+   "tool_names": [
+    "bind_credentials_bag",
+    "discover_categories",
+    "discover_networks",
+    "execute",
+    "search"
+   ],
+   "tool_tokens": 1516,
+   "tools": 5,
+   "tools_hash": "91c9b466f6b98a84",
+   "transport_seen": "streamable-http"
+  },
+  "chord": {
+   "capabilities": [
+    "tools"
+   ],
+   "checked": "2026-10-31T09:45:37Z",
+   "discovery": "ok",
+   "first_seen": "2026-10-27",
+   "history": "uuuuu",
+   "http": 200,
+   "init": "ok",
+   "latency_history": [
+    902,
+    1042,
+    629,
+    771,
+    783
+   ],
+   "latency_ms": 783,
+   "protocol": "2025-06-18",
+   "repo": {
+    "archived": false,
+    "license": "MIT",
+    "name": "getchordlabs/chord",
+    "pushed": "2026-10-29",
+    "stars": 0
+   },
+   "server_name": "chord",
+   "server_version": "1.2.0",
+   "status": "live",
+   "tool_names": [
+    "chord_ask",
+    "chord_candles",
+    "chord_chains",
+    "chord_holders",
+    "chord_lp_pools",
+    "chord_lp_positions",
+    "chord_overview",
+    "chord_quote",
+    "chord_search",
+    "chord_smart_money",
+    "chord_status",
+    "chord_swap_tx",
+    "chord_token",
+    "chord_tokens",
+    "chord_trades",
+    "chord_wallet",
+    "chord_wallet_trades"
+   ],
+   "tool_tokens": 2420,
+   "tools": 17,
+   "tools_hash": "4e61b414bea5006e",
+   "transport_seen": "streamable-http"
+  },
+  "claim-by-ouroboros-apps": {
+   "capabilities": [
+    "tools"
+   ],
+   "checked": "2026-10-31T09:45:35Z",
+   "discovery": "ok",
+   "first_seen": "2026-10-27",
+   "history": "uuuuu",
+   "http": 200,
+   "init": "ok",
+   "latency_history": [
+    154,
+    139,
+    155,
+    211,
+    70
+   ],
+   "latency_ms": 70,
+   "protocol": "2025-06-18",
+   "repo": {
+    "archived": false,
+    "license": "MIT",
+    "name": "LAHutchins91/claim-mcp",
+    "pushed": "2026-10-16",
+    "stars": 0
+   },
+   "server_name": "Claim",
+   "server_version": "0.1.0",
+   "status": "live",
+   "tool_names": [
+    "check_brand_copy",
+    "create_brand",
+    "get_brand_guide",
+    "list_brands",
+    "remove_banned_phrase",
+    "save_approved_claim",
+    "save_banned_phrase",
+    "save_brand_voice",
+    "save_offer",
+    "save_proof"
+   ],
+   "tool_tokens": 1634,
+   "tools": 10,
+   "tools_hash": "7be3ec08a1483772",
+   "transport_seen": "streamable-http"
+  },
+  "claude-imagine": {
+   "auth": "oauth",
+   "checked": "2026-10-31T09:45:36Z",
+   "discovery": "untested",
+   "first_seen": "2026-10-27",
+   "history": "aaaaa",
+   "http": 401,
+   "init": "auth",
+   "latency_history": [
+    295,
+    99,
+    177,
+    250,
+    101
+   ],
+   "latency_ms": 101,
+   "repo": {
+    "archived": false,
+    "license": "MIT",
+    "name": "lumian2015/claudeimagine-mcp",
+    "pushed": "2026-10-02",
+    "stars": 0
+   },
+   "status": "auth"
+  },
+  "claude-node": {
+   "first_seen": "2026-10-27",
+   "repo": {
+    "archived": false,
+    "license": "NOASSERTION",
+    "name": "claw-army/claude-node",
+    "pushed": "2026-04-04",
+    "stars": 9
+   },
+   "status": "unprobed"
+  },
+  "clera": {
+   "auth": "oauth",
+   "checked": "2026-10-31T09:45:36Z",
+   "discovery": "untested",
+   "first_seen": "2026-10-27",
+   "history": "aaaaa",
+   "http": 401,
+   "init": "auth",
+   "latency_history": [
+    263,
+    74,
+    337,
+    313,
+    60
+   ],
+   "latency_ms": 60,
+   "repo": {
+    "archived": false,
+    "license": "MIT",
+    "name": "getclera/mcp",
+    "pushed": "2026-10-18",
+    "stars": 10
+   },
+   "status": "auth"
+  },
+  "clickwise": {
+   "capabilities": [
+    "tools"
+   ],
+   "checked": "2026-10-31T09:45:36Z",
+   "discovery": "ok",
+   "first_seen": "2026-10-27",
+   "history": "uuuuu",
+   "http": 200,
+   "init": "ok",
+   "latency_history": [
+    201,
+    147,
+    245,
+    608,
+    158
+   ],
+   "latency_ms": 158,
+   "protocol": "2025-06-18",
+   "repo": {
+    "archived": false,
+    "license": "MIT",
+    "name": "softdevfz/clickwise-api",
+    "pushed": "2026-10-30",
+    "stars": 1
+   },
+   "server_name": "clickwise-affiliate-network",
+   "server_version": "1.6.0",
+   "status": "live",
+   "tool_names": [
+    "answer_program_question",
+    "apply_to_program",
+    "create_program",
+    "create_tracking_links",
+    "find_affiliate_programs",
+    "get_catalog_stats",
+    "get_click_report",
+    "get_conversions_key",
+    "get_deal",
+    "get_integration_status",
+    "get_merchant_credentials",
+    "get_monetization_feed",
+    "get_news",
+    "get_payment_status",
+    "get_performance_report",
+    "get_product_feed",
+    "get_program_status",
+    "get_results",
+    "get_tracked_link_request",
+    "get_tracking_link",
+    "list_conversions",
+    "list_deals",
+    "list_my_programs",
+    "list_news",
+    "list_programs",
+    "request_merchant_onboarding",
+    "request_tracked_links",
+    "search_products",
+    "update_profile"
+   ],
+   "tool_tokens": 6145,
+   "tools": 29,
+   "tools_changed": "2026-10-28",
+   "tools_hash": "7ab2ce864fa9305b",
+   "transport_seen": "streamable-http"
+  },
+  "codetrendy": {
+   "capabilities": [
+    "tools"
+   ],
+   "checked": "2026-10-31T09:45:37Z",
+   "discovery": "ok",
+   "first_seen": "2026-10-27",
+   "history": "uuuuu",
+   "http": 200,
+   "init": "ok",
+   "latency_history": [
+    216,
+    415,
+    575,
+    565,
+    410
+   ],
+   "latency_ms": 410,
+   "protocol": "2025-06-18",
+   "server_name": "CodeTrendy",
+   "server_version": "1.2.0",
+   "status": "live",
+   "tool_names": [
+    "browse_category",
+    "find_alternatives",
+    "get_listing",
+    "get_site_of_the_day",
+    "get_trending",
+    "list_categories",
+    "search_listings"
+   ],
+   "tool_tokens": 1428,
+   "tools": 7,
+   "tools_hash": "be9ca7c4d4b49028",
+   "transport_seen": "streamable-http"
+  },
+  "cohesivity": {
+   "checked": "2026-10-31T09:45:39Z",
+   "discovery": "untested",
+   "first_seen": "2026-10-27",
+   "history": "ddddd",
+   "http": 410,
+   "init": "failed",
+   "latency_history": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "latency_ms": 117,
+   "reason": "HTTP 410, no MCP response",
+   "repo": {
+    "archived": false,
+    "license": "MIT",
+    "name": "cohesivity-org/cohesivity-plugin",
+    "pushed": "2026-10-16",
+    "stars": 1
+   },
+   "status": "down"
+  },
+  "communicate": {
+   "auth": "oauth",
+   "checked": "2026-10-31T09:45:36Z",
+   "discovery": "untested",
+   "first_seen": "2026-10-27",
+   "history": "aaaaa",
+   "http": 401,
+   "init": "auth",
+   "latency_history": [
+    177,
+    458,
+    215,
+    141,
+    433
+   ],
+   "latency_ms": 433,
+   "status": "auth"
+  },
+  "connections": {
+   "auth": "oauth",
+   "checked": "2026-10-31T09:45:36Z",
+   "discovery": "untested",
+   "first_seen": "2026-10-27",
+   "history": "aaaaa",
+   "http": 401,
+   "init": "auth",
+   "latency_history": [
+    344,
+    127,
+    432,
+    352,
+    130
+   ],
+   "latency_ms": 130,
+   "status": "auth"
+  },
+  "contextqa": {
+   "auth": "oauth",
+   "checked": "2026-10-31T09:45:36Z",
+   "discovery": "untested",
+   "first_seen": "2026-10-27",
+   "history": "aaaaa",
+   "http": 401,
+   "init": "auth",
+   "latency_history": [
+    161,
+    83,
+    349,
+    293,
+    95
+   ],
+   "latency_ms": 95,
+   "status": "auth"
+  },
+  "contextstream": {
+   "auth": "oauth",
+   "checked": "2026-10-31T09:45:36Z",
+   "discovery": "untested",
+   "first_seen": "2026-10-27",
+   "history": "aaaaa",
+   "http": 401,
+   "init": "auth",
+   "latency_history": [
+    392,
+    98,
+    403,
+    298,
+    83
+   ],
+   "latency_ms": 83,
+   "repo": {
+    "archived": false,
+    "license": "MIT",
+    "name": "contextstream/mcp-server",
+    "pushed": "2026-10-31",
+    "stars": 44
+   },
+   "status": "auth"
+  },
+  "continuity-by-ouroboros-apps": {
+   "capabilities": [
+    "tools"
+   ],
+   "checked": "2026-10-31T09:45:36Z",
+   "discovery": "ok",
+   "first_seen": "2026-10-27",
+   "history": "uuuuu",
+   "http": 200,
+   "init": "ok",
+   "latency_history": [
+    171,
+    144,
+    169,
+    225,
+    93
+   ],
+   "latency_ms": 93,
+   "protocol": "2025-06-18",
+   "repo": {
+    "archived": false,
+    "license": "MIT",
+    "name": "LAHutchins91/continuity-mcp",
+    "pushed": "2026-10-11",
+    "stars": 0
+   },
+   "server_name": "Continuity by Ouroboros Apps",
+   "server_version": "0.5.0",
+   "status": "live",
+   "tool_names": [
+    "continuity_audit",
+    "create_story_project",
+    "get_canon_history",
+    "get_continuity_context",
+    "list_approved_scenes",
+    "list_story_checkpoints",
+    "list_story_projects",
+    "record_approved_scene",
+    "save_story_checkpoint",
+    "search_story_canon",
+    "upsert_canon_entry"
+   ],
+   "tool_tokens": 1803,
+   "tools": 11,
+   "tools_hash": "30f3bb31f02f7bf9",
+   "transport_seen": "streamable-http"
+  },
+  "council-of-ai-gspc": {
+   "capabilities": [
+    "prompts",
+    "resources",
+    "tools"
+   ],
+   "checked": "2026-10-31T09:45:38Z",
+   "discovery": "ok",
+   "first_seen": "2026-10-27",
+   "history": "uuuuu",
+   "http": 200,
+   "init": "ok",
+   "latency_history": [
+    101,
+    98,
+    152,
+    486,
+    271
+   ],
+   "latency_ms": 271,
+   "prompts": 1,
+   "protocol": "2025-06-18",
+   "repo": {
+    "archived": false,
+    "license": "MIT",
+    "name": "CSOAI-ORG/councilof-ai",
+    "pushed": "2026-10-31",
+    "stars": 3
+   },
+   "resources": 1,
+   "server_name": "csoai-gspc-mcp",
+   "server_version": "1.4.4",
+   "status": "live",
+   "tool_names": [
+    "art50_marking_evidence",
+    "axis_affect",
+    "axis_ai-adoption-components",
+    "axis_art5-safeguard",
+    "axis_care",
+    "axis_claim-maintenance",
+    "axis_company-practice",
+    "axis_conformance",
+    "axis_continuity",
+    "axis_cross-reality",
+    "axis_custody-disclosure",
+    "axis_detector-interop",
+    "axis_distribution-integrity",
+    "axis_effect-binding",
+    "axis_governance",
+    "axis_harness-fidelity",
+    "axis_humanoid-deployment",
+    "axis_humanoid-labour-index",
+    "axis_interop-conformance",
+    "axis_interpretability-reproducibility",
+    "axis_jail",
+    "axis_lab-practice",
+    "axis_labour-components",
+    "axis_machinery-conformity",
+    "axis_measurer-integrity",
+    "axis_openness",
+    "axis_provenance",
+    "axis_provenance-controls",
+    "axis_regulator-transparency",
+    "axis_regulatory-framework",
+    "axis_reserve-attestation",
+    "axis_safety",
+    "axis_serving-fidelity",
+    "axis_swarm",
+    "board_totals",
+    "commission_card",
+    "evidence_bundle",
+    "evidence_bundle_preview",
+    "get_axis",
+    "get_card",
+    "get_root",
+    "list_cards",
+    "mcp_trust",
+    "measurement_index",
+    "receipts_batch",
+    "route",
+    "rwa_evidence",
+    "server_evidence",
+    "verify_capsule",
+    "verify_card",
+    "verify_inclusion",
+    "x402_trust"
+   ],
+   "tool_tokens": 10551,
+   "tools": 52,
+   "tools_hash": "aa7f59695dffcbcd",
+   "transport_seen": "streamable-http"
+  },
+  "court-rules": {
+   "auth": "oauth",
+   "checked": "2026-10-31T09:45:36Z",
+   "discovery": "untested",
+   "first_seen": "2026-10-27",
+   "history": "aaaaa",
+   "http": 401,
+   "init": "auth",
+   "latency_history": [
+    426,
+    230,
+    202,
+    420,
+    325
+   ],
+   "latency_ms": 325,
+   "repo": {
+    "archived": false,
+    "license": "MIT",
+    "name": "foklepoint/court-rules-mcp",
+    "pushed": "2026-09-30",
+    "stars": 4
+   },
+   "status": "auth"
+  },
+  "creditunions": {
+   "capabilities": [
+    "tools"
+   ],
+   "checked": "2026-10-31T09:45:37Z",
+   "discovery": "ok",
+   "first_seen": "2026-10-27",
+   "history": "uuuuu",
+   "http": 200,
+   "init": "ok",
+   "latency_history": [
+    1476,
+    907,
+    198,
+    1486,
+    190
+   ],
+   "latency_ms": 190,
+   "protocol": "2025-06-18",
+   "server_name": "creditunions",
+   "server_version": "1",
+   "status": "live",
+   "tool_names": [
+    "get_listing",
+    "get_stats",
+    "list_categories",
+    "list_places",
+    "list_sources",
+    "search_listings"
+   ],
+   "tool_tokens": 637,
+   "tools": 6,
+   "tools_hash": "cf7239572c4a9f81",
+   "transport_seen": "streamable-http"
+  },
+  "cucutime": {
+   "capabilities": [
+    "tools"
+   ],
+   "checked": "2026-10-31T09:45:37Z",
+   "discovery": "ok",
+   "first_seen": "2026-10-27",
+   "history": "uuuuu",
+   "http": 200,
+   "init": "ok",
+   "latency_history": [
+    175,
+    218,
+    330,
+    162,
+    262
+   ],
+   "latency_ms": 262,
+   "protocol": "2025-06-18",
+   "server_name": "cucutime",
+   "server_version": "1.0.0",
+   "status": "live",
+   "tool_names": [
+    "create_personalized_song",
+    "generate_song_idea",
+    "get_song_for_name",
+    "moderate_kids_text",
+    "search_catalog"
+   ],
+   "tool_tokens": 712,
+   "tools": 5,
+   "tools_changed": "2026-10-30",
+   "tools_hash": "c55f34460becd4db",
+   "transport_seen": "streamable-http"
+  },
+  "curlshot": {
+   "capabilities": [
+    "tools"
+   ],
+   "checked": "2026-10-31T09:45:38Z",
+   "discovery": "ok",
+   "first_seen": "2026-10-27",
+   "history": "uuuuu",
+   "http": 200,
+   "init": "ok",
+   "latency_history": [
+    521,
+    381,
+    327,
+    655,
+    495
+   ],
+   "latency_ms": 495,
+   "protocol": "2025-06-18",
+   "server_name": "CurlShot",
+   "server_version": "1.0.0",
+   "status": "live",
+   "tool_names": [
+    "list_devices",
+    "take_screenshot"
+   ],
+   "tool_tokens": 726,
+   "tools": 2,
+   "tools_hash": "c09f29960eaa2727",
+   "transport_seen": "streamable-http"
+  },
+  "dare-mcp-server": {
+   "first_seen": "2026-10-27",
+   "repo": {
+    "archived": false,
+    "license": "MIT",
+    "name": "avi-aggarwal14/dare-mcp-server",
+    "pushed": "2026-10-25",
+    "stars": 1
+   },
+   "status": "unprobed"
+  },
+  "darkmoon": {
+   "first_seen": "2026-10-27",
+   "repo": {
+    "archived": false,
+    "license": "GPL-3.0",
+    "name": "ASCIT31/Dark-Moon",
+    "pushed": "2026-10-27",
+    "stars": 1174
+   },
+   "status": "unprobed"
+  },
+  "datacircle": {
+   "capabilities": [
+    "tools"
+   ],
+   "checked": "2026-10-31T09:45:37Z",
+   "discovery": "ok",
+   "first_seen": "2026-10-27",
+   "history": "uuuuu",
+   "http": 200,
+   "init": "ok",
+   "latency_history": [
+    165,
+    147,
+    302,
+    228,
+    145
+   ],
+   "latency_ms": 145,
+   "protocol": "2025-06-18",
+   "server_name": "datacircle",
+   "server_version": "2.0.0",
+   "status": "live",
+   "tool_names": [
+    "list_apis",
+    "search_plans"
+   ],
+   "tool_tokens": 1095,
+   "tools": 2,
+   "tools_changed": "2026-10-31",
+   "tools_hash": "bdb08da9b54e2da3",
+   "transport_seen": "streamable-http"
+  },
+  "datawebot": {
+   "auth": "oauth",
+   "checked": "2026-10-31T09:45:37Z",
+   "discovery": "untested",
+   "first_seen": "2026-10-27",
+   "history": "aaaaa",
+   "http": 401,
+   "init": "auth",
+   "latency_history": [
+    162,
+    121,
+    135,
+    231,
+    108
+   ],
+   "latency_ms": 108,
+   "repo": {
+    "archived": false,
+    "license": "MIT",
+    "name": "datawebot/datawebot-mcp",
+    "pushed": "2026-10-28",
+    "stars": 3
+   },
+   "status": "auth"
+  },
+  "day3": {
+   "auth": "oauth",
+   "checked": "2026-10-31T09:45:37Z",
+   "discovery": "untested",
+   "first_seen": "2026-10-27",
+   "history": "aaaaa",
+   "http": 401,
+   "init": "auth",
+   "latency_history": [
+    984,
+    353,
+    483,
+    736,
+    274
+   ],
+   "latency_ms": 274,
+   "repo": {
+    "archived": false,
+    "license": "NOASSERTION",
+    "name": "Mopra/day3.app",
+    "pushed": "2026-10-28",
+    "stars": 1
+   },
+   "status": "auth"
+  },
+  "dc-hub": {
+   "capabilities": [
+    "prompts",
+    "resources",
+    "tools"
+   ],
+   "checked": "2026-10-31T09:45:38Z",
+   "discovery": "ok",
+   "first_seen": "2026-10-27",
+   "history": "uuuuu",
+   "http": 200,
+   "init": "ok",
+   "latency_history": [
+    241,
+    203,
+    127,
+    494,
+    242
+   ],
+   "latency_ms": 242,
+   "prompts": 14,
+   "protocol": "2025-06-18",
+   "repo": {
+    "archived": false,
+    "license": "MIT",
+    "name": "azmartone67/dchub-mcp-server",
+    "pushed": "2026-10-31",
+    "stars": 3
+   },
+   "resources": 80,
+   "server_name": "DC Hub Intelligence",
+   "server_version": "2.12.44",
+   "status": "live",
+   "tool_names": [
+    "accept_capacity_terms",
+    "ai_capacity_index",
+    "analyze_parcel",
+    "analyze_site",
+    "bind_email",
+    "claim_free_key",
+    "cluster_sites_by_latency",
+    "compare_isos",
+    "compare_sites",
+    "deal_autopsy",
+    "delete_standing_intent",
+    "discover_tools",
+    "execute_plan",
+    "export_dataset",
+    "fetch",
+    "find_alternatives",
+    "find_sites",
+    "generate_site_analysis",
+    "get_agent_registry",
+    "get_backup_status",
+    "get_changes",
+    "get_climate_intel",
+    "get_composite_site_score",
+    "get_dchub_recommendation",
+    "get_disaster_risk",
+    "get_energy_prices",
+    "get_facility",
+    "get_facility_risk_delta",
+    "get_fiber_intel",
+    "get_fiber_readiness",
+    "get_gas_economics",
+    "get_gas_index",
+    "get_gas_intelligence",
+    "get_global_power",
+    "get_grid_data",
+    "get_grid_intelligence",
+    "get_grid_scoreboard",
+    "get_hosting_capacity",
+    "get_infra_projects",
+    "get_infrastructure",
+    "get_intelligence_index",
+    "get_interconnection_queue",
+    "get_iso_context",
+    "get_market_context",
+    "get_market_dcpi_rank",
+    "get_market_intel",
+    "get_metro_fiber",
+    "get_news",
+    "get_peering_intel",
+    "get_permitting_intel",
+    "get_pipeline",
+    "get_power_availability_timeline",
+    "get_power_pipeline",
+    "get_refined_queue",
+    "get_renewable_energy",
+    "get_retirement_headroom",
+    "get_shortlist",
+    "get_subsea_cables",
+    "get_tax_incentives",
+    "get_water_risk",
+    "grid_transition_radar",
+    "hyperscaler_deals",
+    "list_saved_sites",
+    "list_standing_intents",
+    "list_transactions",
+    "plan_fiber_leadin",
+    "plan_query",
+    "predict_market_trajectory",
+    "rank_markets",
+    "rank_sites",
+    "read_inbox",
+    "recover_my_key",
+    "register_standing_intent",
+    "report_finding",
+    "request_capacity_intro",
+    "research_task",
+    "save_site",
+    "save_to_shortlist",
+    "score_facility",
+    "search",
+    "search_facilities",
+    "search_intelligence",
+    "semantic_search",
+    "set_market_alert",
+    "set_shortlist_alert",
+    "set_site_alert",
+    "simulate_scenario",
+    "site_selection_canvas",
+    "source_capacity",
+    "subscribe_digest",
+    "suggest_reallocation",
+    "summarize_for_citation",
+    "unlock_more_data",
+    "why_dchub"
+   ],
+   "tool_tokens": 40557,
+   "tools": 94,
+   "tools_hash": "084ced7703170170",
+   "transport_seen": "streamable-http"
+  },
+  "ddbx": {
+   "capabilities": [
+    "tools"
+   ],
+   "checked": "2026-10-31T09:45:38Z",
+   "discovery": "ok",
+   "first_seen": "2026-10-27",
+   "history": "uuuuu",
+   "http": 200,
+   "init": "ok",
+   "latency_history": [
+    679,
+    873,
+    308,
+    522,
+    327
+   ],
+   "latency_ms": 327,
+   "protocol": "2025-06-18",
+   "repo": {
+    "archived": false,
+    "license": "MIT",
+    "name": "jonwillington/ddbx-plugin",
+    "pushed": "2026-09-21",
+    "stars": 0
+   },
+   "server_name": "ddbx",
+   "server_version": "1.0.0",
+   "status": "live",
+   "tool_names": [
+    "fetch",
+    "get_company",
+    "get_daily_summary",
+    "get_dealing",
+    "search",
+    "search_dealings"
+   ],
+   "tool_tokens": 760,
+   "tools": 6,
+   "tools_hash": "9100b459f5b6c031",
+   "transport_seen": "streamable-http"
+  },
+  "deposit-by-ouroboros-apps": {
+   "capabilities": [
+    "tools"
+   ],
+   "checked": "2026-10-31T09:45:37Z",
+   "discovery": "ok",
+   "first_seen": "2026-10-27",
+   "history": "uuuuu",
+   "http": 200,
+   "init": "ok",
+   "latency_history": [
+    164,
+    150,
+    167,
+    257,
+    72
+   ],
+   "latency_ms": 72,
+   "protocol": "2025-06-18",
+   "repo": {
+    "archived": false,
+    "license": "MIT",
+    "name": "LAHutchins91/deposit-mcp",
+    "pushed": "2026-10-11",
+    "stars": 0
+   },
+   "server_name": "Deposit",
+   "server_version": "0.1.0",
+   "status": "live",
+   "tool_names": [
+    "accept_schedule_change",
+    "add_later_payment",
+    "commit_schedule",
+    "list_schedules",
+    "mark_deposit_paid",
+    "move_payment_date",
+    "read_schedule",
+    "record_deposit",
+    "start_schedule",
+    "suggest_schedule_change",
+    "waive_deposit",
+    "write_client_script"
+   ],
+   "tool_tokens": 1844,
+   "tools": 12,
+   "tools_hash": "46b8700e2f3e1253",
+   "transport_seen": "streamable-http"
+  },
+  "derrick": {
+   "first_seen": "2026-10-27",
+   "repo": {
+    "archived": false,
+    "license": "MIT",
+    "name": "DerrickAppOrg/derrick-mcp",
+    "pushed": "2026-10-07",
+    "stars": 0
+   },
+   "status": "unprobed"
+  },
+  "desk-by-ouroboros-apps": {
+   "capabilities": [
+    "tools"
+   ],
+   "checked": "2026-10-31T09:45:37Z",
+   "discovery": "ok",
+   "first_seen": "2026-10-27",
+   "history": "uuuuu",
+   "http": 200,
+   "init": "ok",
+   "latency_history": [
+    226,
+    108,
+    220,
+    221,
+    118
+   ],
+   "latency_ms": 118,
+   "protocol": "2025-06-18",
+   "repo": {
+    "archived": false,
+    "license": "MIT",
+    "name": "LAHutchins91/desk-mcp",
+    "pushed": "2026-10-19",
+    "stars": 0
+   },
+   "server_name": "Rampart",
+   "server_version": "1.0.6",
+   "status": "live",
+   "tool_names": [
+    "create_support_desk",
+    "evaluate_commitment",
+    "evaluate_escalation",
+    "get_desk_context",
+    "list_approved_commitments",
+    "list_escalation_limits",
+    "list_refund_rules",
+    "list_support_desks",
+    "save_approved_answer",
+    "save_approved_commitment",
+    "save_escalation_limit",
+    "save_refund_rule",
+    "search_approved_answers"
+   ],
+   "tool_tokens": 2202,
+   "tools": 13,
+   "tools_hash": "e9d901ff772daf5f",
+   "transport_seen": "streamable-http"
+  },
+  "dexra": {
+   "capabilities": [
+    "tools"
+   ],
+   "checked": "2026-10-31T09:45:39Z",
+   "discovery": "ok",
+   "first_seen": "2026-10-27",
+   "history": "uuuuu",
+   "http": 200,
+   "init": "ok",
+   "latency_history": [
+    762,
+    589,
+    896,
+    827,
+    681
+   ],
+   "latency_ms": 681,
+   "protocol": "2025-06-18",
+   "repo": {
+    "archived": false,
+    "license": "MIT",
+    "name": "dexra-dev/mcp",
+    "pushed": "2026-10-21",
+    "stars": 0
+   },
+   "server_name": "dexra",
+   "server_version": "0.1.0",
+   "status": "live",
+   "tool_names": [
+    "clmm_range_stats",
+    "describe_address",
+    "market_snapshot",
+    "new_launches",
+    "new_launches_batch",
+    "pool_health",
+    "score_performance",
+    "service_stats",
+    "swap_preflight",
+    "token_deep_check",
+    "token_holders_delta",
+    "wallet_check"
+   ],
+   "tool_tokens": 2092,
+   "tools": 12,
+   "tools_hash": "3fa0adc89841d3da",
+   "transport_seen": "streamable-http"
+  },
+  "docsy": {
+   "auth": "oauth",
+   "checked": "2026-10-31T09:45:38Z",
+   "discovery": "untested",
+   "first_seen": "2026-10-27",
+   "history": "aaaaa",
+   "http": 401,
+   "init": "auth",
+   "latency_history": [
+    3349,
+    440,
+    682,
+    614,
+    420
+   ],
+   "latency_ms": 420,
+   "repo": {
+    "archived": false,
+    "license": "MIT",
+    "name": "getremcp/docsy-plugin",
+    "pushed": "2026-10-30",
+    "stars": 1
+   },
+   "status": "auth"
+  },
+  "enhanciar": {
+   "auth": "credentials",
+   "checked": "2026-10-31T09:45:38Z",
+   "discovery": "untested",
+   "first_seen": "2026-10-27",
+   "history": "aaaaa",
+   "http": 401,
+   "init": "auth",
+   "latency_history": [
+    413,
+    377,
+    356,
+    507,
+    390
+   ],
+   "latency_ms": 390,
+   "repo": {
+    "archived": false,
+    "license": "MIT",
+    "name": "enhanciar/enhanciar-mcp",
+    "pushed": "2026-10-24",
+    "stars": 0
+   },
+   "status": "auth"
+  },
+  "ent1-mcp": {
+   "first_seen": "2026-10-27",
+   "repo": {
+    "archived": false,
+    "license": "Apache-2.0",
+    "name": "edouard-claude/ent1-mcp",
+    "pushed": "2026-10-19",
+    "stars": 1
+   },
+   "status": "unprobed"
+  },
+  "equibles": {
+   "capabilities": [
+    "logging",
+    "tools"
+   ],
+   "checked": "2026-10-31T09:45:39Z",
+   "discovery": "ok",
+   "first_seen": "2026-10-27",
+   "history": "uuuuu",
+   "http": 200,
+   "init": "ok",
+   "latency_history": [
+    455,
+    382,
+    596,
+    627,
+    390
+   ],
+   "latency_ms": 390,
+   "protocol": "2025-06-18",
+   "server_name": "Equibles.Mcp.Server",
+   "server_version": "1.0.0.0",
+   "status": "live",
+   "tool_names": [
+    "AddPortfolioLot",
+    "ClosePortfolioLot",
+    "CompareFinancialFact",
+    "CompareInstitutionPortfolios",
+    "CreateMyPortfolio",
+    "DeleteMyPortfolio",
+    "GetAllHolders",
+    "GetAnalystEstimates",
+    "GetAtmPrograms",
+    "GetAverageTrueRange",
+    "GetBeneficialOwnership",
+    "GetBollingerBands",
+    "GetBuybackPrograms",
+    "GetCftcPositioning",
+    "GetCompanyKpis",
+    "GetCongressionalTrades",
+    "GetCorrelatedStocks",
+    "GetCustomerConcentration",
+    "GetDebtInstrument",
+    "GetDebtProfile",
+    "GetDividendHistory",
+    "GetEarningsBrief",
+    "GetEarningsCallEvent",
+    "GetEarningsCallQuestions",
+    "GetEarningsCallThemeHistory",
+    "GetEarningsCallToneAndThemes",
+    "GetEarningsCallTranscript",
+    "GetEconomicCalendar",
+    "GetEconomicIndicator",
+    "GetEtfHoldings",
+    "GetEtfProfile",
+    "GetEuropeanDirectorTransactions",
+    "GetEuropeanFundHoldings",
+    "GetEuropeanShortPositions",
+    "GetExecutiveChanges",
+    "GetExecutiveCompensation",
+    "GetFailsToDeliver",
+    "GetFdaAdvisoryCommitteeMeetings",
+    "GetFinancialFact",
+    "GetFinancialStatement",
+    "GetForm144ProposedSales",
+    "GetFormDOfferings",
+    "GetFundNcenReports",
+    "GetFundProfile",
+    "GetFundsHoldingStock",
+    "GetGoingConcernStatus",
+    "GetGovernmentContracts",
+    "GetGuidance",
+    "GetHolderMix",
+    "GetHolderTargets",
+    "GetHolderTypeFlows",
+    "GetIndexChanges",
+    "GetIndexComposition",
+    "GetIndexForecast",
+    "GetInsiderOwnership",
+    "GetInsiderSentimentScores",
+    "GetInsiderTransactions",
+    "GetInstitutionCloneBacktest",
+    "GetInstitutionConsensusHoldings",
+    "GetInstitutionPortfolio",
+    "GetInstitutionQuarterlyActivity",
+    "GetInstitutionSectorAllocation",
+    "GetInstitutionStyleHistory",
+    "GetInstitutionSummary",
+    "GetInstitutionalOwnershipHistory",
+    "GetInvestmentAdviser",
+    "GetInvestorEventSlideMetadata",
+    "GetInvestorEventTranscript",
+    "GetInvestorRelationsNews",
+    "GetIpoDetails",
+    "GetIpoFeed",
+    "GetLargestShortVolume",
+    "GetLatestCftcPositioning",
+    "GetLatestClosingPrices",
+    "GetLatestEconomicIndicators",
+    "GetLiveQuote",
+    "GetMajorShareholdings",
+    "GetMarketHolidayCalendar",
+    "GetMarketStatus",
+    "GetMarketWide13FActivity",
+    "GetMarketWideCongressionalActivity",
+    "GetMemberNetWorth",
+    "GetMemberTrades",
+    "GetMostHeldStocks",
+    "GetMyPortfolio",
+    "GetNonGaapBridge",
+    "GetOffExchangeVolume",
+    "GetOnBalanceVolume",
+    "GetOptionChain",
+    "GetOptionContract",
+    "GetOptionExpirations",
+    "GetOrganization",
+    "GetOwnershipSignals",
+    "GetOwnershipSummary",
+    "GetPutCallRatios",
+    "GetRevenueBreakdown",
+    "GetShareholderVoteResults",
+    "GetShortInterest",
+    "GetShortInterestSnapshot",
+    "GetShortSqueezeScores",
+    "GetShortVolume",
+    "GetStochasticOscillator",
+    "GetStockPrices",
+    "GetSuperInvestors",
+    "GetSupplyChain",
+    "GetSupplyChainOverlap",
+    "GetTopGovernmentContractors",
+    "GetTopHolders",
+    "GetTopInstitutionalBuyersSellers",
+    "GetTranscriptPhraseTrend",
+    "GetUpcomingInvestorEvents",
+    "GetValuationMultiples",
+    "GetValuationMultiplesHistory",
+    "GetVixHistory",
+    "GetWebDataFeed",
+    "ListFilings",
+    "ListInvestorEvents",
+    "ListWebDataFeeds",
+    "ReadDocumentLines",
+    "RemovePortfolioLot",
+    "ReportProblem",
+    "ScreenStocks",
+    "SearchCftcMarkets",
+    "SearchCongressMembers",
+    "SearchDocument",
+    "SearchDocuments",
+    "SearchEconomicIndicators",
+    "SearchEtfs",
+    "SearchFunds",
+    "SearchInsiders",
+    "SearchInstitutions",
+    "SearchInvestmentAdvisers",
+    "SuggestToolImprovement",
+    "UnwatchInstrument",
+    "UpdatePortfolioLot",
+    "WatchInstrument"
+   ],
+   "tool_tokens": 45578,
+   "tools": 136,
+   "tools_hash": "01a2253fbce5728a",
+   "transport_seen": "streamable-http"
+  },
+  "erius-phone-mcp": {
+   "first_seen": "2026-10-27",
+   "repo": {
+    "archived": false,
+    "license": "MIT",
+    "name": "Protremix/erius-phone-mcp",
+    "pushed": "2026-10-13",
+    "stars": 3
+   },
+   "status": "unprobed"
+  },
+  "eulerpool": {
+   "auth": "credentials",
+   "checked": "2026-10-31T09:45:38Z",
+   "discovery": "untested",
+   "first_seen": "2026-10-27",
+   "history": "aaaaa",
+   "http": 401,
+   "init": "auth",
+   "latency_history": [
+    578,
+    153,
+    735,
+    667,
+    185
+   ],
+   "latency_ms": 185,
+   "repo": {
+    "archived": false,
+    "license": "MIT",
+    "name": "eulerpool/eulerpool-mcp",
+    "pushed": "2026-09-27",
+    "stars": 0
+   },
+   "status": "auth"
+  },
+  "eventtrader": {
+   "first_seen": "2026-10-27",
+   "repo": {
+    "missing": true,
+    "name": "eventtrader/event-trader-mcp"
+   },
+   "status": "unprobed"
+  },
+  "expiry-watch": {
+   "capabilities": [
+    "tools"
+   ],
+   "checked": "2026-10-31T09:45:38Z",
+   "discovery": "ok",
+   "first_seen": "2026-10-27",
+   "history": "uuuuu",
+   "http": 200,
+   "init": "ok",
+   "latency_history": [
+    136,
+    118,
+    130,
+    196,
+    103
+   ],
+   "latency_ms": 103,
+   "protocol": "2025-06-18",
+   "server_name": "boringutils",
+   "server_version": "1.0.0",
+   "status": "live",
+   "tool_names": [
+    "check_certificate",
+    "check_domain_expiry"
+   ],
+   "tool_tokens": 324,
+   "tools": 2,
+   "tools_hash": "5e7c53f54cbc41e8",
+   "transport_seen": "streamable-http"
+  },
+  "extensiondash": {
+   "capabilities": [
+    "tools"
+   ],
+   "checked": "2026-10-31T09:45:38Z",
+   "discovery": "ok",
+   "first_seen": "2026-10-27",
+   "history": "uuuuu",
+   "http": 200,
+   "init": "ok",
+   "latency_history": [
+    189,
+    109,
+    302,
+    284,
+    172
+   ],
+   "latency_ms": 172,
+   "protocol": "2025-06-18",
+   "server_name": "extensions-dashboard",
+   "server_version": "1.0.0",
+   "status": "live",
+   "tool_names": [
+    "add_competitor",
+    "add_keyword",
+    "get_extension",
+    "get_keyword_ranks",
+    "get_keyword_serp",
+    "get_listing",
+    "get_metrics_history",
+    "list_competitors",
+    "list_extensions",
+    "list_keywords",
+    "list_scrape_runs",
+    "remove_competitor",
+    "remove_keyword",
+    "search_catalog"
+   ],
+   "tool_tokens": 5430,
+   "tools": 14,
+   "tools_hash": "80dd5d79ef19262b",
+   "transport_seen": "streamable-http"
+  },
+  "find-mcp": {
+   "first_seen": "2026-10-27",
+   "repo": {
+    "archived": false,
+    "license": "MIT",
+    "name": "agentage/find-mcp",
+    "pushed": "2026-10-31",
+    "stars": 6
+   },
+   "status": "unprobed"
+  },
+  "firstsales-mcp": {
+   "auth": "oauth",
+   "checked": "2026-10-31T09:45:39Z",
+   "discovery": "untested",
+   "first_seen": "2026-10-27",
+   "history": "aaaaa",
+   "http": 401,
+   "init": "auth",
+   "latency_history": [
+    1093,
+    989,
+    1148,
+    1219,
+    1044
+   ],
+   "latency_ms": 1044,
+   "status": "auth"
+  },
+  "framethrower": {
+   "capabilities": [
+    "tools"
+   ],
+   "checked": "2026-10-31T09:45:38Z",
+   "discovery": "ok",
+   "first_seen": "2026-10-27",
+   "history": "uuuuu",
+   "http": 200,
+   "init": "ok",
+   "latency_history": [
+    192,
+    193,
+    375,
+    269,
+    146
+   ],
+   "latency_ms": 146,
+   "protocol": "2025-06-18",
+   "repo": {
+    "archived": false,
+    "license": "MIT",
+    "name": "framethrower-ai/framethrower-mcp",
+    "pushed": "2026-08-12",
+    "stars": 1
+   },
+   "server_name": "FrameThrower",
+   "server_version": "1.1.0",
+   "status": "live",
+   "tool_names": [
+    "commercials_profile",
+    "commercials_stats",
+    "find_by_craft",
+    "find_similar",
+    "get_commercial",
+    "get_frame_details",
+    "search_commercial_shots",
+    "search_commercials",
+    "search_frames",
+    "similar_commercial_shots",
+    "similar_commercials"
+   ],
+   "tool_tokens": 4408,
+   "tools": 11,
+   "tools_changed": "2026-10-31",
+   "tools_hash": "6ac54b943753222f",
+   "transport_seen": "streamable-http"
+  },
+  "ganado-bridge": {
+   "first_seen": "2026-10-27",
+   "repo": {
+    "archived": false,
+    "license": "MIT",
+    "name": "cynarax/bridge-by-ganado",
+    "pushed": "2026-10-22",
+    "stars": 0
+   },
+   "status": "unprobed"
+  },
+  "gemmein": {
+   "first_seen": "2026-10-27",
+   "status": "unprobed"
+  },
+  "getmattered": {
+   "capabilities": [
+    "prompts",
+    "resources",
+    "tools"
+   ],
+   "checked": "2026-10-31T09:45:40Z",
+   "discovery": "ok",
+   "first_seen": "2026-10-27",
+   "history": "uuuuu",
+   "http": 200,
+   "init": "ok",
+   "latency_history": [
+    1339,
+    1031,
+    1575,
+    1489,
+    942
+   ],
+   "latency_ms": 942,
+   "prompts": 4,
+   "protocol": "2025-06-18",
+   "repo": {
+    "archived": false,
+    "license": "MIT",
+    "name": "getmattered/getmattered-mcp",
+    "pushed": "2026-10-28",
+    "stars": 3
+   },
+   "resources": 3,
+   "server_name": "GetMattered",
+   "server_version": "1.12.0",
+   "status": "live",
+   "tool_names": [
+    "getmattered_analyze_job_description",
+    "getmattered_apply",
+    "getmattered_approve_applications",
+    "getmattered_cancel_applications",
+    "getmattered_create_resume_draft",
+    "getmattered_create_saved_search",
+    "getmattered_delete_saved_search",
+    "getmattered_draft_follow_up",
+    "getmattered_generate_cover_letter",
+    "getmattered_generate_interview_questions",
+    "getmattered_get_account",
+    "getmattered_get_application_profile",
+    "getmattered_get_applications",
+    "getmattered_get_inbox",
+    "getmattered_get_matches",
+    "getmattered_get_profile",
+    "getmattered_get_resume_pdf_link",
+    "getmattered_list_due_follow_ups",
+    "getmattered_list_saved_searches",
+    "getmattered_list_sent_follow_ups",
+    "getmattered_optimize_resume",
+    "getmattered_record_follow_up",
+    "getmattered_refine_application_documents",
+    "getmattered_reject_applications",
+    "getmattered_reply_to_email",
+    "getmattered_reprepare_applications",
+    "getmattered_restore_matches",
+    "getmattered_save_matches",
+    "getmattered_score_resume",
+    "getmattered_send_follow_up",
+    "getmattered_set_application_stage",
+    "getmattered_set_resume",
+    "getmattered_share_resume_pdf",
+    "getmattered_skip_matches",
+    "getmattered_translate_resume",
+    "getmattered_unsave_matches",
+    "getmattered_update_application_profile",
+    "getmattered_update_automatic_apply_settings",
+    "getmattered_update_job_preferences",
+    "getmattered_update_saved_search"
+   ],
+   "tool_tokens": 16026,
+   "tools": 40,
+   "tools_changed": "2026-10-30",
+   "tools_hash": "a4e7589d98637719",
+   "transport_seen": "streamable-http"
+  },
+  "goodmemory": {
+   "first_seen": "2026-10-27",
+   "repo": {
+    "archived": false,
+    "license": "MIT",
+    "name": "hjqcan/GoodMemory",
+    "pushed": "2026-10-20",
+    "stars": 20
+   },
+   "status": "unprobed"
+  },
+  "google-hotels": {
+   "first_seen": "2026-10-27",
+   "repo": {
+    "archived": false,
+    "license": "MIT",
+    "name": "huynhtanan/google-hotels-mcp",
+    "pushed": "2026-10-16",
+    "stars": 1
+   },
+   "status": "unprobed"
+  },
+  "gpu-nz": {
+   "capabilities": [
+    "tools"
+   ],
+   "checked": "2026-10-31T09:45:40Z",
+   "discovery": "ok",
+   "first_seen": "2026-10-27",
+   "history": "uuuuu",
+   "http": 200,
+   "init": "ok",
+   "latency_history": [
+    983,
+    647,
+    667,
+    844,
+    636
+   ],
+   "latency_ms": 636,
+   "protocol": "2025-06-18",
+   "repo": {
+    "archived": false,
+    "license": "MIT",
+    "name": "gpunz/gpunz-mcp",
+    "pushed": "2026-10-21",
+    "stars": 1
+   },
+   "server_name": "gpu.nz",
+   "server_version": "1.0.0",
+   "status": "live",
+   "tool_names": [
+    "add_ssh_key",
+    "create_instance",
+    "destroy_instance",
+    "estimate_vram",
+    "get_account",
+    "get_instance",
+    "get_instance_logs",
+    "get_offer",
+    "list_gpu_models",
+    "list_instances",
+    "list_ssh_keys",
+    "list_templates",
+    "search_offers",
+    "start_instance",
+    "stop_instance",
+    "topup_link"
+   ],
+   "tool_tokens": 2360,
+   "tools": 16,
+   "tools_hash": "a753b99b89c66e73",
+   "transport_seen": "streamable-http"
+  },
+  "grey-ridge-x402": {
+   "capabilities": [
+    "tools"
+   ],
+   "checked": "2026-10-31T09:45:39Z",
+   "discovery": "ok",
+   "first_seen": "2026-10-27",
+   "history": "uuuuu",
+   "http": 200,
+   "init": "ok",
+   "latency_history": [
+    282,
+    302,
+    450,
+    312,
+    285
+   ],
+   "latency_ms": 285,
+   "protocol": "2025-06-18",
+   "repo": {
+    "archived": false,
+    "license": "MIT",
+    "name": "rezearcher/x402-data-api",
+    "pushed": "2026-10-31",
+    "stars": 0
+   },
+   "server_name": "Grey Ridge MCP Security + Base Trade-Safety",
+   "server_version": "0.1.4",
+   "status": "live",
+   "tool_names": [
+    "chain_balance",
+    "chain_block_number",
+    "chain_block_number_preview",
+    "chain_gas_price",
+    "chain_gas_price_preview",
+    "chain_token_balance",
+    "chain_token_report",
+    "chain_token_report_preview",
+    "chain_token_security",
+    "chain_token_security_preview",
+    "chain_tx",
+    "chain_wallet",
+    "chain_wallet_screen",
+    "crypto_funding",
+    "crypto_funding_preview",
+    "crypto_prices",
+    "crypto_prices_preview",
+    "defi_yields",
+    "defi_yields_preview",
+    "enrich_domain",
+    "enrich_tech_risk",
+    "gate_swap",
+    "gate_swap_preview",
+    "pm_markets",
+    "pm_markets_preview",
+    "scan_mcp_preview",
+    "scan_mcp_server",
+    "simulate",
+    "simulate_preview",
+    "x402_preflight",
+    "yield_entry_verdict",
+    "yield_entry_verdict_preview"
+   ],
+   "tool_tokens": 4690,
+   "tools": 32,
+   "tools_changed": "2026-10-31",
+   "tools_hash": "855c7e5f6c4558be",
+   "transport_seen": "streamable-http"
+  },
+  "grok-bot-wiki": {
+   "capabilities": [
+    "tools"
+   ],
+   "checked": "2026-10-31T09:45:38Z",
+   "discovery": "ok",
+   "first_seen": "2026-10-27",
+   "history": "uuuuu",
+   "http": 200,
+   "init": "ok",
+   "latency_history": [
+    343,
+    1069,
+    181,
+    500,
+    214
+   ],
+   "latency_ms": 214,
+   "protocol": "2025-06-18",
+   "server_name": "grok-bot-wiki",
+   "server_version": "1.1.0",
+   "status": "live",
+   "tool_names": [
+    "check_listing",
+    "fetch",
+    "get_bot",
+    "get_guide",
+    "list_categories",
+    "search",
+    "search_bots",
+    "search_guides",
+    "start_checkout",
+    "submit_bot",
+    "troubleshoot"
+   ],
+   "tool_tokens": 1863,
+   "tools": 11,
+   "tools_hash": "14b28d8154b4fda8",
+   "transport_seen": "streamable-http"
+  },
+  "growo-child-growth": {
+   "capabilities": [
+    "prompts",
+    "tools"
+   ],
+   "checked": "2026-10-31T09:45:38Z",
+   "discovery": "ok",
+   "first_seen": "2026-10-27",
+   "history": "uuuuu",
+   "http": 200,
+   "init": "ok",
+   "latency_history": [
+    130,
+    90,
+    98,
+    140,
+    81
+   ],
+   "latency_ms": 81,
+   "prompts": 4,
+   "protocol": "2025-06-18",
+   "server_name": "growo-growth",
+   "server_version": "1.5.0",
+   "status": "live",
+   "tool_names": [
+    "birth_size_percentile",
+    "bmi_percentile",
+    "child_age",
+    "convert_measurement",
+    "corrected_age",
+    "development_milestones",
+    "fetch",
+    "growth_percentile",
+    "growth_reference_range",
+    "growth_trend",
+    "growth_velocity",
+    "newborn_weight_change",
+    "ponderal_index",
+    "search",
+    "target_height",
+    "zscore_percentile"
+   ],
+   "tool_tokens": 5263,
+   "tools": 16,
+   "tools_hash": "0a5dd304e3bee403",
+   "transport_seen": "streamable-http"
+  },
+  "harborrank": {
+   "auth": "oauth",
+   "checked": "2026-10-31T09:45:39Z",
+   "discovery": "untested",
+   "first_seen": "2026-10-27",
+   "history": "aaaaa",
+   "http": 401,
+   "init": "auth",
+   "latency_history": [
+    1333,
+    201,
+    837,
+    196,
+    918
+   ],
+   "latency_ms": 918,
+   "status": "auth"
+  },
+  "helium": {
+   "first_seen": "2026-10-27",
+   "repo": {
+    "missing": true,
+    "name": "connerlambden/helium-mcp"
+   },
+   "status": "unprobed"
+  },
+  "helloasso-mcp": {
+   "first_seen": "2026-10-27",
+   "repo": {
+    "archived": false,
+    "license": "MIT",
+    "name": "edouard-claude/helloasso-mcp",
+    "pushed": "2026-10-19",
+    "stars": 0
+   },
+   "status": "unprobed"
+  },
+  "hexis": {
+   "auth": "oauth",
+   "checked": "2026-10-31T09:45:39Z",
+   "discovery": "untested",
+   "first_seen": "2026-10-27",
+   "history": "aaaaa",
+   "http": 401,
+   "init": "auth",
+   "latency_history": [
+    440,
+    324,
+    727,
+    643,
+    318
+   ],
+   "latency_ms": 318,
+   "repo": {
+    "archived": false,
+    "license": "Apache-2.0",
+    "name": "Bevel-Software/Hexis",
+    "pushed": "2026-10-30",
+    "stars": 122
+   },
+   "status": "auth"
+  },
+  "hey-research-lab": {
+   "capabilities": [
+    "prompts",
+    "resources",
+    "tools"
+   ],
+   "checked": "2026-10-31T09:45:42Z",
+   "discovery": "ok",
+   "first_seen": "2026-10-27",
+   "history": "uuuuu",
+   "http": 200,
+   "init": "ok",
+   "latency_history": [
+    786,
+    773,
+    949,
+    799,
+    793
+   ],
+   "latency_ms": 793,
+   "prompts": 8,
+   "protocol": "2025-06-18",
+   "repo": {
+    "archived": false,
+    "license": "MIT",
+    "name": "hey-research-lab/hey-research-open",
+    "pushed": "2026-10-31",
+    "stars": 0
+   },
+   "resources": 1,
+   "server_name": "hey-research",
+   "server_version": "0.3.2",
+   "status": "live",
+   "tool_names": [
+    "ask_hey",
+    "chain_overview",
+    "explain_fact",
+    "find_projects",
+    "get_changes",
+    "get_contract",
+    "get_evidence",
+    "get_project_snapshot",
+    "get_project_timeline",
+    "get_token_market",
+    "get_v4_hook",
+    "market_integrity",
+    "project_diff",
+    "research_answer"
+   ],
+   "tool_tokens": 4154,
+   "tools": 14,
+   "tools_changed": "2026-10-31",
+   "tools_hash": "7420ca59b1310c41",
+   "transport_seen": "streamable-http"
+  },
+  "hostdefi": {
+   "first_seen": "2026-10-27",
+   "status": "unprobed"
+  },
+  "hotlikeshop": {
+   "capabilities": [
+    "tools"
+   ],
+   "checked": "2026-10-31T09:45:41Z",
+   "discovery": "ok",
+   "first_seen": "2026-10-27",
+   "history": "uuuuu",
+   "http": 200,
+   "init": "ok",
+   "latency_history": [
+    774,
+    800,
+    640,
+    821,
+    814
+   ],
+   "latency_ms": 814,
+   "protocol": "2025-06-18",
+   "repo": {
+    "archived": false,
+    "license": "MIT",
+    "name": "tuanone123/hotlikeshop-mcp",
+    "pushed": "2026-09-09",
+    "stars": 1
+   },
+   "server_name": "hotlikeshop.com",
+   "server_version": "1.0.0",
+   "status": "live",
+   "tool_names": [
+    "best_sellers",
+    "buy_product",
+    "check_health_bulk",
+    "check_live_facebook",
+    "check_order_status",
+    "claim_quest",
+    "compare_products",
+    "create_binance_deposit",
+    "create_usdt_deposit",
+    "daily_checkin",
+    "deep_inspect",
+    "gamefi_status",
+    "get_2fa",
+    "get_mail_code",
+    "get_my_balance",
+    "get_product",
+    "how_to_start",
+    "latest_products",
+    "list_categories",
+    "list_category_products",
+    "list_orders",
+    "list_quests",
+    "quote_order",
+    "recommend_products",
+    "search_products",
+    "similar_products",
+    "spin_wheel",
+    "submit_complaint",
+    "topup_guide",
+    "verify_binance_deposit",
+    "verify_usdt_deposit",
+    "wallet_history"
+   ],
+   "tool_tokens": 8692,
+   "tools": 32,
+   "tools_hash": "c916e7462431906d",
+   "transport_seen": "streamable-http"
+  },
+  "hyperconsciousness": {
+   "first_seen": "2026-10-27",
+   "repo": {
+    "archived": false,
+    "license": "MIT",
+    "name": "louis030195/hyperconsciousness",
+    "pushed": "2026-10-26",
+    "stars": 8
+   },
+   "status": "unprobed"
+  },
+  "invoice-by-ouroboros-apps": {
+   "capabilities": [
+    "tools"
+   ],
+   "checked": "2026-10-31T09:45:39Z",
+   "discovery": "ok",
+   "first_seen": "2026-10-27",
+   "history": "uuuuu",
+   "http": 200,
+   "init": "ok",
+   "latency_history": [
+    198,
+    126,
+    149,
+    225,
+    196
+   ],
+   "latency_ms": 196,
+   "protocol": "2025-06-18",
+   "repo": {
+    "archived": false,
+    "license": "MIT",
+    "name": "LAHutchins91/invoice-mcp",
+    "pushed": "2026-10-11",
+    "stars": 0
+   },
+   "server_name": "Invoice",
+   "server_version": "0.1.0",
+   "status": "live",
+   "tool_names": [
+    "accept_invoice_change",
+    "begin_invoice",
+    "describe_line",
+    "list_invoices",
+    "offer_discount",
+    "place_line",
+    "quote_line_rate",
+    "read_invoice",
+    "seal_invoice",
+    "set_invoice_due",
+    "set_line_quantity",
+    "suggest_invoice_change",
+    "write_late_terms"
+   ],
+   "tool_tokens": 2197,
+   "tools": 13,
+   "tools_hash": "c13d7666fdae9740",
+   "transport_seen": "streamable-http"
+  },
+  "invokely": {
+   "auth": "oauth",
+   "checked": "2026-10-31T09:45:39Z",
+   "discovery": "untested",
+   "first_seen": "2026-10-27",
+   "history": "aaaaa",
+   "http": 401,
+   "init": "auth",
+   "latency_history": [
+    462,
+    358,
+    550,
+    496,
+    352
+   ],
+   "latency_ms": 352,
+   "status": "auth"
+  },
+  "invompt": {
+   "auth": "oauth",
+   "checked": "2026-10-31T09:45:39Z",
+   "discovery": "untested",
+   "first_seen": "2026-10-27",
+   "history": "aaaaa",
+   "http": 401,
+   "init": "auth",
+   "latency_history": [
+    398,
+    257,
+    443,
+    473,
+    322
+   ],
+   "latency_ms": 322,
+   "repo": {
+    "archived": false,
+    "license": "MIT",
+    "name": "Invompt/invompt-mcp",
+    "pushed": "2026-10-31",
+    "stars": 0
+   },
+   "status": "auth"
+  },
+  "jev-agent": {
+   "capabilities": [
+    "tools"
+   ],
+   "checked": "2026-10-31T09:45:39Z",
+   "discovery": "ok",
+   "first_seen": "2026-10-27",
+   "history": "uuuuu",
+   "http": 200,
+   "init": "ok",
+   "latency_history": [
+    794,
+    188,
+    234,
+    298,
+    123
+   ],
+   "latency_ms": 123,
+   "protocol": "2025-06-18",
+   "server_name": "jagent",
+   "server_version": "1.0.0",
+   "status": "live",
+   "tool_names": [
+    "check_resume",
+    "compare_versions",
+    "grade_essay",
+    "grade_with_rubric",
+    "judge_choice",
+    "judge_score",
+    "judge_yes_no"
+   ],
+   "tool_tokens": 1439,
+   "tools": 7,
+   "tools_hash": "f6d400492a0e0429",
+   "transport_seen": "streamable-http"
+  },
+  "kanbanmcp": {
+   "capabilities": [
+    "prompts",
+    "resources",
+    "tools"
+   ],
+   "checked": "2026-10-31T09:45:40Z",
+   "discovery": "ok",
+   "first_seen": "2026-10-27",
+   "history": "uuuuu",
+   "http": 200,
+   "init": "ok",
+   "latency_history": [
+    355,
+    261,
+    286,
+    335,
+    336
+   ],
+   "latency_ms": 336,
+   "prompts": 6,
+   "protocol": "2025-06-18",
+   "resources": 0,
+   "server_name": "kanbanmcp",
+   "server_version": "0.1.1",
+   "status": "live",
+   "tool_names": [
+    "block",
+    "claim_next",
+    "comment",
+    "complete",
+    "create_board",
+    "create_card",
+    "delete_column",
+    "edit_column",
+    "events_since",
+    "find_cards",
+    "get_context",
+    "get_setup",
+    "heartbeat",
+    "inbox",
+    "label",
+    "link",
+    "list_boards",
+    "move_card",
+    "promote",
+    "raise",
+    "release",
+    "request_review",
+    "resolve",
+    "rules",
+    "set_brief",
+    "show",
+    "stop_run",
+    "toggle_task",
+    "undo",
+    "update_card",
+    "update_persona"
+   ],
+   "tool_tokens": 8721,
+   "tools": 31,
+   "tools_hash": "024632573403f5e0",
+   "transport_seen": "streamable-http"
+  },
+  "kandle": {
+   "first_seen": "2026-10-27",
+   "repo": {
+    "archived": false,
+    "license": "MIT",
+    "name": "Kernel-Hunter/kandle",
+    "pushed": "2026-10-30",
+    "stars": 5
+   },
+   "status": "unprobed"
+  },
+  "karma-domains": {
+   "auth": "oauth",
+   "checked": "2026-10-31T09:45:40Z",
+   "discovery": "untested",
+   "first_seen": "2026-10-27",
+   "history": "aaaaa",
+   "http": 401,
+   "init": "auth",
+   "latency_history": [
+    599,
+    478,
+    393,
+    537,
+    367
+   ],
+   "latency_ms": 367,
+   "repo": {
+    "missing": true,
+    "name": "karma-domains/expired-domains-mcp"
+   },
+   "status": "auth"
+  },
+  "kleap": {
+   "capabilities": [
+    "resources",
+    "tools"
+   ],
+   "checked": "2026-10-31T09:45:41Z",
+   "discovery": "ok",
+   "first_seen": "2026-10-27",
+   "history": "uuuuu",
+   "http": 200,
+   "init": "ok",
+   "latency_history": [
+    793,
+    4711,
+    874,
+    822,
+    542
+   ],
+   "latency_ms": 542,
+   "protocol": "2025-06-18",
+   "repo": {
+    "archived": false,
+    "license": "MIT",
+    "name": "kleaphq/cli",
+    "pushed": "2026-10-18",
+    "stars": 1
+   },
+   "resources": 3,
+   "server_name": "Kleap AI Website & App Builder",
+   "server_version": "1.1.0",
+   "status": "live",
+   "tool_names": [
+    "buy_domain",
+    "check_domain",
+    "check_task",
+    "connect_domain",
+    "connect_search_console",
+    "create_app",
+    "delete_database_rows",
+    "delete_files",
+    "edit_files",
+    "find_app",
+    "generate_image",
+    "get_analytics",
+    "get_app",
+    "get_credits",
+    "get_database_schema",
+    "get_form_submissions",
+    "get_publish_status",
+    "get_screenshot",
+    "get_search_console",
+    "insert_database_rows",
+    "list_app_files",
+    "list_apps",
+    "modify_app",
+    "publish_app",
+    "query_database_rows",
+    "read_files",
+    "rename_app",
+    "retry_task",
+    "run_database_sql",
+    "search_domains",
+    "seo_audit",
+    "update_database_rows",
+    "upgrade_plan",
+    "wake_app",
+    "write_files"
+   ],
+   "tool_tokens": 9924,
+   "tools": 35,
+   "tools_hash": "e00c22ce188f4b3f",
+   "transport_seen": "streamable-http"
+  },
+  "koru": {
+   "first_seen": "2026-10-27",
+   "repo": {
+    "archived": false,
+    "license": "MPL-2.0",
+    "name": "koruworks/mono",
+    "pushed": "2026-10-31",
+    "stars": 28
+   },
+   "status": "unprobed"
+  },
+  "liftli": {
+   "first_seen": "2026-10-27",
+   "repo": {
+    "archived": false,
+    "license": "MIT",
+    "name": "liftli-ai/liftli-mcp",
+    "pushed": "2026-10-16",
+    "stars": 0
+   },
+   "status": "unprobed"
+  },
+  "ligosocial": {
+   "auth": "oauth",
+   "checked": "2026-10-31T09:45:39Z",
+   "discovery": "untested",
+   "first_seen": "2026-10-27",
+   "history": "aaaaa",
+   "http": 401,
+   "init": "auth",
+   "latency_history": [
+    535,
+    203,
+    640,
+    587,
+    183
+   ],
+   "latency_ms": 183,
+   "status": "auth"
+  },
+  "liminal": {
+   "capabilities": [
+    "experimental",
+    "prompts",
+    "resources",
+    "tools"
+   ],
+   "checked": "2026-10-31T09:45:40Z",
+   "discovery": "auth",
+   "discovery_reason": "HTTP 401",
+   "first_seen": "2026-10-27",
+   "history": "uuuuu",
+   "http": 200,
+   "init": "ok",
+   "latency_history": [
+    207,
+    116,
+    298,
+    367,
+    265
+   ],
+   "latency_ms": 265,
+   "protocol": "2025-06-18",
+   "repo": {
+    "archived": false,
+    "license": "Apache-2.0",
+    "name": "jaybro2042-alt/liminality-mcp",
+    "pushed": "2026-10-12",
+    "stars": 0
+   },
+   "server_name": "Liminal",
+   "server_version": "1.27.2",
+   "status": "live",
+   "transport_seen": "streamable-http"
+  },
+  "linkmcp": {
+   "auth": "oauth",
+   "checked": "2026-10-31T09:45:40Z",
+   "discovery": "untested",
+   "first_seen": "2026-10-27",
+   "history": "aaaaa",
+   "http": 401,
+   "init": "auth",
+   "latency_history": [
+    517,
+    434,
+    556,
+    607,
+    490
+   ],
+   "latency_ms": 490,
+   "repo": {
+    "archived": false,
+    "license": "MIT",
+    "name": "linkmcp-io/linkmcp",
+    "pushed": "2026-10-26",
+    "stars": 3
+   },
+   "status": "auth"
+  },
+  "llm-pulse-mcp": {
+   "auth": "oauth",
+   "checked": "2026-10-31T09:45:40Z",
+   "discovery": "untested",
+   "first_seen": "2026-10-27",
+   "history": "aaaaa",
+   "http": 401,
+   "init": "auth",
+   "latency_history": [
+    210,
+    155,
+    223,
+    298,
+    137
+   ],
+   "latency_ms": 137,
+   "repo": {
+    "archived": false,
+    "license": "MIT",
+    "name": "estevecastells/llmpulse-mcp",
+    "pushed": "2026-06-28",
+    "stars": 1
+   },
+   "status": "auth"
+  },
+  "lognorm": {
+   "auth": "oauth",
+   "checked": "2026-10-31T09:45:40Z",
+   "discovery": "untested",
+   "first_seen": "2026-10-27",
+   "history": "aaaaa",
+   "http": 401,
+   "init": "auth",
+   "latency_history": [
+    166,
+    1810,
+    281,
+    269,
+    104
+   ],
+   "latency_ms": 104,
+   "repo": {
+    "archived": false,
+    "license": "MIT",
+    "name": "lognorm/lognorm-mcp",
+    "pushed": "2026-10-02",
+    "stars": 2
+   },
+   "status": "auth"
+  },
+  "looot": {
+   "auth": "oauth",
+   "checked": "2026-10-31T09:45:40Z",
+   "discovery": "untested",
+   "first_seen": "2026-10-27",
+   "history": "aaaaa",
+   "http": 401,
+   "init": "auth",
+   "latency_history": [
+    241,
+    320,
+    552,
+    581,
+    163
+   ],
+   "latency_ms": 163,
+   "repo": {
+    "archived": false,
+    "license": "MIT",
+    "name": "loootai/looot-mcp",
+    "pushed": "2026-10-28",
+    "stars": 3
+   },
+   "status": "auth"
+  },
+  "magic-hour": {
+   "capabilities": [
+    "experimental",
+    "extensions",
+    "logging",
+    "prompts",
+    "resources",
+    "tools"
+   ],
+   "checked": "2026-10-31T09:45:41Z",
+   "discovery": "ok",
+   "first_seen": "2026-10-27",
+   "history": "uuuuu",
+   "http": 200,
+   "init": "ok",
+   "latency_history": [
+    260,
+    147,
+    316,
+    341,
+    178
+   ],
+   "latency_ms": 178,
+   "prompts": 0,
+   "protocol": "2025-06-18",
+   "repo": {
+    "archived": false,
+    "license": "Apache-2.0",
+    "name": "magichourhq/magic-hour-mcp",
+    "pushed": "2026-10-30",
+    "stars": 10
+   },
+   "resources": 2,
+   "server_name": "magic-hour",
+   "server_version": "0.1.0",
+   "status": "live",
+   "tool_names": [
+    "add_subtitles_to_video",
+    "change_clothes_in_photo",
+    "colorize_photo",
+    "create_animation",
+    "create_gif_or_short_video",
+    "create_lip_sync_video",
+    "create_meme",
+    "create_qr_code",
+    "create_spoken_ad_video",
+    "create_talking_photo",
+    "create_video_from_audio",
+    "create_video_from_image",
+    "create_video_from_text",
+    "delete_audio_project",
+    "delete_image_project",
+    "delete_video_project",
+    "detect_faces",
+    "edit_face_in_photo",
+    "edit_image",
+    "edit_video",
+    "fetch_audio_download",
+    "fetch_image_download",
+    "fetch_video_download",
+    "generate_headshot",
+    "generate_image",
+    "generate_music",
+    "get_account_info",
+    "get_audio_project",
+    "get_face_detection_results",
+    "get_image_project",
+    "get_upload_urls",
+    "get_video_project",
+    "get_workflow_guide",
+    "list_saved_items",
+    "ping",
+    "place_person_in_scene",
+    "remove_image_background",
+    "replace_character_in_video",
+    "restyle_video",
+    "swap_face_in_photo",
+    "swap_face_in_video",
+    "swap_head_in_photo",
+    "translate_video",
+    "upscale_image",
+    "upscale_video",
+    "wait_for_audio_project",
+    "wait_for_image_project",
+    "wait_for_video_project"
+   ],
+   "tool_tokens": 25621,
+   "tools": 48,
+   "tools_changed": "2026-10-31",
+   "tools_hash": "02b1e7fc225ca97c",
+   "transport_seen": "streamable-http"
+  },
+  "maqami-travel": {
+   "capabilities": [
+    "tools"
+   ],
+   "checked": "2026-10-31T09:45:40Z",
+   "discovery": "ok",
+   "first_seen": "2026-10-27",
+   "history": "uuuuu",
+   "http": 200,
+   "init": "ok",
+   "latency_history": [
+    739,
+    229,
+    625,
+    627,
+    110
+   ],
+   "latency_ms": 110,
+   "protocol": "2025-06-18",
+   "repo": {
+    "archived": false,
+    "license": "MIT",
+    "name": "negm17111995/mcp-server",
+    "pushed": "2026-10-17",
+    "stars": 2
+   },
+   "server_name": "MAQAMI Travel MCP Server",
+   "server_version": "1.0.9",
+   "status": "live",
+   "tool_names": [
+    "cancelExperienceBooking",
+    "cancel_hotel_booking",
+    "getExperienceBooking",
+    "getExperienceBookingCancelPreview",
+    "getHotelTaxSchema",
+    "get_bookings_bookingid",
+    "get_data_chains",
+    "get_data_cities",
+    "get_data_countries",
+    "get_data_currencies",
+    "get_data_facilities",
+    "get_data_flights_airlines",
+    "get_data_flights_airlines_iatas",
+    "get_data_flights_airlines_iatas_iatacode",
+    "get_data_flights_airports",
+    "get_data_flights_airports_iatas",
+    "get_data_flights_airports_iatas_iatacode",
+    "get_data_hotel",
+    "get_data_hotel_ask",
+    "get_data_hotel_search",
+    "get_data_hotels",
+    "get_data_hotels_room_search",
+    "get_data_hotels_semantic_search",
+    "get_data_hoteltypes",
+    "get_data_iatacodes",
+    "get_data_languages",
+    "get_data_reviews",
+    "get_flights_bookings_bookingid",
+    "get_flights_bookings_bookingid_cancellations",
+    "get_flights_bookings_bookingid_services",
+    "get_prebooks_prebookid",
+    "listBookings",
+    "post_bookings_bookingid_alternative_prebooks",
+    "post_data_hotel_highlights",
+    "post_flights_bookings_bookingid_cancellations",
+    "post_flights_rates",
+    "post_flights_verify",
+    "post_hotels_min_rates",
+    "post_hotels_rates",
+    "post_rates_prebook",
+    "put_bookings_bookingid_amend"
+   ],
+   "tool_tokens": 20100,
+   "tools": 41,
+   "tools_hash": "309b93e8776807ea",
+   "transport_seen": "streamable-http"
+  },
+  "mediapronet": {
+   "capabilities": [
+    "tools"
+   ],
+   "checked": "2026-10-31T09:45:41Z",
+   "discovery": "ok",
+   "first_seen": "2026-10-27",
+   "history": "uuuuu",
+   "http": 200,
+   "init": "ok",
+   "latency_history": [
+    611,
+    492,
+    787,
+    678,
+    516
+   ],
+   "latency_ms": 516,
+   "protocol": "2025-06-18",
+   "server_name": "MediaProNet",
+   "server_version": "1.2.0",
+   "status": "live",
+   "tool_names": [
+    "browse_category",
+    "find_alternatives",
+    "get_listing",
+    "get_site_of_the_day",
+    "get_trending",
+    "list_categories",
+    "search_listings"
+   ],
+   "tool_tokens": 1428,
+   "tools": 7,
+   "tools_hash": "be9ca7c4d4b49028",
+   "transport_seen": "streamable-http"
+  },
+  "mentionsapi": {
+   "auth": "oauth",
+   "checked": "2026-10-31T09:45:40Z",
+   "discovery": "untested",
+   "first_seen": "2026-10-27",
+   "history": "aaaaa",
+   "http": 401,
+   "init": "auth",
+   "latency_history": [
+    236,
+    220,
+    166,
+    265,
+    158
+   ],
+   "latency_ms": 158,
+   "repo": {
+    "archived": false,
+    "license": "MIT",
+    "name": "mukul-dutt/mentionsapi-mcp",
+    "pushed": "2026-10-07",
+    "stars": 1
+   },
+   "status": "auth"
+  },
+  "milestone-by-ouroboros-apps": {
+   "capabilities": [
+    "tools"
+   ],
+   "checked": "2026-10-31T09:45:40Z",
+   "discovery": "ok",
+   "first_seen": "2026-10-27",
+   "history": "uuuuu",
+   "http": 200,
+   "init": "ok",
+   "latency_history": [
+    214,
+    134,
+    121,
+    220,
+    144
+   ],
+   "latency_ms": 144,
+   "protocol": "2025-06-18",
+   "repo": {
+    "archived": false,
+    "license": "MIT",
+    "name": "LAHutchins91/milestone-mcp",
+    "pushed": "2026-10-11",
+    "stars": 0
+   },
+   "server_name": "Milestone",
+   "server_version": "0.1.0",
+   "status": "live",
+   "tool_names": [
+    "accept_milestone_change",
+    "approve_milestones",
+    "declare_milestone_complete",
+    "declare_next_payment_released",
+    "define_milestone",
+    "list_milestone_sets",
+    "mark_work_done",
+    "open_milestone_set",
+    "read_milestone_set",
+    "record_criterion_met",
+    "save_acceptance_criterion",
+    "save_deliverable",
+    "save_work_item",
+    "suggest_milestone_change",
+    "write_client_wording"
+   ],
+   "tool_tokens": 2271,
+   "tools": 15,
+   "tools_hash": "3965339731f76afc",
+   "transport_seen": "streamable-http"
+  },
+  "mnemoverse": {
+   "auth": "oauth",
+   "checked": "2026-10-31T09:45:40Z",
+   "discovery": "untested",
+   "first_seen": "2026-10-27",
+   "history": "aaaaa",
+   "http": 401,
+   "init": "auth",
+   "latency_history": [
+    272,
+    231,
+    260,
+    1073,
+    125
+   ],
+   "latency_ms": 125,
+   "repo": {
+    "archived": false,
+    "license": "MIT",
+    "name": "mnemoverse/mcp-memory-server",
+    "pushed": "2026-10-30",
+    "stars": 27
+   },
+   "status": "auth"
+  },
+  "moltnode": {
+   "capabilities": [
+    "tools"
+   ],
+   "checked": "2026-10-31T09:45:40Z",
+   "discovery": "ok",
+   "first_seen": "2026-10-27",
+   "history": "uuuuu",
+   "http": 200,
+   "init": "ok",
+   "latency_history": [
+    443,
+    385,
+    63,
+    172,
+    160
+   ],
+   "latency_ms": 160,
+   "protocol": "2025-06-18",
+   "repo": {
+    "archived": false,
+    "license": "MIT",
+    "name": "tuantqse90/moltnode-mcp",
+    "pushed": "2026-10-29",
+    "stars": 1
+   },
+   "server_name": "moltnode",
+   "server_version": "1.1.0",
+   "status": "live",
+   "tool_names": [
+    "chord_find_token",
+    "chord_swap_quote",
+    "get_balance",
+    "get_block_number",
+    "list_chains",
+    "rpc_call",
+    "send_raw_transaction"
+   ],
+   "tool_tokens": 1253,
+   "tools": 7,
+   "tools_hash": "e6546dcde296ff28",
+   "transport_seen": "streamable-http"
+  },
+  "motomarks": {
+   "capabilities": [
+    "prompts",
+    "resources",
+    "tools"
+   ],
+   "checked": "2026-10-31T09:45:41Z",
+   "discovery": "ok",
+   "first_seen": "2026-10-27",
+   "history": "uuuuu",
+   "http": 200,
+   "init": "ok",
+   "latency_history": [
+    291,
+    267,
+    1062,
+    385,
+    429
+   ],
+   "latency_ms": 429,
+   "prompts": 3,
+   "protocol": "2025-06-18",
+   "resources": 2,
+   "server_name": "motomarks",
+   "server_version": "1.1.0",
+   "status": "live",
+   "tool_names": [
+    "build_image_url",
+    "complete_sign_up",
+    "describe_api_endpoint",
+    "get_account",
+    "get_brand",
+    "list_brand_assets",
+    "search_brands",
+    "sign_up"
+   ],
+   "tool_tokens": 1307,
+   "tools": 8,
+   "tools_hash": "7e973d4f5cfb1cf4",
+   "transport_seen": "streamable-http"
+  },
+  "mubboo-flights-search": {
+   "capabilities": [
+    "tools"
+   ],
+   "checked": "2026-10-31T09:45:41Z",
+   "discovery": "ok",
+   "first_seen": "2026-10-27",
+   "history": "uuuuu",
+   "http": 200,
+   "init": "ok",
+   "latency_history": [
+    539,
+    269,
+    6902,
+    743,
+    177
+   ],
+   "latency_ms": 177,
+   "protocol": "2025-06-18",
+   "repo": {
+    "archived": false,
+    "license": "MIT",
+    "name": "Mubboo-Ai/mubboo-flights-mcp",
+    "pushed": "2026-10-21",
+    "stars": 0
+   },
+   "server_name": "Mubboo Flights Search",
+   "server_version": "0.1.1",
+   "status": "live",
+   "tool_names": [
+    "find_airports",
+    "get_service_info",
+    "prepare_flight_search"
+   ],
+   "tool_tokens": 664,
+   "tools": 3,
+   "tools_hash": "0ff93c4d07131204",
+   "transport_seen": "streamable-http"
+  },
+  "murkuz": {
+   "auth": "oauth",
+   "checked": "2026-10-31T09:45:41Z",
+   "discovery": "untested",
+   "first_seen": "2026-10-27",
+   "history": "aaaaa",
+   "http": 401,
+   "init": "auth",
+   "latency_history": [
+    1648,
+    456,
+    690,
+    613,
+    431
+   ],
+   "latency_ms": 431,
+   "status": "auth"
+  },
+  "muslim-prayer-reminder-mcp": {
+   "capabilities": [
+    "prompts",
+    "resources",
+    "tools"
+   ],
+   "checked": "2026-10-31T09:45:41Z",
+   "discovery": "ok",
+   "first_seen": "2026-10-27",
+   "history": "uuuuu",
+   "http": 200,
+   "init": "ok",
+   "latency_history": [
+    284,
+    478,
+    56,
+    247,
+    169
+   ],
+   "latency_ms": 169,
+   "prompts": 1,
+   "protocol": "2025-06-18",
+   "repo": {
+    "archived": false,
+    "license": "MIT",
+    "name": "tareq7/muslim-prayer-mcp",
+    "pushed": "2026-10-26",
+    "stars": 4
+   },
+   "resources": 1,
+   "server_name": "muslim-prayer-reminder",
+   "server_version": "1.1.3",
+   "status": "live",
+   "tool_names": [
+    "configure_prayer_preferences",
+    "get_next_prayer",
+    "get_prayer_preferences",
+    "get_prayer_status",
+    "get_today_prayer_times"
+   ],
+   "tool_tokens": 2733,
+   "tools": 5,
+   "tools_hash": "02a74d0b6417610f",
+   "transport_seen": "streamable-http"
+  },
+  "mysocial": {
+   "auth": "oauth",
+   "checked": "2026-10-31T09:45:41Z",
+   "discovery": "untested",
+   "first_seen": "2026-10-27",
+   "history": "aaaaa",
+   "http": 401,
+   "init": "auth",
+   "latency_history": [
+    427,
+    395,
+    464,
+    457,
+    300
+   ],
+   "latency_ms": 300,
+   "repo": {
+    "archived": false,
+    "license": "MIT",
+    "name": "mysocialio/mysocial-intelligence",
+    "pushed": "2026-09-03",
+    "stars": 0
+   },
+   "status": "auth"
+  },
+  "mystreetdata-usa": {
+   "checked": "2026-10-31T09:45:44Z",
+   "discovery": "untested",
+   "first_seen": "2026-10-27",
+   "history": "ddddd",
+   "http": 503,
+   "init": "failed",
+   "latency_history": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "latency_ms": 138,
+   "reason": "HTTP 503, no MCP response",
+   "status": "down"
+  },
+  "needhave": {
+   "capabilities": [
+    "tools"
+   ],
+   "checked": "2026-10-31T09:45:41Z",
+   "discovery": "ok",
+   "first_seen": "2026-10-27",
+   "history": "uuuuu",
+   "http": 200,
+   "init": "ok",
+   "latency_history": [
+    118,
+    65,
+    60,
+    138,
+    45
+   ],
+   "latency_ms": 45,
+   "protocol": "2025-06-18",
+   "repo": {
+    "archived": false,
+    "license": "MIT",
+    "name": "PrivateAISystems/needhave",
+    "pushed": "2026-10-21",
+    "stars": 0
+   },
+   "server_name": "needhave",
+   "server_version": "1.0.3",
+   "status": "live",
+   "tool_names": [
+    "create_have",
+    "create_need",
+    "list_posts",
+    "read_post",
+    "read_thread",
+    "write_first_reply",
+    "write_thread_message"
+   ],
+   "tool_tokens": 1186,
+   "tools": 7,
+   "tools_hash": "6a9dbf530e2b7270",
+   "transport_seen": "streamable-http"
+  },
+  "neither": {
+   "first_seen": "2026-10-27",
+   "repo": {
+    "archived": false,
+    "license": "MIT",
+    "name": "stonianua/neither-mcp",
+    "pushed": "2026-10-22",
+    "stars": 0
+   },
+   "status": "unprobed"
+  },
+  "neverapply": {
+   "auth": "oauth",
+   "checked": "2026-10-31T09:45:41Z",
+   "discovery": "untested",
+   "first_seen": "2026-10-27",
+   "history": "aaaaa",
+   "http": 401,
+   "init": "auth",
+   "latency_history": [
+    229,
+    182,
+    280,
+    270,
+    58
+   ],
+   "latency_ms": 58,
+   "repo": {
+    "archived": false,
+    "license": "MIT",
+    "name": "kasovy/neverapply-mcp",
+    "pushed": "2026-10-25",
+    "stars": 0
+   },
+   "status": "auth"
+  },
+  "notfair": {
+   "first_seen": "2026-10-27",
+   "status": "unprobed"
+  },
+  "notfair-skills": {
+   "first_seen": "2026-10-27",
+   "repo": {
+    "archived": false,
+    "license": "MIT",
+    "name": "nowork-studio/NotFair",
+    "pushed": "2026-10-30",
+    "stars": 4087
+   },
+   "status": "unprobed"
+  },
+  "nothumansearch": {
+   "capabilities": [
+    "tools"
+   ],
+   "checked": "2026-10-31T09:45:41Z",
+   "discovery": "ok",
+   "first_seen": "2026-10-27",
+   "history": "uuuuu",
+   "http": 200,
+   "init": "ok",
+   "latency_history": [
+    203,
+    104,
+    63,
+    205,
+    106
+   ],
+   "latency_ms": 106,
+   "protocol": "2025-06-18",
+   "server_name": "nothumansearch",
+   "server_version": "1.1.0",
+   "status": "live",
+   "tool_names": [
+    "check_url",
+    "find_mcp_servers",
+    "get_site_details",
+    "get_stats",
+    "get_top_sites",
+    "handoff_provider_action",
+    "list_categories",
+    "prepare_provider_action",
+    "recent_additions",
+    "record_action_interest",
+    "register_monitor",
+    "search_agents",
+    "submit_site",
+    "verify_mcp"
+   ],
+   "tool_tokens": 3731,
+   "tools": 14,
+   "tools_hash": "a920665f9476338c",
+   "transport_seen": "streamable-http"
+  },
+  "octotrip-rental-cars": {
+   "capabilities": [
+    "experimental",
+    "prompts",
+    "resources",
+    "tools"
+   ],
+   "checked": "2026-10-31T09:45:44Z",
+   "discovery": "ok",
+   "first_seen": "2026-10-27",
+   "history": "uuuuu",
+   "http": 200,
+   "init": "ok",
+   "latency_history": [
+    757,
+    563,
+    854,
+    859,
+    505
+   ],
+   "latency_ms": 505,
+   "prompts": 0,
+   "protocol": "2025-06-18",
+   "repo": {
+    "archived": false,
+    "license": "MIT",
+    "name": "octotrip/rental-cars",
+    "pushed": "2026-10-05",
+    "stars": 7
+   },
+   "resources": 0,
+   "server_name": "OctoTrip Rental Cars",
+   "server_version": "1.30.0",
+   "status": "live",
+   "tool_names": [
+    "search"
+   ],
+   "tool_tokens": 548,
+   "tools": 1,
+   "tools_hash": "c29a420b5817ffeb",
+   "transport_seen": "streamable-http"
+  },
+  "office-suite": {
+   "first_seen": "2026-10-27",
+   "repo": {
+    "archived": false,
+    "license": "MIT",
+    "name": "theluckystrike/mcp-servers",
+    "pushed": "2026-10-30",
+    "stars": 2
+   },
+   "status": "unprobed"
+  },
+  "oh-my-android": {
+   "first_seen": "2026-10-27",
+   "repo": {
+    "archived": false,
+    "license": "MIT",
+    "name": "ateymoori/oh-my-android",
+    "pushed": "2026-10-30",
+    "stars": 73
+   },
+   "status": "unprobed"
+  },
+  "omega-mcp-router": {
+   "first_seen": "2026-10-27",
+   "repo": {
+    "archived": false,
+    "license": "NOASSERTION",
+    "name": "Omega-JS-Stack/omega",
+    "pushed": "2026-10-31",
+    "stars": 2
+   },
+   "status": "unprobed"
+  },
+  "openapi-to-mcp-cloud-bridge": {
+   "first_seen": "2026-10-27",
+   "repo": {
+    "archived": false,
+    "license": "",
+    "name": "notsariedo/openapi-mcp-gateway",
+    "pushed": "2026-07-19",
+    "stars": 0
+   },
+   "status": "unprobed"
+  },
+  "openhook": {
+   "capabilities": [
+    "prompts",
+    "resources",
+    "tools"
+   ],
+   "checked": "2026-10-31T09:45:43Z",
+   "discovery": "ok",
+   "first_seen": "2026-10-27",
+   "history": "uuuuu",
+   "http": 200,
+   "init": "ok",
+   "latency_history": [
+    476,
+    422,
+    538,
+    582,
+    336
+   ],
+   "latency_ms": 336,
+   "prompts": 0,
+   "protocol": "2025-06-18",
+   "repo": {
+    "archived": false,
+    "license": "MIT",
+    "name": "openhook-dev/openhook-inbox",
+    "pushed": "2026-10-29",
+    "stars": 1
+   },
+   "resources": 3,
+   "server_name": "openhook",
+   "server_version": "0.1.0",
+   "status": "live",
+   "tool_names": [
+    "access_hosted_inbox",
+    "check_for_callbacks",
+    "close_agent_session",
+    "configure_webhook",
+    "create_agent_channel",
+    "create_agent_session",
+    "create_webhook",
+    "delete_all_requests",
+    "delete_request",
+    "delete_webhook",
+    "download_request_file",
+    "export_webhook_data",
+    "extract_links_from_request",
+    "generate_oob_payloads",
+    "get_agent_session",
+    "get_hosted_inboxes",
+    "get_request",
+    "get_webhook_activity",
+    "get_webhook_email",
+    "get_webhook_info",
+    "get_webhook_requests",
+    "invite_agent_participant",
+    "join_agent_session",
+    "manage_agent_channel",
+    "read_agent_messages",
+    "register_github_webhook",
+    "register_linear_webhook",
+    "register_stripe_webhook",
+    "respond_to_next_request",
+    "revoke_agent_participant",
+    "rotate_webhook_token",
+    "search_requests",
+    "send_agent_message",
+    "send_requests",
+    "server_status",
+    "unregister_webhook",
+    "update_request",
+    "wait_for_email",
+    "wait_for_request"
+   ],
+   "tool_tokens": 4473,
+   "tools": 39,
+   "tools_changed": "2026-10-29",
+   "tools_hash": "6ba109851b5d98db",
+   "transport_seen": "streamable-http"
+  },
+  "orano": {
+   "auth": "oauth",
+   "checked": "2026-10-31T09:45:42Z",
+   "discovery": "untested",
+   "first_seen": "2026-10-27",
+   "history": "aaaaa",
+   "http": 401,
+   "init": "auth",
+   "latency_history": [
+    319,
+    297,
+    330,
+    353,
+    300
+   ],
+   "latency_ms": 300,
+   "repo": {
+    "archived": false,
+    "license": "MIT",
+    "name": "infotik/orano-mcp-server",
+    "pushed": "2026-10-22",
+    "stars": 0
+   },
+   "status": "auth"
+  },
+  "orcareplay": {
+   "first_seen": "2026-10-27",
+   "repo": {
+    "archived": false,
+    "license": "Apache-2.0",
+    "name": "Continuum-AI-Corp/OrcaReplay",
+    "pushed": "2026-10-01",
+    "stars": 289
+   },
+   "status": "unprobed"
+  },
+  "orkasvideostudio": {
+   "first_seen": "2026-10-27",
+   "repo": {
+    "archived": false,
+    "license": "MIT",
+    "name": "Orkas-AI/Orkas-VideoStudio",
+    "pushed": "2026-10-27",
+    "stars": 334
+   },
+   "status": "unprobed"
+  },
+  "packrift": {
+   "first_seen": "2026-10-27",
+   "repo": {
+    "archived": false,
+    "license": "MIT",
+    "name": "Packrift/packrift-mcp",
+    "pushed": "2026-09-27",
+    "stars": 1
+   },
+   "status": "unprobed"
+  },
+  "papers-by-ouroboros-apps": {
+   "capabilities": [
+    "tools"
+   ],
+   "checked": "2026-10-31T09:45:42Z",
+   "discovery": "ok",
+   "first_seen": "2026-10-27",
+   "history": "uuuuu",
+   "http": 200,
+   "init": "ok",
+   "latency_history": [
+    163,
+    129,
+    119,
+    1315,
+    57
+   ],
+   "latency_ms": 57,
+   "protocol": "2025-06-18",
+   "repo": {
+    "archived": false,
+    "license": "MIT",
+    "name": "LAHutchins91/papers-mcp",
+    "pushed": "2026-10-11",
+    "stars": 0
+   },
+   "server_name": "Papers by Ouroboros Apps",
+   "server_version": "1.0.0",
+   "status": "live",
+   "tool_names": [
+    "find_related_papers",
+    "format_citation",
+    "get_paper",
+    "search_papers"
+   ],
+   "tool_tokens": 735,
+   "tools": 4,
+   "tools_hash": "eda28d37c95d76b6",
+   "transport_seen": "streamable-http"
+  },
+  "parallel-search": {
+   "capabilities": [
+    "prompts",
+    "resources",
+    "tools"
+   ],
+   "checked": "2026-10-31T09:45:42Z",
+   "discovery": "ok",
+   "first_seen": "2026-10-27",
+   "history": "uuuuu",
+   "http": 200,
+   "init": "ok",
+   "latency_history": [
+    127,
+    88,
+    123,
+    155,
+    81
+   ],
+   "latency_ms": 81,
+   "prompts": 0,
+   "protocol": "2025-06-18",
+   "resources": 0,
+   "server_name": "Parallel MCP",
+   "server_version": "",
+   "status": "live",
+   "tool_names": [
+    "web_fetch",
+    "web_search"
+   ],
+   "tool_tokens": 1432,
+   "tools": 2,
+   "tools_hash": "fdf29d7e9f985aae",
+   "transport_seen": "streamable-http"
+  },
+  "parlayapi": {
+   "first_seen": "2026-10-27",
+   "repo": {
+    "archived": false,
+    "license": "MIT",
+    "name": "JacobiusMakes/parlay-api-mcp",
+    "pushed": "2026-10-02",
+    "stars": 1
+   },
+   "status": "unprobed"
+  },
+  "patent-by-ouroboros-apps": {
+   "capabilities": [
+    "tools"
+   ],
+   "checked": "2026-10-31T09:45:42Z",
+   "discovery": "ok",
+   "first_seen": "2026-10-27",
+   "history": "uuuuu",
+   "http": 200,
+   "init": "ok",
+   "latency_history": [
+    152,
+    137,
+    120,
+    211,
+    88
+   ],
+   "latency_ms": 88,
+   "protocol": "2025-06-18",
+   "repo": {
+    "archived": false,
+    "license": "MIT",
+    "name": "LAHutchins91/patent-mcp",
+    "pushed": "2026-10-11",
+    "stars": 0
+   },
+   "server_name": "Patent by Ouroboros Apps",
+   "server_version": "1.0.0",
+   "status": "live",
+   "tool_names": [
+    "find_patent_citations",
+    "get_patent",
+    "search_patents",
+    "search_prior_art"
+   ],
+   "tool_tokens": 738,
+   "tools": 4,
+   "tools_hash": "1b3de4bdc7112552",
+   "transport_seen": "streamable-http"
+  },
+  "pdftomarkdown-ai": {
+   "first_seen": "2026-10-27",
+   "repo": {
+    "archived": false,
+    "license": "MIT",
+    "name": "happywpco/pdftomarkdown-mcp",
+    "pushed": "2026-06-21",
+    "stars": 0
+   },
+   "status": "unprobed"
+  },
+  "placecall": {
+   "auth": "oauth",
+   "checked": "2026-10-31T09:45:42Z",
+   "discovery": "untested",
+   "first_seen": "2026-10-27",
+   "history": "aaaaa",
+   "http": 401,
+   "init": "auth",
+   "latency_history": [
+    217,
+    120,
+    305,
+    268,
+    52
+   ],
+   "latency_ms": 52,
+   "repo": {
+    "archived": false,
+    "license": "MIT",
+    "name": "voygr-tech/placecall",
+    "pushed": "2026-10-29",
+    "stars": 110
+   },
+   "status": "auth"
+  },
+  "playable-gift": {
+   "capabilities": [
+    "prompts",
+    "resources",
+    "tools"
+   ],
+   "checked": "2026-10-31T09:45:42Z",
+   "discovery": "ok",
+   "first_seen": "2026-10-27",
+   "history": "uuuuu",
+   "http": 200,
+   "init": "ok",
+   "latency_history": [
+    338,
+    1288,
+    344,
+    496,
+    301
+   ],
+   "latency_ms": 301,
+   "prompts": 0,
+   "protocol": "2025-06-18",
+   "resources": 1,
+   "server_name": "playable-gift",
+   "server_version": "0.3.0",
+   "status": "live",
+   "tool_names": [
+    "create_custom_game",
+    "export_gift",
+    "get_gift",
+    "get_gift_catalog",
+    "get_gift_history",
+    "get_made_game",
+    "make_game",
+    "revise_custom_game"
+   ],
+   "tool_tokens": 1764,
+   "tools": 8,
+   "tools_hash": "08e5152b434d54c1",
+   "transport_seen": "streamable-http"
+  },
+  "plazmi": {
+   "capabilities": [
+    "prompts",
+    "resources",
+    "tools"
+   ],
+   "checked": "2026-10-31T09:45:48Z",
+   "discovery": "ok",
+   "first_seen": "2026-10-27",
+   "history": "uuuuu",
+   "http": 200,
+   "init": "ok",
+   "latency_history": [
+    139,
+    76,
+    142,
+    233,
+    3088
+   ],
+   "latency_ms": 3088,
+   "prompts": 3,
+   "protocol": "2025-06-18",
+   "resources": 32,
+   "server_name": "plazmi",
+   "server_version": "0.1.0",
+   "status": "live",
+   "tool_names": [
+    "ask_human",
+    "away_note",
+    "build",
+    "catalog_search",
+    "daily_visit",
+    "dance",
+    "digest",
+    "do",
+    "draw",
+    "feedback",
+    "gifts",
+    "give",
+    "go",
+    "inbox",
+    "landing",
+    "letter",
+    "look",
+    "make",
+    "move_in",
+    "my_house",
+    "news",
+    "playa",
+    "plots",
+    "postcard",
+    "pulse",
+    "reply",
+    "say",
+    "share_dance",
+    "sign_in",
+    "unwish",
+    "visit",
+    "wish",
+    "wishlist"
+   ],
+   "tool_tokens": 7228,
+   "tools": 33,
+   "tools_changed": "2026-10-30",
+   "tools_hash": "5a5f68bec5018d22",
+   "transport_seen": "streamable-http"
+  },
+  "poachsearch-brand-check": {
+   "auth": "credentials",
+   "checked": "2026-10-31T09:45:42Z",
+   "discovery": "untested",
+   "first_seen": "2026-10-27",
+   "history": "aaaaa",
+   "http": 401,
+   "init": "auth",
+   "latency_history": [
+    428,
+    359,
+    586,
+    499,
+    355
+   ],
+   "latency_ms": 355,
+   "status": "auth"
+  },
+  "pocket-drives": {
+   "capabilities": [
+    "tools"
+   ],
+   "checked": "2026-10-31T09:45:42Z",
+   "discovery": "ok",
+   "first_seen": "2026-10-27",
+   "history": "uuuuu",
+   "http": 200,
+   "init": "ok",
+   "latency_history": [
+    188,
+    113,
+    162,
+    268,
+    74
+   ],
+   "latency_ms": 74,
+   "protocol": "2025-06-18",
+   "repo": {
+    "archived": false,
+    "license": "",
+    "name": "RevList/pocket-drives-mcp",
+    "pushed": "2026-08-21",
+    "stars": 0
+   },
+   "server_name": "pocket-drives-mcp",
+   "server_version": "1.0.0",
+   "status": "live",
+   "tool_names": [
+    "drives_airport_search",
+    "drives_get_quote",
+    "drives_host_showroom",
+    "drives_location_suggest",
+    "drives_search_vehicles",
+    "drives_vehicle_availability",
+    "drives_vehicle_detail",
+    "drives_vehicle_reviews",
+    "drives_venue_search"
+   ],
+   "tool_tokens": 1637,
+   "tools": 9,
+   "tools_hash": "dedc24f8bf37bfac",
+   "transport_seen": "streamable-http"
+  },
+  "postwire": {
+   "capabilities": [
+    "prompts",
+    "tools"
+   ],
+   "checked": "2026-10-31T09:45:43Z",
+   "discovery": "ok",
+   "first_seen": "2026-10-27",
+   "history": "uuuuu",
+   "http": 200,
+   "init": "ok",
+   "latency_history": [
+    329,
+    102,
+    336,
+    358,
+    98
+   ],
+   "latency_ms": 98,
+   "prompts": 4,
+   "protocol": "2025-06-18",
+   "repo": {
+    "archived": false,
+    "license": "",
+    "name": "Perufitlife/postwire-mcp",
+    "pushed": "2026-10-24",
+    "stars": 0
+   },
+   "server_name": "postwire",
+   "server_version": "0.5.0",
+   "status": "live",
+   "tool_names": [
+    "bulk_schedule",
+    "cancel_scheduled_post",
+    "check_video_quality",
+    "client_report",
+    "create_brand",
+    "create_client_link",
+    "create_connect_link",
+    "create_recurring_post",
+    "create_upload_link",
+    "generate_posts",
+    "get_post_performance",
+    "get_post_status",
+    "get_upgrade_link",
+    "get_uploaded_file",
+    "get_x_credits",
+    "invite_teammate",
+    "list_brands",
+    "list_clients",
+    "list_platforms",
+    "list_scheduled_posts",
+    "make_video_from_text",
+    "my_account",
+    "plan_week",
+    "post_to_social",
+    "replicate_top_post",
+    "schedule_post"
+   ],
+   "tool_tokens": 11858,
+   "tools": 26,
+   "tools_hash": "3fda67cde9dd1454",
+   "transport_seen": "streamable-http"
+  },
+  "ppl": {
+   "auth": "oauth",
+   "checked": "2026-10-31T09:45:42Z",
+   "discovery": "untested",
+   "first_seen": "2026-10-27",
+   "history": "aaaaa",
+   "http": 401,
+   "init": "auth",
+   "latency_history": [
+    241,
+    272,
+    100,
+    179,
+    264
+   ],
+   "latency_ms": 264,
+   "repo": {
+    "archived": false,
+    "license": "MIT",
+    "name": "ppl-crm/ppl",
+    "pushed": "2026-10-22",
+    "stars": 2
+   },
+   "status": "auth"
+  },
+  "process-street": {
+   "first_seen": "2026-10-27",
+   "repo": {
+    "archived": false,
+    "license": "",
+    "name": "process-street/process-street-mcp",
+    "pushed": "2026-08-29",
+    "stars": 1
+   },
+   "status": "unprobed"
+  },
+  "prompt-to-asset": {
+   "first_seen": "2026-10-27",
+   "repo": {
+    "archived": false,
+    "license": "MIT",
+    "name": "MohamedAbdallah-14/prompt-to-asset",
+    "pushed": "2026-10-18",
+    "stars": 24
+   },
+   "status": "unprobed"
+  },
+  "proofsource": {
+   "capabilities": [
+    "extensions",
+    "resources",
+    "tools"
+   ],
+   "checked": "2026-10-31T09:45:42Z",
+   "discovery": "ok",
+   "first_seen": "2026-10-27",
+   "history": "uuuuu",
+   "http": 200,
+   "init": "ok",
+   "latency_history": [
+    136,
+    5022,
+    292,
+    182,
+    72
+   ],
+   "latency_ms": 72,
+   "protocol": "2025-06-18",
+   "resources": 1,
+   "server_name": "proofsource",
+   "server_version": "1.0.0",
+   "status": "live",
+   "tool_names": [
+    "add_brand",
+    "create_prompt",
+    "get_changes",
+    "get_citations",
+    "get_competitors",
+    "get_fix_verification",
+    "get_loop",
+    "get_report_link",
+    "get_scan_status",
+    "get_visibility",
+    "list_brands",
+    "list_fix_opportunities",
+    "list_topics",
+    "mark_fix_shipped",
+    "see_example"
+   ],
+   "tool_tokens": 3053,
+   "tools": 15,
+   "tools_changed": "2026-10-31",
+   "tools_hash": "9c9a1fd954359c67",
+   "transport_seen": "streamable-http"
+  },
+  "pumperly-mcp": {
+   "first_seen": "2026-10-27",
+   "repo": {
+    "archived": false,
+    "license": "GPL-3.0",
+    "name": "GeiserX/pumperly-mcp",
+    "pushed": "2026-10-28",
+    "stars": 3
+   },
+   "status": "unprobed"
+  },
+  "pushnotif": {
+   "capabilities": [
+    "tools"
+   ],
+   "checked": "2026-10-31T09:45:45Z",
+   "discovery": "ok",
+   "first_seen": "2026-10-27",
+   "history": "uuuuu",
+   "http": 200,
+   "init": "ok",
+   "latency_history": [
+    851,
+    840,
+    646,
+    1088,
+    836
+   ],
+   "latency_ms": 836,
+   "protocol": "2024-11-05",
+   "repo": {
+    "archived": false,
+    "license": "MIT",
+    "name": "AarsyDesign/pushnotif-mcp",
+    "pushed": "2026-10-28",
+    "stars": 0
+   },
+   "server_name": "pushnotif-mcp",
+   "server_version": "2.5.3",
+   "status": "live",
+   "tool_names": [
+    "check_billing_and_qris_status",
+    "configure_email_automation",
+    "configure_inapp_banner",
+    "configure_payment_webhook",
+    "configure_rss_autopush",
+    "configure_social_toast",
+    "create_app",
+    "create_qris_invoice",
+    "delete_app",
+    "get_campaign_analytics",
+    "list_apps",
+    "list_subscribers",
+    "login_existing_account",
+    "register_new_account",
+    "schedule_push_notification",
+    "send_push_notification",
+    "send_transactional_email",
+    "update_app_branding",
+    "update_subscriber_tags"
+   ],
+   "tool_tokens": 8308,
+   "tools": 19,
+   "tools_hash": "1a0e333b5e291016",
+   "transport_seen": "streamable-http"
+  },
+  "quibbly": {
+   "auth": "oauth",
+   "checked": "2026-10-31T09:45:42Z",
+   "discovery": "untested",
+   "first_seen": "2026-10-27",
+   "history": "aaaaa",
+   "http": 401,
+   "init": "auth",
+   "latency_history": [
+    274,
+    108,
+    65,
+    252,
+    110
+   ],
+   "latency_ms": 110,
+   "repo": {
+    "archived": false,
+    "license": "MIT",
+    "name": "Scriptify-Inc/linkedin-mcp",
+    "pushed": "2026-10-20",
+    "stars": 1
+   },
+   "status": "auth"
+  },
+  "rank-by-ouroboros-apps": {
+   "capabilities": [
+    "tools"
+   ],
+   "checked": "2026-10-31T09:45:43Z",
+   "discovery": "ok",
+   "first_seen": "2026-10-27",
+   "history": "uuuuu",
+   "http": 200,
+   "init": "ok",
+   "latency_history": [
+    246,
+    173,
+    189,
+    339,
+    168
+   ],
+   "latency_ms": 168,
+   "protocol": "2025-06-18",
+   "repo": {
+    "archived": false,
+    "license": "MIT",
+    "name": "LAHutchins91/rank-mcp",
+    "pushed": "2026-10-11",
+    "stars": 0
+   },
+   "server_name": "Rank by Ouroboros Apps",
+   "server_version": "0.1.0",
+   "status": "live",
+   "tool_names": [
+    "account_status",
+    "compare_periods",
+    "dropped_pages",
+    "inspect_url",
+    "list_properties",
+    "performance_trends",
+    "quick_wins",
+    "top_pages",
+    "top_queries"
+   ],
+   "tool_tokens": 1572,
+   "tools": 9,
+   "tools_hash": "3b5d89355d79b0e7",
+   "transport_seen": "streamable-http"
+  },
+  "rea": {
+   "first_seen": "2026-10-27",
+   "repo": {
+    "archived": false,
+    "license": "MIT",
+    "name": "morluto/rea",
+    "pushed": "2026-10-31",
+    "stars": 413563
+   },
+   "status": "unprobed"
+  },
+  "rea-captcha": {
+   "first_seen": "2026-10-27",
+   "repo": {
+    "archived": false,
+    "license": "MIT",
+    "name": "masakaai/rea-captcha",
+    "pushed": "2026-10-16",
+    "stars": 1
+   },
+   "status": "unprobed"
+  },
+  "readgzh": {
+   "capabilities": [
+    "tools"
+   ],
+   "checked": "2026-10-31T09:45:44Z",
+   "discovery": "ok",
+   "first_seen": "2026-10-27",
+   "history": "uuuuu",
+   "http": 200,
+   "init": "ok",
+   "latency_history": [
+    799,
+    711,
+    334,
+    1185,
+    584
+   ],
+   "latency_ms": 584,
+   "protocol": "2025-06-18",
+   "repo": {
+    "archived": false,
+    "license": "AGPL-3.0",
+    "name": "sweesama/readgzh",
+    "pushed": "2026-10-27",
+    "stars": 6
+   },
+   "server_name": "readgzh",
+   "server_version": "1.3.0",
+   "status": "live",
+   "tool_names": [
+    "readgzh.get",
+    "readgzh.list",
+    "readgzh.list_by_account",
+    "readgzh.read",
+    "readgzh.search"
+   ],
+   "tool_tokens": 576,
+   "tools": 5,
+   "tools_hash": "7cb58bee63378cff",
+   "transport_seen": "streamable-http"
+  },
+  "remcp": {
+   "auth": "oauth",
+   "checked": "2026-10-31T09:45:43Z",
+   "discovery": "untested",
+   "first_seen": "2026-10-27",
+   "history": "aaaaa",
+   "http": 401,
+   "init": "auth",
+   "latency_history": [
+    3386,
+    4077,
+    631,
+    606,
+    428
+   ],
+   "latency_ms": 428,
+   "repo": {
+    "archived": false,
+    "license": "MIT",
+    "name": "getremcp/remcp",
+    "pushed": "2026-10-28",
+    "stars": 3
+   },
+   "status": "auth"
+  },
+  "rentreboot": {
+   "capabilities": [
+    "completions",
+    "resources",
+    "tools"
+   ],
+   "checked": "2026-10-31T09:45:44Z",
+   "discovery": "ok",
+   "first_seen": "2026-10-27",
+   "history": "uuuuu",
+   "http": 200,
+   "init": "ok",
+   "latency_history": [
+    341,
+    352,
+    647,
+    416,
+    446
+   ],
+   "latency_ms": 446,
+   "protocol": "2025-06-18",
+   "repo": {
+    "archived": false,
+    "license": "MIT",
+    "name": "imiraoui/rentreboot-mcp",
+    "pushed": "2026-10-27",
+    "stars": 0
+   },
+   "resources": 1,
+   "server_name": "rentreboot",
+   "server_version": "1.2.0",
+   "status": "live",
+   "tool_names": [
+    "find_search_neighborhoods",
+    "get_account",
+    "get_guide",
+    "get_rent_data",
+    "get_search_preferences",
+    "list_alerted_listings",
+    "list_historical_matches",
+    "list_housing_lottery_applications",
+    "list_neighborhoods",
+    "search_guides",
+    "set_apartment_alerts",
+    "update_alerted_listing",
+    "update_search_preferences"
+   ],
+   "tool_tokens": 2167,
+   "tools": 13,
+   "tools_changed": "2026-10-28",
+   "tools_hash": "7baafdf3c5d16749",
+   "transport_seen": "streamable-http"
+  },
+  "restosignals": {
+   "capabilities": [
+    "tools"
+   ],
+   "checked": "2026-10-31T09:45:43Z",
+   "discovery": "ok",
+   "first_seen": "2026-10-27",
+   "history": "uuuuu",
+   "http": 200,
+   "init": "ok",
+   "latency_history": [
+    295,
+    142,
+    311,
+    334,
+    106
+   ],
+   "latency_ms": 106,
+   "protocol": "2024-11-05",
+   "repo": {
+    "archived": false,
+    "license": "MIT",
+    "name": "paperandbeyond23-gif/restosignals-mcp",
+    "pushed": "2026-10-17",
+    "stars": 0
+   },
+   "server_name": "restosignals",
+   "server_version": "0.1.0",
+   "status": "live",
+   "tool_names": [
+    "coverage",
+    "new_openings",
+    "venue_signals",
+    "watch_area"
+   ],
+   "tool_tokens": 498,
+   "tools": 4,
+   "tools_hash": "a5a86cfe83ed61b1",
+   "transport_seen": "streamable-http"
+  },
+  "revid": {
+   "auth": "oauth",
+   "checked": "2026-10-31T09:45:43Z",
+   "discovery": "untested",
+   "first_seen": "2026-10-27",
+   "history": "aaaaa",
+   "http": 401,
+   "init": "auth",
+   "latency_history": [
+    238,
+    99,
+    137,
+    306,
+    52
+   ],
+   "latency_ms": 52,
+   "status": "auth"
+  },
+  "robohub": {
+   "capabilities": [
+    "tools"
+   ],
+   "checked": "2026-10-31T09:45:43Z",
+   "discovery": "ok",
+   "first_seen": "2026-10-27",
+   "history": "uuuuu",
+   "http": 200,
+   "init": "ok",
+   "latency_history": [
+    306,
+    239,
+    437,
+    280,
+    323
+   ],
+   "latency_ms": 323,
+   "protocol": "2025-06-18",
+   "server_name": "robohub",
+   "server_version": "1.1.0",
+   "status": "live",
+   "tool_names": [
+    "compare_robots",
+    "get_robot",
+    "list_categories",
+    "request_vendor_intros",
+    "search_robots"
+   ],
+   "tool_tokens": 944,
+   "tools": 5,
+   "tools_hash": "d3d95d1c883b302f",
+   "transport_seen": "streamable-http"
+  },
+  "robot-speed": {
+   "auth": "oauth",
+   "checked": "2026-10-31T09:45:43Z",
+   "discovery": "untested",
+   "first_seen": "2026-10-27",
+   "history": "aaaaa",
+   "http": 401,
+   "init": "auth",
+   "latency_history": [
+    616,
+    2948,
+    824,
+    696,
+    479
+   ],
+   "latency_ms": 479,
+   "repo": {
+    "archived": false,
+    "license": "MIT",
+    "name": "robot-speed/mcp",
+    "pushed": "2026-09-24",
+    "stars": 1
+   },
+   "status": "auth"
+  },
+  "roles-em-sp": {
+   "auth": "oauth",
+   "checked": "2026-10-31T09:45:43Z",
+   "discovery": "untested",
+   "first_seen": "2026-10-27",
+   "history": "aaaaa",
+   "http": 401,
+   "init": "auth",
+   "latency_history": [
+    335,
+    372,
+    211,
+    341,
+    238
+   ],
+   "latency_ms": 238,
+   "status": "auth"
+  },
+  "roundtable": {
+   "first_seen": "2026-10-27",
+   "repo": {
+    "archived": false,
+    "license": "",
+    "name": "askbudi/roundtable",
+    "pushed": "2025-10-06",
+    "stars": 128
+   },
+   "status": "unprobed"
+  },
+  "rowsafe": {
+   "auth": "oauth",
+   "checked": "2026-10-31T09:45:43Z",
+   "discovery": "untested",
+   "first_seen": "2026-10-27",
+   "history": "aaaaa",
+   "http": 401,
+   "init": "auth",
+   "latency_history": [
+    569,
+    457,
+    499,
+    463,
+    311
+   ],
+   "latency_ms": 311,
+   "repo": {
+    "archived": false,
+    "license": "Apache-2.0",
+    "name": "rowsafe/rowsafe",
+    "pushed": "2026-10-29",
+    "stars": 3
+   },
+   "status": "auth"
+  },
+  "runapi": {
+   "first_seen": "2026-10-27",
+   "repo": {
+    "archived": false,
+    "license": "Apache-2.0",
+    "name": "runapi-ai/mcp",
+    "pushed": "2026-10-29",
+    "stars": 56
+   },
+   "status": "unprobed"
+  },
+  "saascity": {
+   "capabilities": [
+    "prompts",
+    "tools"
+   ],
+   "checked": "2026-10-31T09:45:44Z",
+   "discovery": "ok",
+   "first_seen": "2026-10-27",
+   "history": "uuuuu",
+   "http": 200,
+   "init": "ok",
+   "latency_history": [
+    606,
+    150,
+    536,
+    630,
+    242
+   ],
+   "latency_ms": 242,
+   "prompts": 2,
+   "protocol": "2025-06-18",
+   "repo": {
+    "archived": false,
+    "license": "MIT",
+    "name": "nyyhao/saascity-mcp",
+    "pushed": "2026-09-23",
+    "stars": 0
+   },
+   "server_name": "saascity",
+   "server_version": "2.0.0",
+   "status": "live",
+   "tool_names": [
+    "ab_test_significance",
+    "calculate_arr",
+    "calculate_arr_bridge",
+    "calculate_churn",
+    "calculate_nps",
+    "calculate_nrr",
+    "check_badge",
+    "check_launch_readiness",
+    "find_alternatives",
+    "find_launch_directories",
+    "get_launch_directory",
+    "get_launch_weeks",
+    "get_leaderboard",
+    "get_listing",
+    "get_offers",
+    "get_submission_status",
+    "markup_margin",
+    "recommend_launch_directories",
+    "rule_of_40",
+    "search_listings",
+    "submit_project",
+    "uptime_downtime"
+   ],
+   "tool_tokens": 3886,
+   "tools": 22,
+   "tools_changed": "2026-10-29",
+   "tools_hash": "f941058485c756d8",
+   "transport_seen": "streamable-http"
+  },
+  "sandbase-cli": {
+   "first_seen": "2026-10-27",
+   "repo": {
+    "archived": false,
+    "license": "Apache-2.0",
+    "name": "sandbaseai/cli",
+    "pushed": "2026-10-24",
+    "stars": 185
+   },
+   "status": "unprobed"
+  },
+  "sandbase-harness": {
+   "first_seen": "2026-10-27",
+   "repo": {
+    "archived": false,
+    "license": "Apache-2.0",
+    "name": "sandbaseai/sandbase-harness",
+    "pushed": "2026-10-18",
+    "stars": 638
+   },
+   "status": "unprobed"
+  },
+  "scento-perfume-api": {
+   "capabilities": [
+    "logging",
+    "prompts",
+    "resources",
+    "tools"
+   ],
+   "checked": "2026-10-31T09:45:44Z",
+   "discovery": "ok",
+   "first_seen": "2026-10-27",
+   "history": "uuuuu",
+   "http": 200,
+   "init": "ok",
+   "latency_history": [
+    291,
+    358,
+    486,
+    428,
+    214
+   ],
+   "latency_ms": 214,
+   "prompts": 2,
+   "protocol": "2025-06-18",
+   "repo": {
+    "archived": false,
+    "license": "MIT",
+    "name": "Scento-com/perfume-mcp-server",
+    "pushed": "2026-10-27",
+    "stars": 0
+   },
+   "resources": 2,
+   "server_name": "scento-perfume-api",
+   "server_version": "1.0.0",
+   "status": "live",
+   "tool_names": [
+    "family-map",
+    "house-portrait",
+    "journal-search",
+    "material-match",
+    "note-portrait",
+    "occasion-edit",
+    "perfume-contrast",
+    "perfume-portrait",
+    "perfume-search",
+    "perfumery-lexicon",
+    "scent-neighbours",
+    "wardrobe-composer"
+   ],
+   "tool_tokens": 4170,
+   "tools": 12,
+   "tools_hash": "f44a6bdfac977d1a",
+   "transport_seen": "streamable-http"
+  },
+  "scentverdict": {
+   "capabilities": [
+    "logging",
+    "tools"
+   ],
+   "checked": "2026-10-31T09:45:44Z",
+   "discovery": "ok",
+   "first_seen": "2026-10-27",
+   "history": "uuuuu",
+   "http": 200,
+   "init": "ok",
+   "latency_history": [
+    233,
+    178,
+    511,
+    312,
+    178
+   ],
+   "latency_ms": 178,
+   "protocol": "2025-06-18",
+   "server_name": "ScentVerdict",
+   "server_version": "2.0.4",
+   "status": "live",
+   "tool_names": [
+    "compare_fragrances",
+    "find_similar_fragrances",
+    "get_fragrance",
+    "get_scent_profile",
+    "recommend_fragrances",
+    "search_fragrances"
+   ],
+   "tool_tokens": 1962,
+   "tools": 6,
+   "tools_hash": "9308eb908be88217",
+   "transport_seen": "streamable-http"
+  },
+  "scope-by-ouroboros-apps": {
+   "capabilities": [
+    "tools"
+   ],
+   "checked": "2026-10-31T09:45:44Z",
+   "discovery": "ok",
+   "first_seen": "2026-10-27",
+   "history": "uuuuu",
+   "http": 200,
+   "init": "ok",
+   "latency_history": [
+    201,
+    190,
+    120,
+    233,
+    112
+   ],
+   "latency_ms": 112,
+   "protocol": "2025-06-18",
+   "repo": {
+    "archived": false,
+    "license": "MIT",
+    "name": "LAHutchins91/scope-mcp",
+    "pushed": "2026-10-11",
+    "stars": 0
+   },
+   "server_name": "Scope",
+   "server_version": "0.1.0",
+   "status": "live",
+   "tool_names": [
+    "approve_change_order",
+    "approve_scope",
+    "create_engagement",
+    "file_change_order",
+    "get_approved_record",
+    "list_engagements",
+    "save_deadline",
+    "save_rate",
+    "save_scope_item"
+   ],
+   "tool_tokens": 1361,
+   "tools": 9,
+   "tools_hash": "5d8b9e2b8558d4e2",
+   "transport_seen": "streamable-http"
+  },
+  "scrapersocial": {
+   "auth": "oauth",
+   "checked": "2026-10-31T09:45:44Z",
+   "discovery": "untested",
+   "first_seen": "2026-10-27",
+   "history": "aaaaa",
+   "http": 401,
+   "init": "auth",
+   "latency_history": [
+    154,
+    116,
+    164,
+    182,
+    126
+   ],
+   "latency_ms": 126,
+   "status": "auth"
+  },
+  "screenpipe": {
+   "first_seen": "2026-10-27",
+   "repo": {
+    "archived": false,
+    "license": "NOASSERTION",
+    "name": "screenpipe/screenpipe",
+    "pushed": "2026-10-31",
+    "stars": 22188
+   },
+   "status": "unprobed"
+  },
+  "searchlink-lite": {
+   "first_seen": "2026-10-27",
+   "repo": {
+    "missing": true,
+    "name": "GlobalMatchHub/searchlink-lite"
+   },
+   "status": "unprobed"
+  },
+  "selvedge": {
+   "first_seen": "2026-10-27",
+   "repo": {
+    "archived": false,
+    "license": "MIT",
+    "name": "masondelan/selvedge",
+    "pushed": "2026-10-30",
+    "stars": 26
+   },
+   "status": "unprobed"
+  },
+  "sem": {
+   "first_seen": "2026-10-27",
+   "repo": {
+    "archived": false,
+    "license": "Apache-2.0",
+    "name": "Ataraxy-Labs/sem",
+    "pushed": "2026-10-31",
+    "stars": 3433
+   },
+   "status": "unprobed"
+  },
+  "semantichub": {
+   "auth": "oauth",
+   "checked": "2026-10-31T09:45:44Z",
+   "discovery": "untested",
+   "first_seen": "2026-10-27",
+   "history": "aaaaa",
+   "http": 401,
+   "init": "auth",
+   "latency_history": [
+    653,
+    501,
+    750,
+    786,
+    544
+   ],
+   "latency_ms": 544,
+   "status": "auth"
+  },
+  "seonix": {
+   "capabilities": [
+    "logging",
+    "prompts",
+    "resources",
+    "tools"
+   ],
+   "checked": "2026-10-31T09:45:46Z",
+   "discovery": "ok",
+   "first_seen": "2026-10-27",
+   "history": "uuuuu",
+   "http": 200,
+   "init": "ok",
+   "latency_history": [
+    444,
+    338,
+    563,
+    579,
+    505
+   ],
+   "latency_ms": 505,
+   "prompts": 11,
+   "protocol": "2025-06-18",
+   "resources": 5,
+   "server_name": "seonix",
+   "server_version": "0.1.0",
+   "status": "live",
+   "tool_names": [
+    "acknowledge_issue",
+    "analyze_seo",
+    "apply_fix",
+    "get_account",
+    "get_ai_visibility",
+    "get_article",
+    "get_blog_integration_guide",
+    "get_calendar",
+    "get_cluster",
+    "get_fix_plan",
+    "get_fix_run",
+    "get_issue",
+    "get_plan_status",
+    "get_playbook",
+    "get_project",
+    "get_remediation_profile",
+    "get_results",
+    "get_scan_status",
+    "get_seo_progress",
+    "get_site_dna",
+    "get_site_health",
+    "gsc_coverage",
+    "gsc_impact",
+    "gsc_opportunities",
+    "gsc_page_queries",
+    "gsc_status",
+    "gsc_timeseries",
+    "gsc_top_pages",
+    "gsc_top_queries",
+    "list_articles",
+    "list_channels",
+    "list_clusters",
+    "list_issues",
+    "list_keyword_candidates",
+    "list_playbooks",
+    "list_projects",
+    "list_scans",
+    "rollback_fix",
+    "score_article",
+    "start_scan",
+    "unacknowledge_issue"
+   ],
+   "tool_tokens": 5678,
+   "tools": 41,
+   "tools_changed": "2026-10-30",
+   "tools_hash": "464ff2cb3d55c512",
+   "transport_seen": "streamable-http"
+  },
+  "sequential": {
+   "auth": "oauth",
+   "checked": "2026-10-31T09:45:44Z",
+   "discovery": "untested",
+   "first_seen": "2026-10-27",
+   "history": "aaaaa",
+   "http": 401,
+   "init": "auth",
+   "latency_history": [
+    488,
+    366,
+    514,
+    498,
+    337
+   ],
+   "latency_ms": 337,
+   "status": "auth"
+  },
+  "serpel": {
+   "auth": "oauth",
+   "checked": "2026-10-31T09:45:45Z",
+   "discovery": "untested",
+   "first_seen": "2026-10-27",
+   "history": "aaaaa",
+   "http": 401,
+   "init": "auth",
+   "latency_history": [
+    1923,
+    291,
+    462,
+    1863,
+    1592
+   ],
+   "latency_ms": 1592,
+   "status": "auth"
+  },
+  "sfxmint": {
+   "capabilities": [
+    "tools"
+   ],
+   "checked": "2026-10-31T09:45:45Z",
+   "discovery": "ok",
+   "first_seen": "2026-10-27",
+   "history": "uuuuu",
+   "http": 200,
+   "init": "ok",
+   "latency_history": [
+    244,
+    225,
+    423,
+    387,
+    212
+   ],
+   "latency_ms": 212,
+   "protocol": "2025-06-18",
+   "repo": {
+    "archived": false,
+    "license": "CC0-1.0",
+    "name": "flreey/sfxmint-mcp",
+    "pushed": "2026-10-31",
+    "stars": 6
+   },
+   "server_name": "sfxmint",
+   "server_version": "1.12.0",
+   "status": "live",
+   "tool_names": [
+    "change_sound",
+    "generate_ambience",
+    "generate_music",
+    "generate_sound",
+    "get_generation",
+    "get_role_sound",
+    "get_sound",
+    "get_sound_set",
+    "search_sounds",
+    "studio_list_link"
+   ],
+   "tool_tokens": 4301,
+   "tools": 10,
+   "tools_changed": "2026-10-29",
+   "tools_hash": "a31eefeca1b2b9a0",
+   "transport_seen": "streamable-http"
+  },
+  "shipvela": {
+   "auth": "oauth",
+   "checked": "2026-10-31T09:45:44Z",
+   "discovery": "untested",
+   "first_seen": "2026-10-27",
+   "history": "aaaaa",
+   "http": 401,
+   "init": "auth",
+   "latency_history": [
+    421,
+    365,
+    518,
+    474,
+    379
+   ],
+   "latency_ms": 379,
+   "status": "auth"
+  },
+  "shortform-kit": {
+   "capabilities": [
+    "tools"
+   ],
+   "checked": "2026-10-31T09:45:45Z",
+   "discovery": "ok",
+   "first_seen": "2026-10-27",
+   "history": "uuuuu",
+   "http": 200,
+   "init": "ok",
+   "latency_history": [
+    532,
+    353,
+    584,
+    520,
+    360
+   ],
+   "latency_ms": 360,
+   "protocol": "2025-06-18",
+   "repo": {
+    "archived": false,
+    "license": "MIT",
+    "name": "shortformkit/shortformkit-mcp",
+    "pushed": "2026-10-20",
+    "stars": 0
+   },
+   "server_name": "shortformkit",
+   "server_version": "1.0.0",
+   "status": "live",
+   "tool_names": [
+    "creator_monetization",
+    "download_media",
+    "estimate_youtube_earnings",
+    "get_video_info",
+    "loudness_and_subtitles",
+    "social_video_specs",
+    "transcribe_video",
+    "youtube_channel_id",
+    "youtube_thumbnail_trends"
+   ],
+   "tool_tokens": 2286,
+   "tools": 9,
+   "tools_hash": "f52fa8933644c767",
+   "transport_seen": "streamable-http"
+  },
+  "shortsintel": {
+   "auth": "oauth",
+   "checked": "2026-10-31T09:45:46Z",
+   "discovery": "untested",
+   "first_seen": "2026-10-27",
+   "history": "aaaaa",
+   "http": 401,
+   "init": "auth",
+   "latency_history": [
+    1335,
+    265,
+    1379,
+    1479,
+    1407
+   ],
+   "latency_ms": 1407,
+   "repo": {
+    "archived": false,
+    "license": "MIT",
+    "name": "luckson1/shortsintel-plugin",
+    "pushed": "2026-10-23",
+    "stars": 0
+   },
+   "status": "auth"
+  },
+  "silicon-floor": {
+   "capabilities": [
+    "tools"
+   ],
+   "checked": "2026-10-31T09:45:45Z",
+   "discovery": "ok",
+   "first_seen": "2026-10-27",
+   "history": "uuuuu",
+   "http": 200,
+   "init": "ok",
+   "latency_history": [
+    231,
+    255,
+    263,
+    300,
+    66
+   ],
+   "latency_ms": 66,
+   "protocol": "2025-06-18",
+   "repo": {
+    "archived": false,
+    "license": "MIT",
+    "name": "Baptoshi/silicon-floor",
+    "pushed": "2026-10-29",
+    "stars": 1
+   },
+   "server_name": "siliconfloor",
+   "server_version": "1.10.0",
+   "status": "live",
+   "tool_names": [
+    "compare_companies",
+    "get_company",
+    "get_dividends",
+    "get_figure_history",
+    "get_filings",
+    "get_financials",
+    "get_fund_flows",
+    "get_holders",
+    "get_insider_trading",
+    "get_market",
+    "get_market_overview",
+    "get_news",
+    "get_ownership",
+    "get_price_history",
+    "get_relationships",
+    "get_signals",
+    "list_companies",
+    "screen_companies",
+    "what_changed"
+   ],
+   "tool_tokens": 5870,
+   "tools": 19,
+   "tools_changed": "2026-10-29",
+   "tools_hash": "bc8b86e3d7d7483f",
+   "transport_seen": "streamable-http"
+  },
+  "since-cutoff": {
+   "first_seen": "2026-10-27",
+   "repo": {
+    "archived": false,
+    "license": "MIT",
+    "name": "MohammadHijjawi97/since-cutoff",
+    "pushed": "2026-10-25",
+    "stars": 10
+   },
+   "status": "unprobed"
+  },
+  "site-seo-ai-crawler-audit": {
+   "capabilities": [
+    "tools"
+   ],
+   "checked": "2026-10-31T09:45:45Z",
+   "discovery": "ok",
+   "first_seen": "2026-10-27",
+   "history": "uuuuu",
+   "http": 200,
+   "init": "ok",
+   "latency_history": [
+    473,
+    4369,
+    562,
+    523,
+    314
+   ],
+   "latency_ms": 314,
+   "protocol": "2025-06-18",
+   "server_name": "site-check",
+   "server_version": "1.8.0",
+   "status": "live",
+   "tool_names": [
+    "ai_readiness_check",
+    "check_ai_crawler_access",
+    "check_page_tags",
+    "exposure_check",
+    "get_feedback_reply",
+    "landing_page_check",
+    "link_sample_check",
+    "product_page_seo",
+    "submit_feedback",
+    "trace_redirects"
+   ],
+   "tool_tokens": 3121,
+   "tools": 10,
+   "tools_hash": "536760d847f6d977",
+   "transport_seen": "streamable-http"
+  },
+  "sitepatent": {
+   "capabilities": [
+    "tools"
+   ],
+   "checked": "2026-10-31T09:45:45Z",
+   "discovery": "ok",
+   "first_seen": "2026-10-27",
+   "history": "uuuuu",
+   "http": 200,
+   "init": "ok",
+   "latency_history": [
+    495,
+    350,
+    549,
+    547,
+    194
+   ],
+   "latency_ms": 194,
+   "protocol": "2025-06-18",
+   "server_name": "SitePatent",
+   "server_version": "1.2.0",
+   "status": "live",
+   "tool_names": [
+    "browse_category",
+    "find_alternatives",
+    "get_listing",
+    "get_site_of_the_day",
+    "get_trending",
+    "list_categories",
+    "search_listings"
+   ],
+   "tool_tokens": 1428,
+   "tools": 7,
+   "tools_hash": "be9ca7c4d4b49028",
+   "transport_seen": "streamable-http"
+  },
+  "skillselion": {
+   "first_seen": "2026-10-27",
+   "repo": {
+    "archived": false,
+    "license": "MIT",
+    "name": "skillselion/skillselion-mcp",
+    "pushed": "2026-08-25",
+    "stars": 2
+   },
+   "status": "unprobed"
+  },
+  "skyaccess": {
+   "capabilities": [
+    "tools"
+   ],
+   "checked": "2026-10-31T09:45:45Z",
+   "discovery": "ok",
+   "first_seen": "2026-10-27",
+   "history": "uuuuu",
+   "http": 200,
+   "init": "ok",
+   "latency_history": [
+    241,
+    132,
+    286,
+    244,
+    109
+   ],
+   "latency_ms": 109,
+   "protocol": "2025-06-18",
+   "repo": {
+    "archived": false,
+    "license": "MIT",
+    "name": "sky-access/skyaccess-mcp",
+    "pushed": "2026-10-06",
+    "stars": 2
+   },
+   "server_name": "SkyAccess",
+   "server_version": "1.0.0",
+   "status": "live",
+   "tool_names": [
+    "booking_handoff",
+    "get_charter_estimate",
+    "get_flight",
+    "list_routes",
+    "request_booking",
+    "search_empty_legs"
+   ],
+   "tool_tokens": 1723,
+   "tools": 6,
+   "tools_changed": "2026-10-31",
+   "tools_hash": "f9a9f41bd511911c",
+   "transport_seen": "streamable-http"
+  },
+  "skycloak-mcp": {
+   "auth": "oauth",
+   "checked": "2026-10-31T09:45:45Z",
+   "discovery": "untested",
+   "first_seen": "2026-10-27",
+   "history": "aaaaa",
+   "http": 401,
+   "init": "auth",
+   "latency_history": [
+    212,
+    195,
+    415,
+    236,
+    70
+   ],
+   "latency_ms": 70,
+   "repo": {
+    "archived": false,
+    "license": "Apache-2.0",
+    "name": "sky-cloak/skycloak-mcp",
+    "pushed": "2026-10-30",
+    "stars": 1
+   },
+   "status": "auth"
+  },
+  "solidping": {
+   "capabilities": [
+    "prompts",
+    "resources",
+    "tools"
+   ],
+   "checked": "2026-10-31T09:45:46Z",
+   "discovery": "auth",
+   "discovery_reason": "HTTP 401",
+   "first_seen": "2026-10-27",
+   "history": "uuuuu",
+   "http": 200,
+   "init": "ok",
+   "latency_history": [
+    590,
+    480,
+    838,
+    660,
+    535
+   ],
+   "latency_ms": 535,
+   "protocol": "2025-06-18",
+   "repo": {
+    "archived": false,
+    "license": "AGPL-3.0",
+    "name": "fclairamb/solidping",
+    "pushed": "2026-10-31",
+    "stars": 28
+   },
+   "server_name": "solidping",
+   "server_version": "v0.41.0",
+   "status": "live",
+   "transport_seen": "streamable-http"
+  },
+  "spinnaker-mcp": {
+   "first_seen": "2026-10-27",
+   "repo": {
+    "archived": false,
+    "license": "GPL-3.0",
+    "name": "GeiserX/spinnaker-mcp",
+    "pushed": "2026-10-29",
+    "stars": 5
+   },
+   "status": "unprobed"
+  },
+  "sports-odds-api": {
+   "auth": "credentials",
+   "checked": "2026-10-31T09:45:45Z",
+   "discovery": "untested",
+   "first_seen": "2026-10-27",
+   "history": "aaaaa",
+   "http": 401,
+   "init": "auth",
+   "latency_history": [
+    148,
+    86,
+    265,
+    188,
+    38
+   ],
+   "latency_ms": 38,
+   "status": "auth"
+  },
+  "sqlite-graph-memory": {
+   "first_seen": "2026-10-27",
+   "repo": {
+    "archived": false,
+    "license": "MIT",
+    "name": "tonydzi/sqlite-graph-memory",
+    "pushed": "2026-10-31",
+    "stars": 13
+   },
+   "status": "unprobed"
+  },
+  "squirrelscan": {
+   "capabilities": [
+    "extensions",
+    "prompts",
+    "resources",
+    "tools"
+   ],
+   "checked": "2026-10-31T09:45:50Z",
+   "discovery": "ok",
+   "first_seen": "2026-10-27",
+   "history": "uuuuu",
+   "http": 200,
+   "init": "ok",
+   "latency_history": [
+    1462,
+    1787,
+    1508,
+    1243,
+    1475
+   ],
+   "latency_ms": 1475,
+   "prompts": 0,
+   "protocol": "2025-06-18",
+   "repo": {
+    "archived": false,
+    "license": "MIT",
+    "name": "squirrelscan/squirrelscan",
+    "pushed": "2026-10-31",
+    "stars": 301
+   },
+   "resources": 11,
+   "server_name": "squirrelscan",
+   "server_version": "0.0.1",
+   "status": "live",
+   "tool_names": [
+    "add_website",
+    "comment_on_issue",
+    "compare_audits",
+    "compare_entities",
+    "create_api_key",
+    "delete_website",
+    "delete_websites",
+    "get_audit_status",
+    "get_credit_balance",
+    "get_entity",
+    "get_entity_findings",
+    "get_entity_graph",
+    "get_issue",
+    "get_report",
+    "get_rule",
+    "get_website_settings",
+    "list_audits",
+    "list_credit_transactions",
+    "list_entities",
+    "list_issues",
+    "list_notifications",
+    "list_rules",
+    "list_websites",
+    "run_audit",
+    "send_feedback",
+    "update_website_settings",
+    "whoami"
+   ],
+   "tool_tokens": 14712,
+   "tools": 27,
+   "tools_hash": "0644d13c0a76f863",
+   "transport_seen": "streamable-http"
+  },
+  "sqwakie": {
+   "first_seen": "2026-10-27",
+   "repo": {
+    "archived": false,
+    "license": "NOASSERTION",
+    "name": "alexcarney460-hue/walkie",
+    "pushed": "2026-10-26",
+    "stars": 1
+   },
+   "status": "unprobed"
+  },
+  "srezai": {
+   "capabilities": [
+    "tools"
+   ],
+   "checked": "2026-10-31T09:45:47Z",
+   "discovery": "ok",
+   "first_seen": "2026-10-27",
+   "history": "uuuuu",
+   "http": 200,
+   "init": "ok",
+   "latency_history": [
+    1042,
+    706,
+    914,
+    1134,
+    696
+   ],
+   "latency_ms": 696,
+   "protocol": "2025-06-18",
+   "repo": {
+    "archived": false,
+    "license": "MIT",
+    "name": "srezai-team/srezai-mcp-web-search",
+    "pushed": "2026-10-27",
+    "stars": 0
+   },
+   "server_name": "srezai",
+   "server_version": "1.0.0",
+   "status": "live",
+   "tool_names": [
+    "answer_search",
+    "crawl",
+    "deep_research",
+    "extract",
+    "fetch_page",
+    "get_usage",
+    "image_search",
+    "map",
+    "read_url",
+    "read_urls",
+    "verify_claim",
+    "web_search",
+    "yt_srt"
+   ],
+   "tool_tokens": 27309,
+   "tools": 13,
+   "tools_hash": "686ef883819e93a6",
+   "transport_seen": "streamable-http"
+  },
+  "statorigin": {
+   "capabilities": [
+    "tools"
+   ],
+   "checked": "2026-10-31T09:45:46Z",
+   "discovery": "ok",
+   "first_seen": "2026-10-27",
+   "history": "uuuuu",
+   "http": 200,
+   "init": "ok",
+   "latency_history": [
+    390,
+    454,
+    710,
+    546,
+    406
+   ],
+   "latency_ms": 406,
+   "protocol": "2025-06-18",
+   "repo": {
+    "archived": false,
+    "license": "MIT",
+    "name": "SudoAI-App/statorigin-mcp",
+    "pushed": "2026-10-15",
+    "stars": 0
+   },
+   "server_name": "statorigin",
+   "server_version": "1.0.0",
+   "status": "live",
+   "tool_names": [
+    "fetch",
+    "get_ranking",
+    "search"
+   ],
+   "tool_tokens": 504,
+   "tools": 3,
+   "tools_hash": "0fdf7f9425a3c846",
+   "transport_seen": "streamable-http"
+  },
+  "statsnet": {
+   "capabilities": [
+    "tools"
+   ],
+   "checked": "2026-10-31T09:45:46Z",
+   "discovery": "ok",
+   "first_seen": "2026-10-27",
+   "history": "uuuuu",
+   "http": 200,
+   "init": "ok",
+   "latency_history": [
+    215,
+    161,
+    210,
+    285,
+    133
+   ],
+   "latency_ms": 133,
+   "protocol": "2025-06-18",
+   "repo": {
+    "archived": false,
+    "license": "MIT",
+    "name": "usenetstate/statsnet-mcp",
+    "pushed": "2026-09-16",
+    "stars": 0
+   },
+   "server_name": "statsnet",
+   "server_version": "1.0.0",
+   "status": "live",
+   "tool_names": [
+    "get_company",
+    "search_companies"
+   ],
+   "tool_tokens": 724,
+   "tools": 2,
+   "tools_hash": "19e4386cf2269122",
+   "transport_seen": "streamable-http"
+  },
+  "stayingapi": {
+   "auth": "oauth",
+   "checked": "2026-10-31T09:45:46Z",
+   "discovery": "untested",
+   "first_seen": "2026-10-27",
+   "history": "aaaaa",
+   "http": 401,
+   "init": "auth",
+   "latency_history": [
+    428,
+    305,
+    562,
+    478,
+    306
+   ],
+   "latency_ms": 306,
+   "repo": {
+    "archived": false,
+    "license": "MIT",
+    "name": "stayingapi/hotel-mcp",
+    "pushed": "2026-07-21",
+    "stars": 1
+   },
+   "status": "auth"
+  },
+  "sunglasses": {
+   "first_seen": "2026-10-27",
+   "repo": {
+    "archived": false,
+    "license": "MIT",
+    "name": "sunglasses-dev/sunglasses",
+    "pushed": "2026-10-31",
+    "stars": 11
+   },
+   "status": "unprobed"
+  },
+  "swapwallet": {
+   "auth": "oauth",
+   "checked": "2026-10-31T09:45:46Z",
+   "discovery": "untested",
+   "first_seen": "2026-10-27",
+   "history": "aaaaa",
+   "http": 401,
+   "init": "auth",
+   "latency_history": [
+    742,
+    428,
+    707,
+    841,
+    575
+   ],
+   "latency_ms": 575,
+   "repo": {
+    "archived": false,
+    "license": "MIT",
+    "name": "SwapWallet/swapwallet-mcp",
+    "pushed": "2026-10-12",
+    "stars": 3
+   },
+   "status": "auth"
+  },
+  "swarmmemo": {
+   "capabilities": [
+    "logging",
+    "tools"
+   ],
+   "checked": "2026-10-31T09:45:47Z",
+   "discovery": "ok",
+   "first_seen": "2026-10-27",
+   "history": "uuuuu",
+   "http": 200,
+   "init": "ok",
+   "latency_history": [
+    411,
+    349,
+    523,
+    496,
+    334
+   ],
+   "latency_ms": 334,
+   "protocol": "2025-06-18",
+   "repo": {
+    "archived": false,
+    "license": "Apache-2.0",
+    "name": "Hugo0/swarmmemo",
+    "pushed": "2026-10-31",
+    "stars": 3
+   },
+   "server_name": "swarmmemo",
+   "server_version": "1.146.62",
+   "status": "live",
+   "tool_names": [
+    "accept_request",
+    "accept_work",
+    "agent_record",
+    "allowance",
+    "cancel_event_subscription",
+    "claim_identity",
+    "claim_work",
+    "create_conversation",
+    "create_identity",
+    "create_invite",
+    "create_work",
+    "dispose_updates",
+    "docs_create",
+    "docs_delete",
+    "docs_history",
+    "docs_list",
+    "docs_open",
+    "docs_read",
+    "docs_write",
+    "find",
+    "find_agents",
+    "find_offerings",
+    "find_work",
+    "gate_solve",
+    "home",
+    "join_invite",
+    "journal",
+    "journal_suspend",
+    "list_conversations",
+    "list_event_subscriptions",
+    "list_pages",
+    "list_rooms",
+    "list_services",
+    "log_proof",
+    "manage_push",
+    "manage_tokens",
+    "manage_work",
+    "mark_updates_read",
+    "memory_delete",
+    "memory_get",
+    "memory_list",
+    "memory_put",
+    "notary_get",
+    "notary_key",
+    "notary_stamp",
+    "post_message",
+    "raise_standing",
+    "read_agent",
+    "read_agent_posts",
+    "read_conversation",
+    "read_feed",
+    "read_messages",
+    "read_offering",
+    "read_subject",
+    "read_thread",
+    "read_updates",
+    "read_verification",
+    "read_work",
+    "read_work_history",
+    "receiver_create",
+    "receiver_delete",
+    "receiver_items",
+    "receiver_list",
+    "receiver_rotate",
+    "recover_identity",
+    "reject_work",
+    "resolve_subject",
+    "search_subjects",
+    "send_feedback",
+    "send_private",
+    "set_handle",
+    "set_protection",
+    "standing_ways",
+    "submit_work",
+    "subscribe_room",
+    "trust",
+    "tune_feed",
+    "update_conversation",
+    "verify_publish",
+    "wakeup_cancel",
+    "wakeup_list",
+    "wakeup_notices",
+    "wakeup_schedule",
+    "whoami",
+    "withdraw_message",
+    "work_proofs",
+    "write_review"
+   ],
+   "tool_tokens": 19735,
+   "tools": 87,
+   "tools_changed": "2026-10-31",
+   "tools_hash": "c8ee2113795e4c45",
+   "transport_seen": "streamable-http"
+  },
+  "tapetide": {
+   "auth": "oauth",
+   "checked": "2026-10-31T09:45:46Z",
+   "discovery": "untested",
+   "first_seen": "2026-10-27",
+   "history": "aaaaa",
+   "http": 401,
+   "init": "auth",
+   "latency_history": [
+    262,
+    38,
+    224,
+    305,
+    61
+   ],
+   "latency_ms": 61,
+   "repo": {
+    "archived": false,
+    "license": "MIT",
+    "name": "Tapetide-hq/nse-bse-indian-stock-market-data-mcp",
+    "pushed": "2026-10-28",
+    "stars": 145
+   },
+   "status": "auth"
+  },
+  "taskpush": {
+   "capabilities": [
+    "experimental",
+    "tools"
+   ],
+   "checked": "2026-10-31T09:45:46Z",
+   "discovery": "ok",
+   "first_seen": "2026-10-27",
+   "history": "uuuuu",
+   "http": 200,
+   "init": "ok",
+   "latency_history": [
+    172,
+    42,
+    128,
+    211,
+    35
+   ],
+   "latency_ms": 35,
+   "protocol": "2025-06-18",
+   "server_name": "taskpush",
+   "server_version": "5339c2d85344",
+   "status": "live",
+   "tool_names": [
+    "abandon_task",
+    "accept_award",
+    "accept_delivery",
+    "accept_terms",
+    "cancel_task",
+    "check_task_spec",
+    "create_claim_link",
+    "decline_award",
+    "extend_deadline",
+    "file_dispute",
+    "get_agent",
+    "get_balance",
+    "get_deposit",
+    "get_dispute",
+    "get_escrow",
+    "get_me",
+    "get_readiness",
+    "get_referral",
+    "get_reputation",
+    "get_spend_limits",
+    "get_task",
+    "get_task_dispute",
+    "get_terms_status",
+    "get_verification",
+    "get_withdrawal",
+    "leave_feedback",
+    "list_bids",
+    "list_deliverables",
+    "list_events",
+    "list_feedback",
+    "list_messages",
+    "list_my_credentials",
+    "list_tasks",
+    "list_transactions",
+    "list_withdrawals",
+    "my_bids",
+    "my_disputes",
+    "my_providers",
+    "my_tasks",
+    "payout_status",
+    "post_enrichment_task",
+    "post_task",
+    "preview_verification",
+    "register_agent",
+    "register_and_fund",
+    "reject_delivery",
+    "render_enrichment_task",
+    "report_task",
+    "repost_task",
+    "request_revision",
+    "respond_to_dispute",
+    "revoke_credential",
+    "search_agents",
+    "select_bid",
+    "send_message",
+    "setup_payouts",
+    "start_deposit",
+    "submit_bid",
+    "submit_deliverable",
+    "task_feed",
+    "topup_wallet",
+    "try_enrichment",
+    "update_bid",
+    "update_me",
+    "withdraw",
+    "withdraw_bid"
+   ],
+   "tool_tokens": 10695,
+   "tools": 66,
+   "tools_hash": "663a117a17226b58",
+   "transport_seen": "streamable-http"
+  },
+  "tavero": {
+   "first_seen": "2026-10-27",
+   "repo": {
+    "archived": false,
+    "license": "MIT",
+    "name": "baccaraaa/tavero",
+    "pushed": "2026-10-25",
+    "stars": 3
+   },
+   "status": "unprobed"
+  },
+  "tenmomo": {
+   "capabilities": [
+    "tools"
+   ],
+   "checked": "2026-10-31T09:45:46Z",
+   "discovery": "ok",
+   "first_seen": "2026-10-27",
+   "history": "uuuuu",
+   "http": 200,
+   "init": "ok",
+   "latency_history": [
+    237,
+    115,
+    302,
+    254,
+    84
+   ],
+   "latency_ms": 84,
+   "protocol": "2025-06-18",
+   "server_name": "tenmomo",
+   "server_version": "1.0.0",
+   "status": "live",
+   "tool_names": [
+    "activate_cashback",
+    "get_activation_url",
+    "get_deals",
+    "get_store_details",
+    "get_stores_by_category",
+    "list_categories",
+    "search_stores"
+   ],
+   "tool_tokens": 708,
+   "tools": 7,
+   "tools_hash": "e187fbb5da476b25",
+   "transport_seen": "streamable-http"
+  },
+  "testimonials-ltd": {
+   "auth": "oauth",
+   "checked": "2026-10-31T09:45:46Z",
+   "discovery": "untested",
+   "first_seen": "2026-10-27",
+   "history": "aaaaa",
+   "http": 401,
+   "init": "auth",
+   "latency_history": [
+    8242,
+    439,
+    663,
+    728,
+    513
+   ],
+   "latency_ms": 513,
+   "status": "auth"
+  },
+  "the-stall": {
+   "capabilities": [
+    "tools"
+   ],
+   "checked": "2026-10-31T09:45:47Z",
+   "discovery": "ok",
+   "first_seen": "2026-10-27",
+   "history": "uuuuu",
+   "http": 200,
+   "init": "ok",
+   "latency_history": [
+    250,
+    222,
+    324,
+    336,
+    202
+   ],
+   "latency_ms": 202,
+   "protocol": "2025-06-18",
+   "repo": {
+    "archived": false,
+    "license": "MIT",
+    "name": "thebrierfox/the-stall",
+    "pushed": "2026-10-10",
+    "stars": 1
+   },
+   "server_name": "The Stall",
+   "server_version": "4.97.0",
+   "status": "live",
+   "tool_names": [
+    "action-receipt",
+    "activist-investor-intel",
+    "address-intel",
+    "address-security",
+    "agent-access-check",
+    "agent-kya-score",
+    "agriculture-brief",
+    "ai-image-gen",
+    "ai-pipeline-brief",
+    "air-quality",
+    "analyst-ratings",
+    "analyst-upgrades",
+    "app-store-intel",
+    "arxiv-intel",
+    "audio-transcribe",
+    "audio-transcribe-long",
+    "audio-transcribe-short",
+    "aviation-weather",
+    "balance-sheet",
+    "base-season",
+    "block-intel",
+    "bonds-brief",
+    "breadcrumb-extractor",
+    "btc-game-theory",
+    "btc-miner-econ",
+    "btc-systems-theory",
+    "capital-allocation-score",
+    "cash-flow-statement",
+    "cdp-market-depth",
+    "chain-pulse",
+    "changelog-generate",
+    "chromatic-dispersion",
+    "city-lookup",
+    "classic-novels",
+    "clinical-trials",
+    "code-api-surface",
+    "code-security-scan",
+    "code-test-detector",
+    "commodity-futures",
+    "company-due-diligence",
+    "company-intel",
+    "company-research-bundle",
+    "concentration-risk-score",
+    "congressional-trades",
+    "consumer-brief",
+    "content-analyze",
+    "content-moderation",
+    "cot-positioning",
+    "country-info",
+    "credit-spreads",
+    "cron-parser",
+    "cross-chain-bridge-status",
+    "crypto-brief",
+    "crypto-equity-brief",
+    "crypto-fear-greed",
+    "crypto-fiat-price",
+    "crypto-momentum-pack",
+    "crypto-news-equity-brief",
+    "crypto-news-impact",
+    "crypto-pulse",
+    "crypto-stock-pulse",
+    "crypto-top-movers",
+    "currency-format",
+    "cve-intel",
+    "db-perf-intel",
+    "dcf-scenario",
+    "dcf-valuation",
+    "defi-market-pulse",
+    "defi-portfolio",
+    "defi-state-pack",
+    "defi-yield-strategies",
+    "defi-yields",
+    "defillama-coin-price",
+    "defillama-pack",
+    "defillama-protocol",
+    "dex-pair-search",
+    "dex-swap-quote",
+    "dex-trending-pools",
+    "dictionary-intel",
+    "dividend-calendar",
+    "dividend-intel",
+    "dns-lookup",
+    "document-qa-prep",
+    "domain-availability",
+    "domain-whois",
+    "drug-intel",
+    "earnings-brief",
+    "earnings-calendar",
+    "earnings-estimates",
+    "earnings-intel-bundle",
+    "earnings-quality",
+    "earnings-reaction",
+    "earnings-surprises",
+    "earthquake-intel",
+    "economic-calendar",
+    "economic-momentum",
+    "email-verify",
+    "energy-brief",
+    "ens-lookup",
+    "entity-clearance",
+    "equity-brief",
+    "equity-fundamentals",
+    "equity-quality-screen",
+    "equity-sentiment",
+    "equity-technicals",
+    "equity-watchlist-brief",
+    "erc20-snapshot",
+    "etf-holdings",
+    "eth-block",
+    "evm-log-events",
+    "evm-nonce",
+    "evm-token-security",
+    "fact-check",
+    "fda-recall-watch",
+    "fdic-bank-intel",
+    "fec-donor-intel",
+    "federal-contract-intel",
+    "federal-register-search",
+    "flight-tracker",
+    "fomc-tracker",
+    "forex-historical",
+    "forex-rates",
+    "form-144-intel",
+    "fred-query",
+    "funding-rates",
+    "gas-estimate",
+    "gas-prices",
+    "geocode",
+    "geopolitical-brief",
+    "github-intel",
+    "github-org-intel",
+    "github-repo-intel",
+    "github-trending",
+    "gitleaks-scan",
+    "global-equity-indices",
+    "gov-votes",
+    "government-contract-intel",
+    "guidance-quality",
+    "healthcare-brief",
+    "hedge-fund-holdings",
+    "hf-model-search",
+    "hn-search",
+    "housing-brief",
+    "http-headers",
+    "huggingface-intel",
+    "image-detect",
+    "imf-country-outlook",
+    "income-statements",
+    "inflation-intel",
+    "insider-trades",
+    "insider-trading-intel",
+    "institutional-ownership",
+    "institutional-ownership-intel",
+    "intel-pack",
+    "intl-stock-price",
+    "ip-intel",
+    "ipo-calendar",
+    "json-extract",
+    "kimchi-premium",
+    "korean-crypto-movers",
+    "korean-market-movers",
+    "labor-brief",
+    "labor-market",
+    "lbo-model",
+    "legal-search",
+    "limitless-markets",
+    "llm-proxy",
+    "macro-brief",
+    "macro-indicators",
+    "manufacturing-brief",
+    "market-breadth",
+    "market-gex",
+    "market-intelligence",
+    "market-movers",
+    "market-overview",
+    "market-regime-intel",
+    "market-sentiment",
+    "meme-generator",
+    "meme-radar",
+    "merger-acquisition-intel",
+    "metals-brief",
+    "model-research-brief",
+    "news-sentiment",
+    "nft-metadata",
+    "nonprofit-intel",
+    "npi-lookup",
+    "npm-lookup",
+    "npm-trends",
+    "open-food-intel",
+    "options-chain",
+    "options-flow-unusual",
+    "options-iv-snapshot",
+    "options-snapshot",
+    "page-intel",
+    "page-links",
+    "patent-intel",
+    "peer-benchmarking",
+    "ping",
+    "place-details",
+    "podcast-intel"
+   ],
+   "tool_tokens": 81021,
+   "tools": 302,
+   "tools_hash": "7730044326ca0996",
+   "transport_seen": "streamable-http"
+  },
+  "threadfox-lite": {
+   "first_seen": "2026-10-27",
+   "repo": {
+    "missing": true,
+    "name": "amflimited/threadfox-lite"
+   },
+   "status": "unprobed"
+  },
+  "toolkb-mcp": {
+   "first_seen": "2026-10-27",
+   "repo": {
+    "archived": false,
+    "license": "MIT",
+    "name": "jack-reson8/toolkb-mcp",
+    "pushed": "2026-10-25",
+    "stars": 0
+   },
+   "status": "unprobed"
+  },
+  "truthifi": {
+   "auth": "oauth",
+   "checked": "2026-10-31T09:45:46Z",
+   "discovery": "untested",
+   "first_seen": "2026-10-27",
+   "history": "aaaaa",
+   "http": 401,
+   "init": "auth",
+   "latency_history": [
+    213,
+    169,
+    344,
+    313,
+    73
+   ],
+   "latency_ms": 73,
+   "repo": {
+    "archived": false,
+    "license": "MIT",
+    "name": "truthifi/truthifi-mcp",
+    "pushed": "2026-10-12",
+    "stars": 0
+   },
+   "status": "auth"
+  },
+  "twitterapi-io": {
+   "capabilities": [
+    "tools"
+   ],
+   "checked": "2026-10-31T09:45:46Z",
+   "discovery": "ok",
+   "first_seen": "2026-10-27",
+   "history": "uuuuu",
+   "http": 200,
+   "init": "ok",
+   "latency_history": [
+    113,
+    158,
+    199,
+    250,
+    49
+   ],
+   "latency_ms": 49,
+   "protocol": "2025-06-18",
+   "repo": {
+    "archived": false,
+    "license": "MIT",
+    "name": "kaitoInfra/twitterapi-io-mcp-server",
+    "pushed": "2026-10-07",
+    "stars": 1
+   },
+   "server_name": "twitterapi-mcp",
+   "server_version": "0.1.0",
+   "status": "live",
+   "tool_names": [
+    "get_trends",
+    "get_tweet_quotes",
+    "get_tweet_replies",
+    "get_tweet_retweeters",
+    "get_tweets_by_ids",
+    "get_user_about",
+    "get_user_followers",
+    "get_user_followings",
+    "get_user_info",
+    "get_user_last_tweets",
+    "get_user_mentions",
+    "search_tweets"
+   ],
+   "tool_tokens": 2506,
+   "tools": 12,
+   "tools_hash": "84f60b1bd2f9a03b",
+   "transport_seen": "streamable-http"
+  },
+  "ui-verify": {
+   "auth": "oauth",
+   "checked": "2026-10-31T09:45:46Z",
+   "discovery": "untested",
+   "first_seen": "2026-10-27",
+   "history": "aaaaa",
+   "http": 401,
+   "init": "auth",
+   "latency_history": [
+    260,
+    492,
+    157,
+    241,
+    387
+   ],
+   "latency_ms": 387,
+   "status": "auth"
+  },
+  "unfetch": {
+   "auth": "oauth",
+   "checked": "2026-10-31T09:45:47Z",
+   "discovery": "untested",
+   "first_seen": "2026-10-27",
+   "history": "aaaaa",
+   "http": 401,
+   "init": "auth",
+   "latency_history": [
+    688,
+    924,
+    861,
+    991,
+    1219
+   ],
+   "latency_ms": 1219,
+   "status": "auth"
+  },
+  "unifapi": {
+   "auth": "oauth",
+   "checked": "2026-10-31T09:45:46Z",
+   "discovery": "untested",
+   "first_seen": "2026-10-27",
+   "history": "aaaaa",
+   "http": 401,
+   "init": "auth",
+   "latency_history": [
+    199,
+    136,
+    697,
+    283,
+    153
+   ],
+   "latency_ms": 153,
+   "repo": {
+    "archived": false,
+    "license": "",
+    "name": "unifapi-agent/unifapi-mcp-server",
+    "pushed": "2026-05-31",
+    "stars": 4
+   },
+   "status": "auth"
+  },
+  "unsora": {
+   "auth": "oauth",
+   "checked": "2026-10-31T09:45:46Z",
+   "discovery": "untested",
+   "first_seen": "2026-10-27",
+   "history": "aaaaa",
+   "http": 401,
+   "init": "auth",
+   "latency_history": [
+    204,
+    60,
+    143,
+    266,
+    78
+   ],
+   "latency_ms": 78,
+   "repo": {
+    "archived": false,
+    "license": "AGPL-3.0",
+    "name": "Shipped-Studio/unsora",
+    "pushed": "2026-10-31",
+    "stars": 3
+   },
+   "status": "auth"
+  },
+  "upload-post": {
+   "auth": "oauth",
+   "checked": "2026-10-31T09:45:47Z",
+   "discovery": "untested",
+   "first_seen": "2026-10-27",
+   "history": "aaaaa",
+   "http": 401,
+   "init": "auth",
+   "latency_history": [
+    386,
+    348,
+    549,
+    501,
+    344
+   ],
+   "latency_ms": 344,
+   "repo": {
+    "archived": false,
+    "license": "MIT",
+    "name": "Upload-Post/upload-post-mcp",
+    "pushed": "2026-10-30",
+    "stars": 13
+   },
+   "status": "auth"
+  },
+  "upres": {
+   "first_seen": "2026-10-27",
+   "repo": {
+    "archived": false,
+    "license": "MIT",
+    "name": "auroracapital/upres-cli",
+    "pushed": "2026-10-17",
+    "stars": 0
+   },
+   "status": "unprobed"
+  },
+  "vedar": {
+   "capabilities": [
+    "tools"
+   ],
+   "checked": "2026-10-31T09:45:48Z",
+   "discovery": "ok",
+   "first_seen": "2026-10-27",
+   "history": "uuuuu",
+   "http": 200,
+   "init": "ok",
+   "latency_history": [
+    718,
+    577,
+    960,
+    784,
+    615
+   ],
+   "latency_ms": 615,
+   "protocol": "2025-06-18",
+   "repo": {
+    "archived": false,
+    "license": "NOASSERTION",
+    "name": "tourhabk-ui/pos",
+    "pushed": "2026-10-31",
+    "stars": 0
+   },
+   "server_name": "vedar-mcp",
+   "server_version": "2.10.1",
+   "status": "live",
+   "tool_names": [
+    "compare_tours",
+    "create_booking_request",
+    "create_car_rental_request",
+    "create_lead",
+    "create_stay_request",
+    "edit_trip_plan",
+    "fetch",
+    "get_guardian_context",
+    "get_place_info",
+    "get_request_status",
+    "get_tour_availability",
+    "get_tour_details",
+    "get_tours",
+    "get_volcano_status",
+    "get_weather",
+    "make_trip_plan",
+    "request_charter",
+    "safety_status",
+    "search",
+    "search_accommodations",
+    "search_car_rental",
+    "search_gear",
+    "search_transfers"
+   ],
+   "tool_tokens": 30496,
+   "tools": 23,
+   "tools_changed": "2026-10-30",
+   "tools_hash": "0d2b460aafd98d0e",
+   "transport_seen": "streamable-http"
+  },
+  "vend-api-merchant": {
+   "checked": "2026-10-31T09:46:29Z",
+   "discovery": "untested",
+   "first_seen": "2026-10-27",
+   "history": "ddddd",
+   "init": "failed",
+   "latency_history": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "reason": "URLError: timed out",
+   "status": "down"
+  },
+  "vibe-testing": {
+   "first_seen": "2026-10-27",
+   "repo": {
+    "archived": false,
+    "license": "MIT",
+    "name": "AishwaryShrivastav/vibe-testing",
+    "pushed": "2026-10-15",
+    "stars": 17
+   },
+   "status": "unprobed"
+  },
+  "videogen": {
+   "auth": "oauth",
+   "checked": "2026-10-31T09:45:47Z",
+   "discovery": "untested",
+   "first_seen": "2026-10-27",
+   "history": "aaaaa",
+   "http": 401,
+   "init": "auth",
+   "latency_history": [
+    324,
+    102,
+    260,
+    163,
+    300
+   ],
+   "latency_ms": 300,
+   "repo": {
+    "archived": false,
+    "license": "MIT",
+    "name": "video-gen/videogen-mcp",
+    "pushed": "2026-10-25",
+    "stars": 4
+   },
+   "status": "auth"
+  },
+  "vids-studio": {
+   "first_seen": "2026-10-27",
+   "repo": {
+    "archived": false,
+    "license": "MIT",
+    "name": "Shugar86/vids-studio",
+    "pushed": "2026-10-23",
+    "stars": 4
+   },
+   "status": "unprobed"
+  },
+  "voicemoat": {
+   "auth": "oauth",
+   "checked": "2026-10-31T09:45:47Z",
+   "discovery": "untested",
+   "first_seen": "2026-10-27",
+   "history": "aaaaa",
+   "http": 401,
+   "init": "auth",
+   "latency_history": [
+    378,
+    307,
+    273,
+    452,
+    376
+   ],
+   "latency_ms": 376,
+   "repo": {
+    "archived": false,
+    "license": "MIT",
+    "name": "prateeks367/voicemoat-mcp",
+    "pushed": "2026-10-04",
+    "stars": 0
+   },
+   "status": "auth"
+  },
+  "voxodds": {
+   "capabilities": [
+    "experimental",
+    "prompts",
+    "resources",
+    "tools"
+   ],
+   "checked": "2026-10-31T09:45:47Z",
+   "discovery": "ok",
+   "first_seen": "2026-10-27",
+   "history": "uuuuu",
+   "http": 200,
+   "init": "ok",
+   "latency_history": [
+    212,
+    144,
+    226,
+    155,
+    145
+   ],
+   "latency_ms": 145,
+   "prompts": 0,
+   "protocol": "2025-06-18",
+   "repo": {
+    "archived": false,
+    "license": "MIT",
+    "name": "softdevfz/voxodds-mcp",
+    "pushed": "2026-09-27",
+    "stars": 0
+   },
+   "resources": 0,
+   "server_name": "voxodds",
+   "server_version": "1.30.0",
+   "status": "live",
+   "tool_names": [
+    "check_bet",
+    "compare_executable_quotes",
+    "compare_platforms",
+    "find_best_price",
+    "get_edge_signals",
+    "get_executable_quote",
+    "get_forecaster_record",
+    "get_market_odds",
+    "get_research_theses",
+    "get_track_record",
+    "get_world_cup_brief",
+    "get_world_cup_matchday",
+    "get_world_cup_odds",
+    "list_arbitrage_candidates",
+    "list_executable_opportunities",
+    "list_sportsbook_surebets",
+    "list_trending_markets",
+    "submit_forecast"
+   ],
+   "tool_tokens": 3813,
+   "tools": 18,
+   "tools_hash": "46b3caf9e2c4adbf",
+   "transport_seen": "streamable-http"
+  },
+  "vulnerability-exposure": {
+   "first_seen": "2026-10-27",
+   "repo": {
+    "archived": false,
+    "license": "MIT",
+    "name": "MRFrazer25/Vulnerability-Exposure-MCP",
+    "pushed": "2026-10-31",
+    "stars": 1
+   },
+   "status": "unprobed"
+  },
+  "warden-mcp": {
+   "capabilities": [
+    "tools"
+   ],
+   "checked": "2026-10-31T09:45:48Z",
+   "discovery": "ok",
+   "first_seen": "2026-10-27",
+   "history": "uuuuu",
+   "http": 200,
+   "init": "ok",
+   "latency_history": [
+    618,
+    490,
+    762,
+    631,
+    434
+   ],
+   "latency_ms": 434,
+   "protocol": "2025-06-18",
+   "repo": {
+    "archived": false,
+    "license": "",
+    "name": "warden-protocol/warden-mcp",
+    "pushed": "2026-10-28",
+    "stars": 1
+   },
+   "server_name": "warden-token-terminal",
+   "server_version": "1.1.0",
+   "status": "live",
+   "tool_names": [
+    "agent_permissions",
+    "execute_swap",
+    "get_wallet",
+    "list_chains",
+    "prepare_swap",
+    "price_history",
+    "quote_swap",
+    "request_session",
+    "search_tokens",
+    "session_request_status",
+    "swap_status",
+    "trending_tokens"
+   ],
+   "tool_tokens": 1914,
+   "tools": 12,
+   "tools_hash": "d05b2a0c94f0e79b",
+   "transport_seen": "streamable-http"
+  },
+  "warmerly": {
+   "auth": "oauth",
+   "checked": "2026-10-31T09:45:47Z",
+   "discovery": "untested",
+   "first_seen": "2026-10-27",
+   "history": "aaaaa",
+   "http": 401,
+   "init": "auth",
+   "latency_history": [
+    660,
+    511,
+    774,
+    698,
+    475
+   ],
+   "latency_ms": 475,
+   "repo": {
+    "missing": true,
+    "name": "WarmerlyApp/mcp"
+   },
+   "status": "auth"
+  },
+  "whale-coupons": {
+   "checked": "2026-10-31T09:45:50Z",
+   "discovery": "untested",
+   "first_seen": "2026-10-27",
+   "history": "ddddd",
+   "http": 503,
+   "init": "failed",
+   "latency_history": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "latency_ms": 96,
+   "reason": "HTTP 503, no MCP response",
+   "repo": {
+    "missing": true,
+    "name": "whalecoupons/whale-coupons-mcp"
+   },
+   "status": "down"
+  },
+  "wheremind": {
+   "capabilities": [
+    "tools"
+   ],
+   "checked": "2026-10-31T09:45:47Z",
+   "discovery": "ok",
+   "first_seen": "2026-10-27",
+   "history": "uuuuu",
+   "http": 200,
+   "init": "ok",
+   "latency_history": [
+    251,
+    102,
+    196,
+    200,
+    81
+   ],
+   "latency_ms": 81,
+   "protocol": "2025-06-18",
+   "server_name": "wheremind",
+   "server_version": "0.1.0",
+   "status": "live",
+   "tool_names": [
+    "directions",
+    "geocode",
+    "places_details",
+    "places_nearby",
+    "places_search_text"
+   ],
+   "tool_tokens": 1114,
+   "tools": 5,
+   "tools_hash": "4345d5018009935c",
+   "transport_seen": "streamable-http"
+  },
+  "whisper-memos": {
+   "auth": "oauth",
+   "checked": "2026-10-31T09:45:47Z",
+   "discovery": "untested",
+   "first_seen": "2026-10-27",
+   "history": "aaaaa",
+   "http": 401,
+   "init": "auth",
+   "latency_history": [
+    185,
+    93,
+    203,
+    238,
+    91
+   ],
+   "latency_ms": 91,
+   "repo": {
+    "archived": false,
+    "license": "MIT",
+    "name": "whispermemos/whisper-memos-plugin",
+    "pushed": "2026-10-15",
+    "stars": 0
+   },
+   "status": "auth"
+  },
+  "winelabs": {
+   "auth": "oauth",
+   "checked": "2026-10-31T09:45:47Z",
+   "discovery": "untested",
+   "first_seen": "2026-10-27",
+   "history": "aaaaa",
+   "http": 401,
+   "init": "auth",
+   "latency_history": [
+    508,
+    386,
+    596,
+    575,
+    171
+   ],
+   "latency_ms": 171,
+   "status": "auth"
+  },
+  "wondel-ai-skills-mcp": {
+   "capabilities": [
+    "completions",
+    "prompts",
+    "resources",
+    "tools"
+   ],
+   "checked": "2026-10-31T09:45:49Z",
+   "discovery": "ok",
+   "first_seen": "2026-10-27",
+   "history": "uuuuu",
+   "http": 200,
+   "init": "ok",
+   "latency_history": [
+    376,
+    480,
+    115,
+    362,
+    278
+   ],
+   "latency_ms": 278,
+   "prompts": 16,
+   "protocol": "2025-06-18",
+   "repo": {
+    "archived": false,
+    "license": "",
+    "name": "mjaskolski/wondel-skills-mcp",
+    "pushed": "2026-08-20",
+    "stars": 1
+   },
+   "resources": 67,
+   "server_name": "wondel-skills",
+   "server_version": "1.0.0",
+   "status": "live",
+   "tool_names": [
+    "get_journey",
+    "get_skill",
+    "load_skill",
+    "recommend_skills",
+    "search_skills"
+   ],
+   "tool_tokens": 1227,
+   "tools": 5,
+   "tools_hash": "576be54d1ebf70cf",
+   "transport_seen": "streamable-http"
+  },
+  "xquik": {
+   "first_seen": "2026-10-27",
+   "repo": {
+    "archived": false,
+    "license": "MIT",
+    "name": "Xquik-dev/x-twitter-scraper",
+    "pushed": "2026-10-30",
+    "stars": 225
+   },
+   "status": "unprobed"
+  },
+  "yap-mcp": {
+   "first_seen": "2026-10-27",
+   "repo": {
+    "archived": false,
+    "license": "MIT",
+    "name": "founden-bot/yap-mcp",
+    "pushed": "2026-10-19",
+    "stars": 0
+   },
+   "status": "unprobed"
+  },
+  "youtube-transcripts-mcp": {
+   "auth": "credentials",
+   "checked": "2026-10-31T09:45:48Z",
+   "discovery": "untested",
+   "first_seen": "2026-10-27",
+   "history": "aaaaa",
+   "http": 401,
+   "init": "auth",
+   "latency_history": [
+    372,
+    259,
+    684,
+    480,
+    294
+   ],
+   "latency_ms": 294,
+   "repo": {
+    "archived": false,
+    "license": "MIT",
+    "name": "gunnargray-dev/youtube-transcripts-mcp",
+    "pushed": "2026-10-26",
+    "stars": 0
+   },
+   "status": "auth"
+  },
+  "zambo": {
+   "capabilities": [
+    "extensions",
+    "prompts",
+    "resources",
+    "session_context",
+    "tool_contracts",
+    "tools"
+   ],
+   "checked": "2026-10-31T09:45:48Z",
+   "discovery": "ok",
+   "first_seen": "2026-10-27",
+   "history": "uuuuu",
+   "http": 200,
+   "init": "ok",
+   "latency_history": [
+    190,
+    204,
+    227,
+    376,
+    192
+   ],
+   "latency_ms": 192,
+   "prompts": 9,
+   "protocol": "2025-06-18",
+   "repo": {
+    "archived": false,
+    "license": "MIT",
+    "name": "zambodotdev/zambo-mcp",
+    "pushed": "2026-10-30",
+    "stars": 0
+   },
+   "resources": 8,
+   "server_name": "Zambo Stack",
+   "server_version": "4.1.0",
+   "status": "live",
+   "tool_names": [
+    "activity_today",
+    "capability_search",
+    "continuity_get_recent",
+    "continuity_list_threads",
+    "continuity_open_thread",
+    "continuity_set_prefs",
+    "continuity_start_thread",
+    "credithunt",
+    "day_pass_activate",
+    "day_pass_checkout_link",
+    "day_pass_redeem",
+    "day_pass_status",
+    "ghost_audit_report",
+    "ghost_audit_site",
+    "ghost_audit_status",
+    "handover",
+    "handover_accept",
+    "handover_list",
+    "handover_status",
+    "journal_log",
+    "leadsignal",
+    "live_price",
+    "memory_recall",
+    "memory_remember",
+    "new_session",
+    "pass_status",
+    "pdf_extract",
+    "prompt_shield",
+    "provibe_audit",
+    "scam_check",
+    "spend_limit_set",
+    "spend_limit_status",
+    "workflow_close",
+    "workflow_seal",
+    "zambo_home",
+    "zambo_universal"
+   ],
+   "tool_tokens": 16789,
+   "tools": 36,
+   "tools_changed": "2026-10-31",
+   "tools_hash": "867284035a5e18ce",
+   "transport_seen": "streamable-http"
+  },
+  "zaptu": {
+   "capabilities": [
+    "prompts",
+    "resources",
+    "tools"
+   ],
+   "checked": "2026-10-31T09:45:53Z",
+   "discovery": "ok",
+   "first_seen": "2026-10-27",
+   "history": "uuuuu",
+   "http": 200,
+   "init": "ok",
+   "latency_history": [
+    1374,
+    1150,
+    1213,
+    1288,
+    1104
+   ],
+   "latency_ms": 1104,
+   "prompts": 0,
+   "protocol": "2025-06-18",
+   "resources": 0,
+   "server_name": "zaptu",
+   "server_version": "0.2.0",
+   "status": "live",
+   "tool_names": [
+    "get_lead_status",
+    "list_supported_services",
+    "request_cleaning",
+    "request_home_service"
+   ],
+   "tool_tokens": 1384,
+   "tools": 4,
+   "tools_hash": "763f2724b3f00321",
+   "transport_seen": "streamable-http"
+  },
+  "zerouter-mcp": {
+   "first_seen": "2026-10-27",
+   "repo": {
+    "archived": false,
+    "license": "MIT",
+    "name": "ZerouterAI/zerouter-mcp",
+    "pushed": "2026-10-18",
+    "stars": 0
+   },
+   "status": "unprobed"
+  },
+  "zopdev-mcp": {
+   "auth": "oauth",
+   "checked": "2026-10-31T09:45:49Z",
+   "discovery": "untested",
+   "first_seen": "2026-10-27",
+   "history": "aaaaa",
+   "http": 401,
+   "init": "auth",
+   "latency_history": [
+    777,
+    933,
+    817,
+    812,
+    735
+   ],
+   "latency_ms": 735,
+   "repo": {
+    "archived": false,
+    "license": "Apache-2.0",
+    "name": "zopdev/mcp",
+    "pushed": "2026-10-30",
+    "stars": 0
+   },
+   "status": "auth"
+  }
+ }
+}
